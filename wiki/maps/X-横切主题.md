@@ -27,6 +27,7 @@ updated: 2026-11-04
 
 - [[entities/microsoft|Microsoft]]
 - [[entities/alibaba|阿里巴巴（通义）]]
+- [[entities/vercel|Vercel]]
 
 ### 概念
 

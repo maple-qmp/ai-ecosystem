@@ -8,6 +8,13 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-04] ingest | Vercel 开源框架的服务依赖调研
+
+- 来源：Next.js 自托管文档、Adapter API 公告、AI SDK / Workflow DevKit / Turborepo 文档等（`raw/Vercel开源框架服务依赖调研-2026-11.md`）
+- 新建来源页 `sources/vercel-oss-dependency-survey-2026-11`
+- 新建 5 个实体页：`vercel`（含开源模块四级依赖分级）、`nextjs`、`vercel-ai-sdk`、`workflow-devkit`、`turborepo`
+- 更新 L4、X 地图页
+
 ## [2026-11-04] ingest | MCP 规范 2026-07-28 版
 
 - 来源：官方规范、变更日志、扩展总览（`raw/MCP规范-2026-07-28.md`）

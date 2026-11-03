@@ -17,6 +17,13 @@ updated: 2026-11-04
 ### 框架
 
 - [[entities/langchain|LangChain]]
+- [[entities/vercel-ai-sdk|AI SDK]]
+- [[entities/workflow-devkit|Workflow DevKit]]
+
+### Web 框架与构建工具
+
+- [[entities/nextjs|Next.js]]
+- [[entities/turborepo|Turborepo]]
 
 ### 概念
 
