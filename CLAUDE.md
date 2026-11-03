@@ -72,4 +72,4 @@ obsidian vault="AI生态" dev:screenshot path=/tmp/shot.png
 
 - `.obsidian` 是指向 `../.obsidian` 的软链接，**与同一 iCloud 目录下的其他库共用**。不要修改它，包括插件设置、书签、排除规则。共享配置里的“排除文件”规则会把 `wiki/overview`、`wiki/index`、`wiki/log`、`wiki/conventions` 从搜索和图谱中隐藏，用户已决定保持现状。
 - 路径中有空格和中文（`~/Library/Mobile Documents/iCloud~md~obsidian/Documents/AI生态`），Shell 命令里要加引号。
-- Git：只有 `master` 分支，没有远程仓库，直接在 `master` 上提交。`.gitignore` 排除了 `.obsidian`、`.trash` 等目录。
+- Git：只有 `master` 分支，直接在 `master` 上提交。远程仓库 `origin` 是私有仓库 https://github.com/maple-qmp/ai-ecosystem ，只有用户要求时才推送。`.gitignore` 排除了 `.obsidian`、`.trash` 等目录。
