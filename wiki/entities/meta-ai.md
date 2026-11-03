@@ -18,9 +18,6 @@ sources: []
 
 # Meta AI
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 Meta 的 AI 部门（含 FAIR 研究院）。以开放权重的 [[entities/llama|Llama]] 系列推动了开源模型生态；[[entities/pytorch|PyTorch]] 也起源于 Meta，现由 PyTorch Foundation 托管。

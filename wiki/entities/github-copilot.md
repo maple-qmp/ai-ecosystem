@@ -20,9 +20,6 @@ sources: []
 
 # GitHub Copilot
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 GitHub（[[entities/microsoft|Microsoft]]）的 AI 编程助手，2021 年预览，是第一个大规模普及的 AI 编程产品，后扩展为聊天与 Agent 模式并支持多家模型。

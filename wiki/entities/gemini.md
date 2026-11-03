@@ -21,9 +21,6 @@ sources: []
 
 # Gemini
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 [[entities/google-deepmind|Google DeepMind]] 的原生多模态模型家族，覆盖 Pro / Flash 等档位，深度集成进 Google 搜索、Workspace 和 Android，以超长上下文为特色。

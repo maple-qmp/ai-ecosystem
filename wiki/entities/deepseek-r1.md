@@ -21,9 +21,6 @@ sources: []
 
 # DeepSeek-R1
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 [[entities/deepseek|DeepSeek]] 于 2025-01 以 MIT 许可开放权重的[[concepts/reasoning-model|推理模型]]，基于 MoE 架构的 DeepSeek-V3，主要用强化学习训练出长思维链能力。发布后引发了对训练成本和开源追赶速度的广泛讨论。

@@ -4,6 +4,7 @@ type: entity
 tags: [project]
 kind: framework
 layer: L3
+aliases: ["PyTorch", "torch"]
 org: "[[entities/meta-ai|Meta AI]]"
 released: "2016"
 competitors: []
@@ -18,9 +19,6 @@ sources: []
 ---
 
 # PyTorch
-
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
 
 ## 描述
 

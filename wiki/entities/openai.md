@@ -4,6 +4,7 @@ type: entity
 tags: [organization]
 kind: lab
 layer: X
+aliases: ["OpenAI", "Open AI"]
 released: "2015"
 competitors: ["[[entities/anthropic]]", "[[entities/google-deepmind]]"]
 depends_on: ["[[entities/microsoft]]", "[[entities/nvidia]]"]
@@ -17,9 +18,6 @@ sources: []
 ---
 
 # OpenAI
-
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
 
 ## 描述
 

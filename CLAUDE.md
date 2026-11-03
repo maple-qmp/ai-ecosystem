@@ -16,7 +16,8 @@ wiki/
   concepts/          概念、方法、标准（type: concept）
   maps/              7 个层级地图页 L0–L5 + X，人工整理（插件不自动生成）
   overview.md        首页：分层表、Mermaid 图、Dataview 维护看板
-  index.md / log.md  目录 / 倒序操作日志，由插件维护格式
+  index.md           插件每次运行都会整页重新生成，不要手改
+  log.md             操作日志；插件的维护报告会追加到这里
   conventions.md     本库规则（插件的 LLM 也会读）
   schema/config.md   插件的页面模板与合并规则
 templates/           Templater 模板（手写新页用）
@@ -24,7 +25,10 @@ templates/           Templater 模板（手写新页用）
 
 规则只以 `wiki/conventions.md` 和 `wiki/schema/config.md` 为准，动手前先读这两份。其中最容易出错的几条：
 
-- **`tags` 只能用插件词表里的值**，写了词表外的值会被插件删掉。实体可用：person, organization, project, product, event, place, other；概念可用：theory, method, field, phenomenon, standard, term, other。生态分类一律写在 `layer`（L0–L5 / X）和 `kind` 字段里。
+- **`tags` 只能用插件词表里的值**，写了词表外的值会被插件删掉。实体可用：person, organization, project, product, event, place, other；概念可用：theory, method, field, phenomenon, standard, term, other；来源页可用：paper, article, book, transcript, clippings, notes, other。来源页的标签继承自 `raw/` 原文，所以原文的 `tags` 也必须用这套词表。生态分类一律写在 `layer`（L0–L5 / X）和 `kind` 字段里。
+- 每个 entity / concept 页都要有 `aliases`，至少写上正式名称。插件生成的 index 用文件名（slug）作显示名，正式名称只能靠 aliases 显示。
+- 正文的第一行要写实际内容，不要放提示框（callout）或引用块：插件取第一个非标题行作为 index 里的摘要。“未核实”状态只记在 `origin` / `reviewed` 字段里。
+- 导航放在 `overview.md` 和 `maps/`，不要放进 index。
 - 链接写完整路径：`[[entities/slug|显示名]]`、`[[concepts/slug|…]]`、`[[sources/slug|…]]`、`[[maps/L4-开发工具与Agent|…]]`。文件名用小写短横线 slug，中文名放 `title` 和 `aliases`。
 - `org` 写所属组织；`depends_on` 只写**技术上游**（芯片、框架、基座模型），不要写所属公司。
 - `origin: claude-seed` 表示凭训练知识生成、尚未核实；`origin: source` 表示依据 `sources` 中的素材写成。`reviewed: true` 只能由用户设置。
@@ -38,12 +42,14 @@ templates/           Templater 模板（手写新页用）
 1. 素材存进 `raw/`。
 2. 建 `wiki/sources/<slug>.md`，`sources:` 列出由它产生的页面。
 3. 新建或更新 entity / concept 页：补 `sources`，`来源摘录` 只放原文逐字引用。
-4. 同步更新：`index.md` 加条目，`log.md` 顶部加一条日志，所属 `maps/` 页的手工列表加链接。
+4. 同步更新：`log.md` 顶部加一条日志，所属 `maps/` 页的手工列表加链接。`index.md` 会由插件重新生成，不用手改。
+5. 让用户在插件里跑一次 Lint，确认维护报告里断链、孤立页、标签越界、缺失别名都是 0。
 
 ## 渲染陷阱（都已经踩过）
 
 - **Mermaid**：flowchart / graph 中，节点文字一律加引号（`A["…"]`、`B{"…？"}`），连线文字用 `-->|"…"|`。不加引号时，中文标点、`/`、`·` 会让旧版 Mermaid 解析失败；`-. 文字 .-` 里的 `2.1` 这类点号在所有版本都会出错。时序图无此问题。
 - **Dataview**：列名里有空格必须加引号，例如 `AS "超过 90 天未更新"`。
+- **表格里不要写带显示名的链接**：`[[a\|b]]` 这种写法 Obsidian 能识别，但插件会把它当成指向 `a\` 的断链。需要显示名的链接改用列表。
 - `schema/config.md` 里的示例链接要包在反引号里，否则会产生断链和图谱里的幽灵节点。模板里同样不要放 `[[maps/]]` 这类空链接。
 
 ## 验证（需要 Obsidian 正在运行）

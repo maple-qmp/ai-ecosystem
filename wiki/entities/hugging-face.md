@@ -18,9 +18,6 @@ sources: []
 
 # Hugging Face
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 开源 AI 社区与平台：模型/数据集 Hub、`transformers` 等库。几乎所有开放权重模型（[[entities/llama|Llama]]、[[entities/qwen|Qwen]]、[[entities/deepseek-r1|DeepSeek-R1]]）都在这里分发，是开源生态的“集散地”。

@@ -19,9 +19,6 @@ sources: []
 
 # DeepSeek
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 总部位于杭州的中国 AI 公司，由量化基金幻方支持。以较低训练成本做出接近一线水平的开放权重模型而闻名，代表作 [[entities/deepseek-r1|DeepSeek-R1]] 与 DeepSeek-V3（[[concepts/mixture-of-experts|MoE]] 架构）。

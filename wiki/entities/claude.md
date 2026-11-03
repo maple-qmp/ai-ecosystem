@@ -21,9 +21,6 @@ sources: []
 
 # Claude
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 [[entities/anthropic|Anthropic]] 的闭源大模型家族，按能力分为 Haiku / Sonnet / Opus 等档位，提供 API、claude.ai 应用及云平台分发。以长上下文、编程与 [[concepts/ai-agent|Agent]] 能力见长。

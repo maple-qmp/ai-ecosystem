@@ -21,9 +21,6 @@ sources: []
 
 # Llama
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 [[entities/meta-ai|Meta]] 发布的开放权重模型家族。Llama 2 起允许商用，带动了大量社区微调（[[concepts/lora|LoRA]]）与本地部署工具，是开源 LLM 生态的重要起点。

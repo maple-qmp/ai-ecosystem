@@ -21,9 +21,6 @@ sources: []
 
 # Qwen
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 [[entities/alibaba|阿里巴巴]]的模型家族，覆盖从小参数到大型 [[concepts/mixture-of-experts|MoE]] 的多种尺寸，以及代码、视觉、语音等分支；多数以宽松许可开放权重，是社区微调最常用的基座之一。

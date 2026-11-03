@@ -4,6 +4,7 @@ type: entity
 tags: [product]
 kind: app
 layer: L5
+aliases: ["Claude Code"]
 org: "[[entities/anthropic|Anthropic]]"
 released: "2025-02"
 competitors: ["[[entities/cursor]]", "[[entities/github-copilot]]"]
@@ -18,9 +19,6 @@ sources: []
 ---
 
 # Claude Code
-
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
 
 ## 描述
 

@@ -18,9 +18,6 @@ sources: []
 
 # NVIDIA
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 GPU 与 AI 加速计算的主导厂商。其数据中心 GPU 与 [[entities/cuda|CUDA]] 软件栈构成大模型训练和推理的事实标准底座，是整个生态最上游的瓶颈环节之一。

@@ -19,9 +19,6 @@ sources: []
 
 # Google DeepMind
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 Google 的 AI 研究主体，2023 年由 Google Brain 与 DeepMind 合并而成。负责 [[entities/gemini|Gemini]] 模型家族。Google 研究员 2017 年提出 [[concepts/transformer|Transformer]] 架构，并自研 TPU 加速器，在算力到应用全栈都有布局。

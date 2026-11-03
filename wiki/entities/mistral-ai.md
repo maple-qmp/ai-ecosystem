@@ -19,9 +19,6 @@ sources: []
 
 # Mistral AI
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 2023 年成立于巴黎的欧洲模型公司，早期以小而强的开放权重模型和 Mixtral（[[concepts/mixture-of-experts|MoE]]）著称，同时提供商业 API。

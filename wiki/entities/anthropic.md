@@ -19,9 +19,6 @@ sources: []
 
 # Anthropic
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 AI 安全与研究公司，2021 年由 Dario Amodei、Daniela Amodei 等前 OpenAI 成员创立，总部位于旧金山。主力产品是 [[entities/claude|Claude]] 模型家族与 [[entities/claude-code|Claude Code]]，并提出了开放协议 [[concepts/model-context-protocol|MCP]]。以安全研究（如 Constitutional AI、可解释性）为核心定位。

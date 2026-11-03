@@ -4,6 +4,7 @@ type: entity
 tags: [product]
 kind: app
 layer: L5
+aliases: ["Cursor", "Cursor 编辑器"]
 released: "2023"
 competitors: ["[[entities/claude-code]]", "[[entities/github-copilot]]"]
 depends_on: ["[[entities/claude]]", "[[entities/gpt]]"]
@@ -17,9 +18,6 @@ sources: []
 ---
 
 # Cursor
-
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
 
 ## 描述
 

@@ -21,3 +21,41 @@
 - 新建 7 个层级地图页（`maps/`）、`overview`、`index`、`conventions`、`schema/config`
 - 新建 **23 个实体页**和 **10 个概念页**，全部为种子页面（`origin: claude-seed`，`reviewed: false`），内容截至 2026-06，待用真实来源核实
 - 新建 `templates/` 下的手写模板
+
+
+## [2026-11-04 05:08] Wiki 维护报告
+
+
+> Wiki 状态概览：共 46 个页面，7 个缺失别名，重复 0 个，断链 7 个（其中 0 个涉及重复页面），孤立 1 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 1 个。本次 Lint 耗时 3 秒
+
+> 检测到 7 个页面缺少别名
+
+### 缺失别名的页面（程序检测）[共 7 个]
+
+- [[entities/vllm]]
+- [[entities/pytorch]]
+- [[entities/openai]]
+- [[entities/langchain]]
+- [[entities/cursor]]
+- [[entities/cuda]]
+- [[entities/claude-code]]
+
+### 断链（程序检测）[共 7 个]
+
+- [[overview]] → **maps/L0-算力与硬件\**（页面不存在）
+- [[overview]] → **maps/L1-数据\**（页面不存在）
+- [[overview]] → **maps/L2-基础模型\**（页面不存在）
+- [[overview]] → **maps/L3-训练与推理\**（页面不存在）
+- [[overview]] → **maps/L4-开发工具与Agent\**（页面不存在）
+- [[overview]] → **maps/L5-应用\**（页面不存在）
+- [[overview]] → **maps/X-横切主题\**（页面不存在）
+
+### 标签越界（程序检测）[共 1 个]
+
+- [[sources/mcp-spec-2026-07-28]] — 无效：mcp, specification
+
+### 孤立页面（程序检测）[共 1 个]
+
+- [[conventions]] — 无其他 Wiki 页面链接至此
+
+

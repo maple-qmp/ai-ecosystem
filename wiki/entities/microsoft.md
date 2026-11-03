@@ -18,9 +18,6 @@ sources: []
 
 # Microsoft
 
-> [!info] 种子页面
-> 由 Claude 基于训练知识生成（截至 2026-06），尚无来源支撑。核实后补充 `sources`，并把 `reviewed` 设为 `true`。
-
 ## 描述
 
 OpenAI 的主要投资方与云合作伙伴，通过 Azure 提供模型服务；旗下 GitHub 推出 [[entities/github-copilot|GitHub Copilot]]。微软研究院提出了 [[concepts/lora|LoRA]] 等关键微调方法。
