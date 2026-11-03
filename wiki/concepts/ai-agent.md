@@ -9,7 +9,7 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-04
-sources: []
+sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 ---
 
 # AI Agent
@@ -39,11 +39,14 @@ sources: []
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]
 - [[concepts/rag|检索增强生成（RAG）]]
 - [[concepts/reasoning-model|推理模型]]
+- [[concepts/agent-harness|Agent Harness]]
 
 ## 相关实体
 
 - [[entities/claude-code|Claude Code]]
 - [[entities/langchain|LangChain]]
+- [[entities/langgraph|LangGraph]]
+- [[entities/deep-agents|Deep Agents]]
 - [[entities/cursor|Cursor]]
 
 ## 我的判断

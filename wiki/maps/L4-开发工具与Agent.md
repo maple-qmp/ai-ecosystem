@@ -17,8 +17,14 @@ updated: 2026-11-04
 ### 框架
 
 - [[entities/langchain|LangChain]]
+  - [[entities/langgraph|LangGraph]]
+  - [[entities/deep-agents|Deep Agents]]
 - [[entities/vercel-ai-sdk|AI SDK]]
 - [[entities/workflow-devkit|Workflow DevKit]]
+
+### 可观测性与平台
+
+- [[entities/langsmith|LangSmith]]
 
 ### Web 框架与构建工具
 
@@ -29,6 +35,7 @@ updated: 2026-11-04
 
 - [[concepts/rag|检索增强生成（RAG）]]
 - [[concepts/ai-agent|AI Agent]]
+  - [[concepts/agent-harness|Agent Harness]]
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]
   - [[concepts/mcp-request-flow|MCP 请求流程（2026-07-28）]]
   - [[concepts/multi-round-trip-requests|多轮往返请求（MRTR）]]

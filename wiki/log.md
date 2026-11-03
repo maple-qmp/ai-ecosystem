@@ -8,6 +8,15 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-04] ingest | LangChain 生态深度调研
+
+- 来源：LangChain / LangGraph 1.0 公告、Interrupt 2026 汇总、2026-08 与 2026-10 通讯、Deep Agents 文档、Fortune 融资报道、Wikipedia（`raw/LangChain生态深度调研-2026-11.md`）
+- 新建来源页 `sources/langchain-ecosystem-survey-2026-11`
+- 重写 `langchain`：去掉种子标记，补 1.0 变化（create_agent、中间件、标准内容块、langchain-classic）与时间线
+- 新建 4 个实体页：`langchain-inc`（公司与融资）、`langgraph`、`langsmith`（产品模块与时间线）、`deep-agents`
+- 新建概念页 `agent-harness`；`ai-agent` 补链接与来源
+- 更新 L4、X 地图页
+
 ## [2026-11-04] ingest | Vercel 开源框架的服务依赖调研
 
 - 来源：Next.js 自托管文档、Adapter API 公告、AI SDK / Workflow DevKit / Turborepo 文档等（`raw/Vercel开源框架服务依赖调研-2026-11.md`）
