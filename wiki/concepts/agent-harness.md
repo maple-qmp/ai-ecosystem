@@ -9,7 +9,7 @@ origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-04
-sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
+sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ecosystem-survey-2026-11]]"]
 ---
 
 # Agent Harness
@@ -29,18 +29,20 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 
 ## 应用
 
-- 编程 Agent（[[entities/claude-code|Claude Code]] 等）
+- 编程 Agent（[[entities/claude-code|Claude Code]]、[[entities/mastra-code|Mastra Code]] 等）
 - 深度研究、长时自动化任务
 
 ## 生态位置
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]]
 - 以 LangChain 生态为例，从低到高是三层：[[entities/langgraph|LangGraph]]（编排运行时）→ [[entities/langchain|LangChain]]（Agent API 与中间件）→ [[entities/deep-agents|Deep Agents]]（harness）
+- [[entities/mastra|Mastra]] 把 harness 作为框架内的一个模块：Harness 负责超出单次请求的持久执行（目标、定时、后台任务），其中托管长时可交互会话的部分 2026-10 以 Agent Controller 名义 GA（由 Harness 更名）；上下文管理则用 [[concepts/observational-memory|Observational Memory]] 取代压缩
 
 ## 相关概念
 
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]
+- [[concepts/observational-memory|Observational Memory]]
 
 ## 相关实体
 
@@ -48,9 +50,12 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 - [[entities/langchain|LangChain]]
 - [[entities/langgraph|LangGraph]]
 - [[entities/claude-code|Claude Code]]
+- [[entities/mastra|Mastra]]
+- [[entities/mastra-code|Mastra Code]]
 
 ## 我的判断
 
 ## 来源摘录
 
 - "Deep Agents is the agent harness for complex, multi-step work." — [[sources/langchain-ecosystem-survey-2026-11|LangChain 生态深度调研]]
+- "Each user gets a session with its own threads, mode, model, approvals, memory and subagents." — [[sources/mastra-ecosystem-survey-2026-11|Mastra 生态深度调研]]

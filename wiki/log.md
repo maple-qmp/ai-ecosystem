@@ -8,6 +8,15 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-04] ingest | Mastra 生态深度调研
+
+- 来源：GitHub 仓库、官方文档、Show HN（1.0）、Observational Memory 研究文章、Mastra Code / Agent Controller / MCP / Launch / Knowledge 公告、平台计费说明、A 轮报道（`raw/Mastra生态深度调研-2026-11.md`）
+- 新建来源页 `sources/mastra-ecosystem-survey-2026-11`
+- 新建 5 个实体页：`mastra`（框架与原语）、`mastra-inc`（公司与融资）、`mastra-platform`（托管平台与套餐）、`mastra-code`、`mastra-factory`
+- 新建概念页 `observational-memory`
+- 更新 `agent-harness`、`model-context-protocol`（补 Mastra 示例与来源），`vercel-ai-sdk`、`langchain`、`langgraph`、`langsmith`（竞品改为链接）
+- 更新 L4、L5、X 地图页
+
 ## [2026-11-04] ingest | LangChain 生态深度调研
 
 - 来源：LangChain / LangGraph 1.0 公告、Interrupt 2026 汇总、2026-08 与 2026-10 通讯、Deep Agents 文档、Fortune 融资报道、Wikipedia（`raw/LangChain生态深度调研-2026-11.md`）
@@ -81,6 +90,16 @@
 
 
 > Wiki 状态概览：共 46 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 4 秒
+
+未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+
+
+
+## [2026-11-04 14:39] Wiki 维护报告
+
+
+> Wiki 状态概览：共 58 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 5 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
 

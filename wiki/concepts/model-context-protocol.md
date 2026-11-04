@@ -12,6 +12,7 @@ created: 2026-11-04
 updated: 2026-11-04
 sources:
   - "[[sources/mcp-spec-2026-07-28]]"
+  - "[[sources/mastra-ecosystem-survey-2026-11]]"
 ---
 
 # Model Context Protocol（MCP）
@@ -45,6 +46,7 @@ sources:
 - 给 [[concepts/ai-agent|Agent]] 接入工具与数据
 - IDE、桌面助手、编程工具的扩展生态（如 [[entities/claude-code|Claude Code]]）
 - 企业网关：统一做鉴权、路由与审计（2026-07-28 的请求头和缓存提示就是为此设计的）
+- Agent 框架内置：[[entities/mastra|Mastra]] 的 `@mastra/mcp` 2.0（2026-10-21）只接受 2026-07-28 客户端，去掉 SSE 传输、roots、sampling，暂不支持 tasks
 
 ## 生态位置
 
@@ -65,9 +67,11 @@ sources:
 - [[entities/claude-code|Claude Code]]
 - [[entities/cursor|Cursor]]
 - [[entities/github-copilot|GitHub Copilot]]
+- [[entities/mastra|Mastra]]
 
 ## 我的判断
 
 ## 来源摘录
 
 - "MCP is a stateless protocol: every request is self-contained and carries its own protocol version and capabilities." — [[sources/mcp-spec-2026-07-28|MCP 规范 2026-07-28]]
+- "The new spec removes server sessions, so every request is self-contained." — [[sources/mastra-ecosystem-survey-2026-11|Mastra 生态深度调研]]

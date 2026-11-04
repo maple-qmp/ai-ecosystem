@@ -7,6 +7,15 @@
 
 ## 实体
 
+- [[entities/deep-agents|deep-agents]] `aliases: Deep Agents, deepagents, Managed Deep Agents` `source: langchain-ecosystem-survey-2026-11` - [[entities/langchain-inc|LangChain 公司]]的开源 [[concepts/agent-harness|Agent harness]]（`deepagents` 包），
+- [[entities/langsmith|langsmith]] `aliases: LangSmith, LangSmith Deployment, LangSmith Fleet, LangGraph Platform` `source: langchain-ecosystem-survey-2026-11` - [[entities/langchain-inc|LangChain 公司]]的闭源商业平台，也是公司的主要收入来源。2024-02 以 LLM 应用的可观测性（追踪）与评测工具发布，框架无关，不使用
+- [[entities/langgraph|langgraph]] `aliases: LangGraph, LangGraph.js` `source: langchain-ecosystem-survey-2026-11` - [[entities/langchain-inc|LangChain 公司]]的底层 Agent 编排框架，把 Agent 或工作流建模为由节点和边构成的状态图，开源，提供 Python 与 JS 实
+- [[entities/langchain-inc|langchain-inc]] `aliases: LangChain Inc., LangChain 公司, LangChain, Inc.` `source: langchain-ecosystem-survey-2026-11` - 总部位于美国的 Agent 工程公司，由 Harrison Chase 与 Ankush Gola 创办。Chase 2022-10 在 Robust Intelligence 任职时发布开源框架 [
+- [[entities/workflow-devkit|workflow-devkit]] `aliases: Workflow DevKit, WDK, useworkflow` `source: vercel-oss-dependency-survey-2026-11` - [[entities/vercel|Vercel]] 开源的持久化工作流框架（npm 包 `workflow`），用 `"use workflow"` 和 `"use step"` 指令把普通 Typ
+- [[entities/vercel|vercel]] `aliases: Vercel, Vercel Inc.` `source: vercel-oss-dependency-survey-2026-11` - 美国前端云平台公司，前身为 ZEIT（2015 年由 Guillermo Rauch 创立，2020 年更名）。商业模式是“开源框架 + 托管平台”：维护 [[entities/nextjs|Next
+- [[entities/vercel-ai-sdk|vercel-ai-sdk]] `aliases: AI SDK, Vercel AI SDK` `source: vercel-oss-dependency-survey-2026-11` - [[entities/vercel|Vercel]] 维护的 TypeScript LLM 开发库（npm 包 `ai`），Apache-2.0 协议。核心层（AI SDK Core）统一了文本生成、
+- [[entities/turborepo|turborepo]] `aliases: Turborepo, turbo` `source: vercel-oss-dependency-survey-2026-11` - JavaScript / TypeScript monorepo 构建系统，用 Rust 编写，MIT 协议，2021-12 被 [[entities/vercel|Vercel]] 收购。它按任务图
+- [[entities/nextjs|nextjs]] `aliases: Next.js, NextJS` `source: vercel-oss-dependency-survey-2026-11` - [[entities/vercel|Vercel]] 维护的 React 全栈框架，MIT 协议，支持服务端组件、流式渲染、ISR、Cache Components、Server Functions 
 - [[entities/vllm|vllm]] `aliases: vLLM` - 源自 UC Berkeley 的开源 LLM 推理与服务引擎，核心是 PagedAttention 显存管理，大幅提升吞吐量，是部署 [[entities/llama|Llama]]、[[entiti
 - [[entities/qwen|qwen]] `aliases: 通义千问` - [[entities/alibaba|阿里巴巴]]的模型家族，覆盖从小参数到大型 [[concepts/mixture-of-experts|MoE]] 的多种尺寸，以及代码、视觉、语音等分支；多数以
 - [[entities/pytorch|pytorch]] `aliases: PyTorch, torch` - 主流深度学习框架，起源于 [[entities/meta-ai|Meta]]，2022 年起由 Linux Foundation 下的 PyTorch Foundation 托管。研究与工业界训练大模
@@ -16,7 +25,7 @@
 - [[entities/microsoft|microsoft]] `aliases: 微软` - OpenAI 的主要投资方与云合作伙伴，通过 Azure 提供模型服务；旗下 GitHub 推出 [[entities/github-copilot|GitHub Copilot]]。微软研究院提出了
 - [[entities/meta-ai|meta-ai]] `aliases: FAIR, Meta` - Meta 的 AI 部门（含 FAIR 研究院）。以开放权重的 [[entities/llama|Llama]] 系列推动了开源模型生态；[[entities/pytorch|PyTorch]] 也起
 - [[entities/llama|llama]] `aliases: LLaMA` - [[entities/meta-ai|Meta]] 发布的开放权重模型家族。Llama 2 起允许商用，带动了大量社区微调（[[concepts/lora|LoRA]]）与本地部署工具，是开源 LLM
-- [[entities/langchain|langchain]] `aliases: LangChain` - 2022-10 由 Harrison Chase 发起的 LLM 应用开发框架，提供链式调用、[[concepts/rag|RAG]]、工具调用等抽象，并衍生出 LangGraph（Agent 编排）
+- [[entities/langchain|langchain]] `aliases: LangChain, LangChain.js, langchain` `source: langchain-ecosystem-survey-2026-11` - [[entities/langchain-inc|LangChain 公司]]维护的开源 LLM 应用与 Agent 开发框架，MIT 协议，有 Python 和 JavaScript/TypeScr
 - [[entities/hugging-face|hugging-face]] `aliases: HF, 抱抱脸` - 开源 AI 社区与平台：模型/数据集 Hub、`transformers` 等库。几乎所有开放权重模型（[[entities/llama|Llama]]、[[entities/qwen|Qwen]]、
 - [[entities/gpt|gpt]] `aliases: GPT 系列, ChatGPT 模型` - [[entities/openai|OpenAI]] 的生成式预训练 Transformer 系列模型，从 GPT-1（2018）到 GPT-4/GPT-5 代，驱动 ChatGPT 与 OpenAI
 - [[entities/google-deepmind|google-deepmind]] `aliases: DeepMind, Google AI` - Google 的 AI 研究主体，2023 年由 Google Brain 与 DeepMind 合并而成。负责 [[entities/gemini|Gemini]] 模型家族。Google 研究员 
@@ -33,6 +42,7 @@
 
 ## 概念
 
+- [[concepts/agent-harness|agent-harness]] `aliases: Agent Harness, Agent 运行框架, harness` `source: langchain-ecosystem-survey-2026-11` - 包裹在模型外面、让 [[concepts/ai-agent|AI Agent]] 能完成长时多步任务的一整套默认运行环境：工具调用循环之外，还预置规划、文件、上下文管理、子 Agent 和记忆等能力。
 - [[concepts/vector-database|vector-database]] `aliases: Vector Database, 向量库` - 以向量嵌入为索引、支持近似最近邻（ANN）检索的数据库，是 [[concepts/rag|RAG]] 与语义搜索的常用存储层。
 - [[concepts/transformer|transformer]] `aliases: 变换器, Attention Is All You Need` - 2017 年 Google 论文《Attention Is All You Need》提出的神经网络架构，以自注意力机制取代循环结构，是当今几乎所有大语言模型的基础。
 - [[concepts/scaling-laws|scaling-laws]] `aliases: Scaling Laws, 缩放定律` - 描述模型性能随参数量、数据量与算力增长而可预测提升的经验规律。代表工作有 Kaplan 等（2020）与 DeepMind Chinchilla（2022，强调数据与参数应同比扩展）。
@@ -45,8 +55,10 @@
 - [[concepts/mixture-of-experts|mixture-of-experts]] `aliases: MoE, Mixture of Experts` - 一种稀疏模型架构：每层包含多个“专家”子网络，由路由器为每个 token 只激活其中少数几个，从而在总参数很大的同时控制单次计算量。
 - [[concepts/mcp-extensions|mcp-extensions]] `aliases: MCP Extensions, MCP Apps, MCP Tasks, Skills over MCP` `source: mcp-spec-2026-07-28` - [[concepts/model-context-protocol|MCP]] 核心协议之外的可选能力。2026-07-28 版在 `ClientCapabilities` / `ServerCapa
 - [[concepts/lora|lora]] `aliases: Low-Rank Adaptation, 低秩适配` - Microsoft 研究者 2021 年提出的参数高效微调方法：冻结原模型，只训练插入的低秩矩阵，大幅降低微调显存与存储成本。
-- [[concepts/ai-agent|ai-agent]] `aliases: 智能体, Agent` - 以 LLM 为核心、能自主规划并循环调用工具（搜索、代码执行、API）来完成多步任务的系统。
+- [[concepts/ai-agent|ai-agent]] `aliases: 智能体, Agent` `source: langchain-ecosystem-survey-2026-11` - 以 LLM 为核心、能自主规划并循环调用工具（搜索、代码执行、API）来完成多步任务的系统。
 
 ## 来源
 
+- [[sources/langchain-ecosystem-survey-2026-11|langchain-ecosystem-survey-2026-11]]
+- [[sources/vercel-oss-dependency-survey-2026-11|vercel-oss-dependency-survey-2026-11]]
 - [[sources/mcp-spec-2026-07-28|mcp-spec-2026-07-28]]

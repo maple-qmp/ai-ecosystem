@@ -40,7 +40,7 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 ## 生态位置
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 基础设施（可观测性、评测、部署）
-- **竞争 / 替代**：Langfuse、Arize Phoenix、Weights & Biases Weave、Braintrust（观测与评测）；托管运行时方向有 [[entities/vercel|Vercel]] 等
+- **竞争 / 替代**：Langfuse、Arize Phoenix、Weights & Biases Weave、Braintrust（观测与评测）、[[entities/mastra-platform|Mastra Platform]]；托管运行时方向有 [[entities/vercel|Vercel]] 等
 
 ## 时间线
 

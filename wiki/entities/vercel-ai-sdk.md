@@ -7,7 +7,7 @@ layer: L4
 aliases: ["AI SDK", "Vercel AI SDK"]
 org: "[[entities/vercel]]"
 released: "2023-06"
-competitors: ["[[entities/langchain]]"]
+competitors: ["[[entities/langchain]]", "[[entities/mastra]]"]
 depends_on: []
 status: active
 as_of: 2026-11
@@ -15,7 +15,7 @@ origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-04
-sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]"]
+sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]", "[[sources/mastra-ecosystem-survey-2026-11]]"]
 ---
 
 # AI SDK
@@ -28,7 +28,7 @@ sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]"]
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架
 - **上游依赖**：—（各模型厂商 API）
-- **竞争 / 替代**：[[entities/langchain|LangChain]]、Mastra、OpenAI Agents SDK
+- **竞争 / 替代**：[[entities/langchain|LangChain]]、[[entities/mastra|Mastra]]（早期借用 AI SDK 做模型调用，后改为自带模型路由）、OpenAI Agents SDK
 
 ## 脱离 Vercel 使用
 
@@ -51,6 +51,7 @@ sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]"]
 - [[entities/nextjs|Next.js]]
 - [[entities/workflow-devkit|Workflow DevKit]]
 - [[entities/langchain|LangChain]]
+- [[entities/mastra|Mastra]]
 
 ## 相关概念
 
