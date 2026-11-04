@@ -14,7 +14,7 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-04
-sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]"]
+sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]", "[[sources/bun-survey-2026-11]]"]
 ---
 
 # Vercel
@@ -73,6 +73,7 @@ sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]"]
 - 2023-06 发布 AI SDK
 - 2025-07 收购 NuxtLabs，Nuxt 与 Nitro 仍保持 MIT 和平台中立
 - 2025-10 发布 Workflow DevKit；Next.js 16 推出 Adapter API（alpha）
+- 2025-10-28 平台以公开测试支持 [[entities/bun|Bun]] 运行时（Next.js、Hono、自定义 API 路由）
 - 2026-03 Next.js 16.2，Adapter API 稳定
 
 ## 相关实体
@@ -82,6 +83,7 @@ sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]"]
 - [[entities/turborepo|Turborepo]]
 - [[entities/workflow-devkit|Workflow DevKit]]
 - [[entities/langchain|LangChain]]
+- [[entities/bun|Bun]]
 
 ## 相关概念
 

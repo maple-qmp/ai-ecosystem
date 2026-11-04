@@ -7,6 +7,16 @@
 
 ## 实体
 
+- [[entities/a2a-java-sdk|a2a-java-sdk]] `aliases: A2A Java SDK, a2a-java, org.a2aproject.sdk` `source: java-agent-ecosystem-survey-2026-11` - [[concepts/agent2agent-protocol|Agent2Agent 协议（A2A）]]的官方 Java 实现，由 Red Hat 的 Quarkus 与 WildFly 团队和 G
+- [[entities/mcp-java-sdk|mcp-java-sdk]] `aliases: MCP Java SDK, modelcontextprotocol/java-sdk, io.modelcontextprotocol.sdk` `source: java-agent-ecosystem-survey-2026-11` - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]官方的 Java SDK，用来编写 MCP 服务器和客户端，与 [[ent
+- [[entities/spring-ai-alibaba|spring-ai-alibaba]] `aliases: Spring AI Alibaba, SAA, spring-ai-alibaba` `source: java-agent-ecosystem-survey-2026-11` - [[entities/alibaba|阿里巴巴]]开源的 Java Agent 框架（Apache-2.0，GitHub 约 1.11 万星），构建在 [[entities/spring-ai|Spr
+- [[entities/agentscope|agentscope]] `aliases: AgentScope, AgentScope Java, agentscope-java` `source: java-agent-ecosystem-survey-2026-11` - [[entities/alibaba|阿里巴巴]]开源的 Agent 框架，有 Python 与 Java 两个实现；本页侧重 Java 版（java.agentscope.io）。AgentScop
+- [[entities/jetbrains|jetbrains]] `aliases: JetBrains` `source: java-agent-ecosystem-survey-2026-11` - 开发者工具公司，Kotlin 语言和 IntelliJ 系列 IDE 的开发方。在 AI 生态里，它开源了 JVM / Kotlin Multiplatform Agent 框架 [[entities
+- [[entities/koog|koog]] `aliases: Koog, Koog for Java, ai.koog` `source: java-agent-ecosystem-survey-2026-11` - [[entities/jetbrains|JetBrains]] 开源的 Agent 框架（Apache-2.0，GitHub 约 4700 星），用 Kotlin 写成，同时提供惯用的 Kotlin
+- [[entities/google-adk|google-adk]] `aliases: Google ADK, Agent Development Kit, ADK for Java, adk-java` `source: java-agent-ecosystem-survey-2026-11` - Google 开源的 Agent Development Kit，有 Python、Java、Go、TypeScript、Kotlin 多个语言版本；Python 版是领先实现，新功能通常先在 Pyt
+- [[entities/embabel|embabel]] `aliases: Embabel, Embabel Agent Framework, embabel-agent` `source: java-agent-ecosystem-survey-2026-11` - Spring 框架创始人 Rod Johnson 联合创建的 JVM Agent 框架（Apache-2.0，GitHub 约 4500 星），用 Kotlin 写成，Java 也能自然使用。它构建在
+- [[entities/langchain4j|langchain4j]] `aliases: LangChain4j, LangChain for Java, quarkus-langchain4j` `source: java-agent-ecosystem-survey-2026-11` - 开源 Java LLM 应用与 Agent 库（Apache-2.0，GitHub 约 1.34 万星），统一接入 20+ 模型厂商和 30+ 嵌入存储，提供声明式 AI Service、工具调用（含
+- [[entities/spring-ai|spring-ai]] `aliases: Spring AI, spring-ai` `source: java-agent-ecosystem-survey-2026-11` - Spring 官方的 LLM 应用框架，由 Broadcom 旗下的 Spring 团队维护，提供 ChatClient、Advisor 链、工具调用、结构化输出、对话记忆、向量存储与 RAG、可观测
 - [[entities/mastra-factory|mastra-factory]] `aliases: Mastra Factory` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra-inc|Mastra 公司]]的开源、Agent 驱动的软件交付环境，在用户自己控制的 Web 应用里运行持久编程 Agent，用 [[entities/mastr
 - [[entities/mastra-code|mastra-code]] `aliases: Mastra Code, mastracode` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra-inc|Mastra 公司]]的开源终端（TUI）编程 Agent，2026-02-24 发布，用 [[entities/mastra|Mastra]] 框架构建。
 - [[entities/mastra-platform|mastra-platform]] `aliases: Mastra Platform, Mastra Cloud, Mastra Observability` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra-inc|Mastra 公司]]的闭源托管平台，给用 [[entities/mastra|Mastra]] 框架写的 Agent 提供部署、环境管理、可观测性、告警、
@@ -43,10 +53,13 @@
 - [[entities/claude|claude]] `aliases: Claude 模型` - [[entities/anthropic|Anthropic]] 的闭源大模型家族，按能力分为 Haiku / Sonnet / Opus 等档位，提供 API、claude.ai 应用及云平台分发。
 - [[entities/claude-code|claude-code]] `aliases: Claude Code` - [[entities/anthropic|Anthropic]] 的 Agent 式编程工具，可在终端、IDE、桌面与网页中读写代码、运行命令，并通过 [[concepts/model-context
 - [[entities/anthropic|anthropic]] `aliases: Anthropic PBC` - AI 安全与研究公司，2021 年由 Dario Amodei、Daniela Amodei 等前 OpenAI 成员创立，总部位于旧金山。主力产品是 [[entities/claude|Claude
-- [[entities/alibaba|alibaba]] `aliases: Alibaba, 阿里云, 通义` - 阿里巴巴集团及阿里云，研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云提供算力与模型服务。
+- [[entities/alibaba|alibaba]] `aliases: Alibaba, 阿里云, 通义` `source: java-agent-ecosystem-survey-2026-11` - 阿里巴巴集团及阿里云，研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云提供算力与模型服务。在 Java Agent 开发方向
 
 ## 概念
 
+- [[concepts/java-agent-development|java-agent-development]] `aliases: Java Agent 开发, JVM Agent 开发, Java AI Agent` `source: java-agent-ecosystem-survey-2026-11` - 在 JVM（Java / Kotlin）上构建 [[concepts/ai-agent|AI Agent]] 的技术栈。2026 年它从“调模型的客户端库”发展成完整的三层：底层是协议 SDK，中间是
+- [[concepts/goal-oriented-action-planning|goal-oriented-action-planning]] `aliases: 目标导向行动规划（GOAP）, Goal-Oriented Action Planning, GOAP` `source: java-agent-ecosystem-survey-2026-11` - 源自游戏 AI 的规划方法：给 Agent 一组带前置条件和效果的动作，再给一个目标，由规划器在运行时搜索一条能达成目标的动作序列。[[entities/embabel|Embabel]] 把它用作 
+- [[concepts/agent2agent-protocol|agent2agent-protocol]] `aliases: Agent2Agent 协议（A2A）, Agent2Agent, A2A, A2A 协议` `source: java-agent-ecosystem-survey-2026-11` - 让不同框架、不同语言写成的 Agent 互相发现、委派任务和交换结果的开放协议，由 Linux Foundation 托管。它和 [[concepts/model-context-protocol|M
 - [[concepts/observational-memory|observational-memory]] `aliases: Observational Memory, 观察式记忆, OM` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra|Mastra]] 2026-02 提出的 Agent 记忆方法：主 Agent 旁边常驻两个后台 Agent，Observer 把对话历史压缩成一份带日期、带优先级
 - [[concepts/agent-harness|agent-harness]] `aliases: Agent Harness, Agent 运行框架, harness` `source: langchain-ecosystem-survey-2026-11` - 包裹在模型外面、让 [[concepts/ai-agent|AI Agent]] 能完成长时多步任务的一整套默认运行环境：工具调用循环之外，还预置规划、文件、上下文管理、子 Agent 和记忆等能力。
 - [[concepts/vector-database|vector-database]] `aliases: Vector Database, 向量库` - 以向量嵌入为索引、支持近似最近邻（ANN）检索的数据库，是 [[concepts/rag|RAG]] 与语义搜索的常用存储层。
@@ -65,6 +78,7 @@
 
 ## 来源
 
+- [[sources/java-agent-ecosystem-survey-2026-11|java-agent-ecosystem-survey-2026-11]]
 - [[sources/mastra-ecosystem-survey-2026-11|mastra-ecosystem-survey-2026-11]]
 - [[sources/langchain-ecosystem-survey-2026-11|langchain-ecosystem-survey-2026-11]]
 - [[sources/vercel-oss-dependency-survey-2026-11|vercel-oss-dependency-survey-2026-11]]

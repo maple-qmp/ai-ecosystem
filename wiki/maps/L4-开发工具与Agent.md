@@ -46,6 +46,11 @@ updated: 2026-11-04
 - [[entities/nextjs|Next.js]]
 - [[entities/turborepo|Turborepo]]
 
+### 运行时
+
+- [[concepts/javascript-runtime|JavaScript 运行时]]
+- [[entities/bun|Bun]]
+
 ### 概念
 
 - [[concepts/rag|检索增强生成（RAG）]]
@@ -58,6 +63,7 @@ updated: 2026-11-04
   - [[concepts/multi-round-trip-requests|多轮往返请求（MRTR）]]
   - [[concepts/mcp-extensions|MCP 扩展]]
 - [[concepts/agent2agent-protocol|Agent2Agent 协议（A2A）]]
+- [[concepts/agent-driven-code-migration|Agent 驱动的代码迁移]]
 
 ## 自动列表（Dataview）
 

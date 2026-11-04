@@ -8,6 +8,15 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-04] ingest | Bun 深度调研
+
+- 来源：Bun 官网与 GitHub、Bun 1.2 / 1.3 / 1.4 / v1.4.3 / v1.4.4 发布文、Bun is joining Anthropic、Rewriting Bun in Rust、Anthropic 收购公告、Vercel 支持公告、Andrew Kelley 博文、Wikipedia、DevClass（`raw/Bun深度调研-2026-11.md`）
+- 新建来源页 `sources/bun-survey-2026-11`
+- 新建 3 个实体页：`bun`（组件与版本时间线）、`oven`（公司与融资）、`jarred-sumner`
+- 新建 2 个概念页：`javascript-runtime`（Node.js / Deno / Bun 对比）、`agent-driven-code-migration`（以 Bun 的 Zig → Rust 重写为例）
+- 更新 `anthropic`、`claude-code`（补收购、依赖 Bun、时间线与来源），`vercel`（补 Bun 运行时支持）
+- 更新 L4、X 地图页
+
 ## [2026-11-04] ingest | Java Agent 开发生态调研
 
 - 来源：Spring AI 2.0 GA / 2.1.0-M1 公告、LangChain4j / Embabel / Koog / Spring AI Alibaba / MCP Java SDK 仓库、Google ADK for Java 1.0 公告、AgentScope Java 文档、A2A Java SDK 1.0.0.Final 公告、InfoQ、Maven Central 元数据（`raw/Java-Agent开发生态调研-2026-11.md`）
@@ -119,6 +128,16 @@
 
 
 > Wiki 状态概览：共 65 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 5 秒
+
+未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+
+
+
+## [2026-11-04 22:16] Wiki 维护报告
+
+
+> Wiki 状态概览：共 79 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 5 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
 

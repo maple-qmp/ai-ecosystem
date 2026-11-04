@@ -31,6 +31,11 @@ updated: 2026-11-04
 - [[entities/langchain-inc|LangChain 公司]]
 - [[entities/mastra-inc|Mastra 公司]]
 - [[entities/jetbrains|JetBrains]]
+- [[entities/oven|Oven]]（已并入 Anthropic）
+
+### 人物
+
+- [[entities/jarred-sumner|Jarred Sumner]]
 
 ### 概念
 
