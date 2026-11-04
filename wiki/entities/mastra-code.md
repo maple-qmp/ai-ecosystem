@@ -28,7 +28,7 @@ sources: ["[[sources/mastra-ecosystem-survey-2026-11]]"]
 
 - **层级**：[[maps/L5-应用|L5-应用]] · 编程 Agent
 - **上游依赖**：[[entities/mastra|Mastra]]（Agent Controller、Observational Memory）
-- **竞争 / 替代**：[[entities/claude-code|Claude Code]]、Codex CLI、[[entities/cursor|Cursor]]
+- **竞争 / 替代**：[[entities/claude-code|Claude Code]]、[[entities/codex-cli|Codex CLI]]、[[entities/cursor|Cursor]]
 
 ## 时间线
 

@@ -16,14 +16,14 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-04
-sources: []
+sources: ["[[sources/openai-developers-survey-2026-11]]"]
 ---
 
 # GPT
 
 ## 描述
 
-[[entities/openai|OpenAI]] 的生成式预训练 Transformer 系列模型，从 GPT-1（2018）到 GPT-4/GPT-5 代，驱动 ChatGPT 与 OpenAI API。o 系列是其[[concepts/reasoning-model|推理模型]]分支。
+[[entities/openai|OpenAI]] 的生成式预训练 Transformer 系列模型，从 GPT-1（2018）到 GPT-4/GPT-5 代，驱动 ChatGPT 与 OpenAI API。o 系列是其[[concepts/reasoning-model|推理模型]]分支。主线模型闭源；2025-08 另发布开放权重的 [[entities/gpt-oss|gpt-oss]]。
 
 ## 生态位置
 
@@ -37,6 +37,7 @@ sources: []
 - 2020 GPT-3
 - 2023-03 GPT-4
 - 2024-09 o1
+- 2025-08 开放权重的 gpt-oss-120b / 20b
 
 ## 相关实体
 
@@ -44,6 +45,8 @@ sources: []
 - [[entities/claude|Claude]]
 - [[entities/gemini|Gemini]]
 - [[entities/github-copilot|GitHub Copilot]]
+- [[entities/gpt-oss|gpt-oss]]
+- [[entities/tiktoken|tiktoken]]
 
 ## 相关概念
 

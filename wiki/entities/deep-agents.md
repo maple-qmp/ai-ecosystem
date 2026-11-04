@@ -28,7 +28,7 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架（harness）
 - **上游依赖**：[[entities/langchain|LangChain]]、[[entities/langgraph|LangGraph]]
-- **竞争 / 替代**：Claude Agent SDK（[[entities/claude-code|Claude Code]] 的 harness）、OpenAI Agents SDK
+- **竞争 / 替代**：Claude Agent SDK（[[entities/claude-code|Claude Code]] 的 harness）、[[entities/openai-agents-sdk|OpenAI Agents SDK]]
 
 ## 时间线
 

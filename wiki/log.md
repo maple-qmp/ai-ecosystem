@@ -8,6 +8,15 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-04] ingest | OpenAI Developers 可独立使用模块调研
+
+- 来源：developers.openai.com 与 learn.chatgpt.com 的 Codex、Agents SDK、ChatKit、Plugins、Agentic Commerce、Evals、SDK 文档，openai 组织下 GitHub 仓库元数据，PyPI 元数据，AAIF 成立公告、gpt-oss-safeguard 与 Promptfoo 收购报道（`raw/OpenAI-Developers独立可用模块调研-2026-11.md`）
+- 新建来源页 `sources/openai-developers-survey-2026-11`（含依赖分级）
+- 新建 7 个实体页：`gpt-oss`（含 gpt-oss-safeguard）、`openai-agents-sdk`、`codex-cli`、`codex-app-server`、`chatkit`、`promptfoo`、`tiktoken`
+- 新建 4 个概念页：`harmony-response-format`、`agents-md`、`agent-skills`、`agentic-commerce-protocol`
+- 更新 `openai`（补开发者平台依赖分级、时间线与来源）、`gpt`（补 gpt-oss）、`mcp-extensions`（补 MCP Apps 在 ChatGPT 中的实现）；`langchain`、`langgraph`、`deep-agents`、`mastra`、`mastra-code`、`vercel-ai-sdk` 的竞品改为链接
+- 更新 L2、L3、L4 地图页
+
 ## [2026-11-04] ingest | Bun 深度调研
 
 - 来源：Bun 官网与 GitHub、Bun 1.2 / 1.3 / 1.4 / v1.4.3 / v1.4.4 发布文、Bun is joining Anthropic、Rewriting Bun in Rust、Anthropic 收购公告、Vercel 支持公告、Andrew Kelley 博文、Wikipedia、DevClass（`raw/Bun深度调研-2026-11.md`）

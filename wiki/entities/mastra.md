@@ -29,7 +29,7 @@ sources: ["[[sources/mastra-ecosystem-survey-2026-11]]"]
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架
 - **上游依赖**：—（各模型厂商 API、存储与向量库适配器）
 - **下游**：[[entities/mastra-code|Mastra Code]]、[[entities/mastra-factory|Mastra Factory]] 都用它构建
-- **竞争 / 替代**：[[entities/langchain|LangChain]] / [[entities/langgraph|LangGraph]]（JS 版）、[[entities/vercel-ai-sdk|AI SDK]]（更底层）、OpenAI Agents SDK、CrewAI、VoltAgent
+- **竞争 / 替代**：[[entities/langchain|LangChain]] / [[entities/langgraph|LangGraph]]（JS 版）、[[entities/vercel-ai-sdk|AI SDK]]（更底层）、[[entities/openai-agents-sdk|OpenAI Agents SDK]]、CrewAI、VoltAgent
 
 ## 主要原语
 

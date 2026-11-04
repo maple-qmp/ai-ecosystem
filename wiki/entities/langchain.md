@@ -37,7 +37,7 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架
 - **上游依赖**：[[entities/langgraph|LangGraph]]（1.0 起 Agent 运行时）、各模型厂商 API
 - **下游**：[[entities/deep-agents|Deep Agents]] 建立在 LangChain 之上；追踪与评测通常接 [[entities/langsmith|LangSmith]]
-- **竞争 / 替代**：[[entities/vercel-ai-sdk|AI SDK]]、LlamaIndex、CrewAI、OpenAI Agents SDK、[[entities/mastra|Mastra]]
+- **竞争 / 替代**：[[entities/vercel-ai-sdk|AI SDK]]、LlamaIndex、CrewAI、[[entities/openai-agents-sdk|OpenAI Agents SDK]]、[[entities/mastra|Mastra]]
 
 ## 时间线
 

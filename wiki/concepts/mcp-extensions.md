@@ -11,6 +11,7 @@ created: 2026-11-04
 updated: 2026-11-04
 sources:
   - "[[sources/mcp-spec-2026-07-28]]"
+  - "[[sources/openai-developers-survey-2026-11]]"
 ---
 
 # MCP 扩展
@@ -41,6 +42,15 @@ sources:
 - 状态：`working`、`input_required`、`completed`、`failed`、`cancelled`
 - 流程图见 [[concepts/mcp-request-flow|MCP 请求流程]]的阶段 6
 
+## MCP Apps 在 ChatGPT 中的实现
+
+[[entities/openai|OpenAI]] 的 Apps SDK（现并入“Plugins”文档：插件 = 技能 + MCP 服务器 + 可选 UI）以 MCP Apps 为基础：ChatGPT 实现了这个开放标准，同一份 UI 可在 ChatGPT 和其他兼容 MCP Apps 的宿主中运行。官方建议先按标准实现，只有标准没覆盖的能力才用 ChatGPT 专有的 `window.openai`。
+
+- **标准字段与 ChatGPT 别名**：`_meta.ui.resourceUri` ↔ `_meta["openai/outputTemplate"]`；`ui/notifications/tool-result` ↔ `window.openai.toolOutput`；`tools/call` ↔ `window.openai.callTool`；`ui/message` ↔ `window.openai.sendFollowUpMessage`
+- **ChatGPT 独有扩展**（换宿主后不可用）：Instant Checkout（`requestCheckout`，见 [[concepts/agentic-commerce-protocol|Agentic Commerce Protocol]]）、文件上传与下载、宿主模态框、`widgetState` 持久化
+- **可独立使用的开源件**：`@openai/apps-sdk-ui` 组件库（MIT）、`openai-apps-sdk-examples` 示例（MIT）
+- **离不开 OpenAI 的部分**：上架 ChatGPT 插件目录的审核与提交流程
+
 ## 应用
 
 - CI、批处理、审批流这类长操作（Tasks）
@@ -58,12 +68,16 @@ sources:
 - [[concepts/mcp-request-flow|MCP 请求流程（2026-07-28）]]
 - [[concepts/multi-round-trip-requests|多轮往返请求（MRTR）]]
 - [[concepts/ai-agent|AI Agent]]
+- [[concepts/agent-skills|Agent Skills]]
 
 ## 相关实体
 
 - [[entities/anthropic|Anthropic]]
 - [[entities/claude-code|Claude Code]]
+- [[entities/openai|OpenAI]]
 
 ## 我的判断
 
 ## 来源摘录
+
+- "ChatGPT implements the open MCP Apps standard for UI returned by an MCP server." — [[sources/openai-developers-survey-2026-11|OpenAI Developers 调研]]

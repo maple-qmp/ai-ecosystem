@@ -28,7 +28,7 @@ sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]", "[[sources/mastra-
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架
 - **上游依赖**：—（各模型厂商 API）
-- **竞争 / 替代**：[[entities/langchain|LangChain]]、[[entities/mastra|Mastra]]（早期借用 AI SDK 做模型调用，后改为自带模型路由）、OpenAI Agents SDK
+- **竞争 / 替代**：[[entities/langchain|LangChain]]、[[entities/mastra|Mastra]]（早期借用 AI SDK 做模型调用，后改为自带模型路由）、[[entities/openai-agents-sdk|OpenAI Agents SDK]]
 
 ## 脱离 Vercel 使用
 

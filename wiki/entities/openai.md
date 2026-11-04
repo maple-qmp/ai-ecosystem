@@ -14,7 +14,7 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-04
-sources: []
+sources: ["[[sources/openai-developers-survey-2026-11]]"]
 ---
 
 # OpenAI
@@ -22,6 +22,15 @@ sources: []
 ## 描述
 
 2015 年成立的 AI 研究与产品公司。推出 [[entities/gpt|GPT]] 系列模型和 ChatGPT（2022-11），后者引爆了生成式 AI 浪潮；2024 年起推出以 o1 为首的推理模型系列。与 [[entities/microsoft|Microsoft]] 有深度资本与云合作。
+
+## 开发者平台模块的服务依赖
+
+开发者门户 developers.openai.com 的大部分内容是 API 与 ChatGPT 平台接入文档，离不开 OpenAI。能脱离 OpenAI 服务使用的部分（详见 [[sources/openai-developers-survey-2026-11|OpenAI Developers 调研]]）：
+
+- **完全独立**：[[entities/gpt-oss|gpt-oss]] 与 gpt-oss-safeguard（开放权重）、[[concepts/harmony-response-format|harmony]]、[[entities/tiktoken|tiktoken]]、[[concepts/agents-md|AGENTS.md]]、[[concepts/agent-skills|Agent Skills]]、MCP Apps（见 [[concepts/mcp-extensions|MCP 扩展]]）、[[concepts/agentic-commerce-protocol|Agentic Commerce Protocol]]、[[entities/promptfoo|Promptfoo]]
+- **默认连 OpenAI、可改配置**：[[entities/openai-agents-sdk|Agents SDK]]、[[entities/codex-cli|Codex CLI]]、[[entities/codex-app-server|Codex SDK / App Server]]、官方 SDK（改 `base_url`）
+- **部分独立**：[[entities/chatkit|ChatKit]]（后端自建，前端脚本走 OpenAI CDN）
+- **离不开 OpenAI**：Responses / Realtime / Agents API、托管工具、微调、Codex cloud、Codex Security、插件上架、Sign in with ChatGPT、Ads、Workspace Agents
 
 ## 生态位置
 
@@ -35,6 +44,14 @@ sources: []
 - 2020 GPT-3
 - 2022-11 ChatGPT
 - 2024-09 o1 推理模型
+- 2025-03 开源 [[entities/openai-agents-sdk|Agents SDK]]
+- 2025-04 开源 [[entities/codex-cli|Codex CLI]]
+- 2025-08 发布开放权重模型 [[entities/gpt-oss|gpt-oss]]
+- 2025-09 与 Stripe 发布 [[concepts/agentic-commerce-protocol|Agentic Commerce Protocol]]
+- 2025-10 DevDay：Apps SDK、[[entities/chatkit|ChatKit]]、Agent Builder；同月发布 gpt-oss-safeguard
+- 2025-12 与 Anthropic、Block 共同发起 Linux Foundation 下的 Agentic AI Foundation，捐出 [[concepts/agents-md|AGENTS.md]]
+- 2026-03 收购 [[entities/promptfoo|Promptfoo]]
+- 2026-11-30 Evals 平台与 Agent Builder 计划关闭
 
 ## 相关实体
 
@@ -42,11 +59,18 @@ sources: []
 - [[entities/microsoft|Microsoft]]
 - [[entities/anthropic|Anthropic]]
 - [[entities/google-deepmind|Google DeepMind]]
+- [[entities/gpt-oss|gpt-oss]]
+- [[entities/openai-agents-sdk|OpenAI Agents SDK]]
+- [[entities/codex-cli|Codex CLI]]
+- [[entities/chatkit|ChatKit]]
+- [[entities/promptfoo|Promptfoo]]
 
 ## 相关概念
 
 - [[concepts/reasoning-model|推理模型]]
 - [[concepts/scaling-laws|规模定律]]
+- [[concepts/agents-md|AGENTS.md]]
+- [[concepts/agentic-commerce-protocol|Agentic Commerce Protocol]]
 
 ## 我的判断
 

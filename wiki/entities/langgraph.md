@@ -28,7 +28,7 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架（运行时）
 - **下游**：[[entities/langchain|LangChain]]、[[entities/deep-agents|Deep Agents]]
-- **竞争 / 替代**：[[entities/workflow-devkit|Workflow DevKit]]（持久化工作流）、[[entities/mastra|Mastra]]（Workflows 与 Harness）、CrewAI、Microsoft Agent Framework、OpenAI Agents SDK
+- **竞争 / 替代**：[[entities/workflow-devkit|Workflow DevKit]]（持久化工作流）、[[entities/mastra|Mastra]]（Workflows 与 Harness）、CrewAI、Microsoft Agent Framework、[[entities/openai-agents-sdk|OpenAI Agents SDK]]
 
 ## 时间线
 

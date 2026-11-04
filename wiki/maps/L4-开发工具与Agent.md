@@ -22,6 +22,13 @@ updated: 2026-11-04
 - [[entities/vercel-ai-sdk|AI SDK]]
 - [[entities/workflow-devkit|Workflow DevKit]]
 - [[entities/mastra|Mastra]]
+- [[entities/openai-agents-sdk|OpenAI Agents SDK]]
+- [[entities/chatkit|ChatKit]]
+
+### 编码 Agent
+
+- [[entities/codex-cli|Codex CLI]]
+  - [[entities/codex-app-server|Codex App Server / SDK]]
 
 ### Java / JVM
 
@@ -40,6 +47,7 @@ updated: 2026-11-04
 
 - [[entities/langsmith|LangSmith]]
 - [[entities/mastra-platform|Mastra Platform]]
+- [[entities/promptfoo|Promptfoo]]（评测与红队）
 
 ### Web 框架与构建工具
 
@@ -63,6 +71,9 @@ updated: 2026-11-04
   - [[concepts/multi-round-trip-requests|多轮往返请求（MRTR）]]
   - [[concepts/mcp-extensions|MCP 扩展]]
 - [[concepts/agent2agent-protocol|Agent2Agent 协议（A2A）]]
+- [[concepts/agentic-commerce-protocol|Agentic Commerce Protocol（ACP）]]
+- [[concepts/agents-md|AGENTS.md]]
+- [[concepts/agent-skills|Agent Skills]]
 - [[concepts/agent-driven-code-migration|Agent 驱动的代码迁移]]
 
 ## 自动列表（Dataview）
