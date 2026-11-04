@@ -9,11 +9,12 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 sources:
   - "[[sources/mcp-spec-2026-07-28]]"
   - "[[sources/mastra-ecosystem-survey-2026-11]]"
   - "[[sources/java-agent-ecosystem-survey-2026-11]]"
+  - "[[sources/claude-independent-modules-survey-2026-11]]"
 ---
 
 # Model Context Protocol（MCP）
@@ -30,6 +31,8 @@ sources:
 - **两种传输**：stdio（本地子进程）和 Streamable HTTP（远程）
 - **授权**：远程服务器使用 OAuth 2.1，MCP 服务器作为资源服务器
 - **扩展机制**：Tasks、Apps、Skills 等以官方扩展形式演进，见 [[concepts/mcp-extensions|MCP 扩展]]
+- **治理与协议**：2025-12 由 Anthropic 捐给 Linux Foundation 下的 Agentic AI Foundation（AAIF）；项目正从 MIT 迁到 Apache-2.0，新代码与规范用 Apache-2.0，文档用 CC-BY-4.0。规范、各语言 SDK、Inspector、Registry 都不依赖 Anthropic 服务
+- **本地服务器打包**：[[concepts/mcp-bundles|MCP Bundles（MCPB）]]；本地服务器可用 [[entities/sandbox-runtime|Sandbox Runtime]] 加沙箱
 - **版本号**：格式为 `YYYY-MM-DD`，表示最后一次不兼容变更的日期
 
 ## 版本演进
@@ -63,6 +66,8 @@ sources:
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/rag|检索增强生成（RAG）]]
 - [[concepts/agent2agent-protocol|Agent2Agent 协议（A2A）]]
+- [[concepts/mcp-bundles|MCP Bundles（MCPB）]]
+- [[concepts/anthropic-messages-api|Anthropic Messages API]]
 
 ## 相关实体
 
@@ -72,6 +77,7 @@ sources:
 - [[entities/github-copilot|GitHub Copilot]]
 - [[entities/mastra|Mastra]]
 - [[entities/mcp-java-sdk|MCP Java SDK]]
+- [[entities/sandbox-runtime|Sandbox Runtime（srt）]]
 
 ## 我的判断
 
@@ -79,3 +85,4 @@ sources:
 
 - "MCP is a stateless protocol: every request is self-contained and carries its own protocol version and capabilities." — [[sources/mcp-spec-2026-07-28|MCP 规范 2026-07-28]]
 - "The new spec removes server sessions, so every request is self-contained." — [[sources/mastra-ecosystem-survey-2026-11|Mastra 生态深度调研]]
+- "The MCP project is undergoing a licensing transition from the MIT License to the Apache License, Version 2.0" — [[sources/claude-independent-modules-survey-2026-11|Claude 独立模块调研]]（mcpb 仓库 LICENSE）

@@ -3,7 +3,7 @@ title: X-横切主题
 type: map
 layer: X
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # X-横切主题
@@ -32,6 +32,12 @@ updated: 2026-11-04
 - [[entities/mastra-inc|Mastra 公司]]
 - [[entities/jetbrains|JetBrains]]
 - [[entities/oven|Oven]]（已并入 Anthropic）
+
+### 安全与可解释性
+
+- [[concepts/claude-constitution|Claude 宪法]]
+- [[entities/circuit-tracer|circuit-tracer]]（含 jacobian-lens）
+- [[entities/petri|Petri / Bloom]]
 
 ### 人物
 

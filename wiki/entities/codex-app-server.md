@@ -7,7 +7,7 @@ layer: L4
 aliases: ["Codex App Server", "codex app-server", "Codex SDK", "@openai/codex-sdk"]
 org: "[[entities/openai]]"
 released: "2025"
-competitors: []
+competitors: ["[[entities/claude-agent-sdk]]"]
 depends_on: ["[[entities/codex-cli]]"]
 status: active
 as_of: 2026-11
@@ -28,7 +28,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]"]
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 嵌入接口
 - **上游依赖**：[[entities/codex-cli|Codex CLI]]
-- **竞争 / 替代**：Claude Agent SDK（[[entities/claude-code|Claude Code]] 的嵌入方式）
+- **竞争 / 替代**：[[entities/claude-agent-sdk|Claude Agent SDK]]（[[entities/claude-code|Claude Code]] 的嵌入方式）
 
 ## 脱离 OpenAI 使用
 

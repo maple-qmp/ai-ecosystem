@@ -3,7 +3,7 @@ title: L4-开发工具与Agent
 type: map
 layer: L4
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # L4-开发工具与Agent
@@ -24,11 +24,14 @@ updated: 2026-11-04
 - [[entities/mastra|Mastra]]
 - [[entities/openai-agents-sdk|OpenAI Agents SDK]]
 - [[entities/chatkit|ChatKit]]
+- [[entities/claude-agent-sdk|Claude Agent SDK]]
 
 ### 编码 Agent
 
 - [[entities/codex-cli|Codex CLI]]
   - [[entities/codex-app-server|Codex App Server / SDK]]
+- [[entities/claude-code|Claude Code]]
+  - [[entities/sandbox-runtime|Sandbox Runtime（srt）]]
 
 ### Java / JVM
 
@@ -70,6 +73,7 @@ updated: 2026-11-04
   - [[concepts/mcp-request-flow|MCP 请求流程（2026-07-28）]]
   - [[concepts/multi-round-trip-requests|多轮往返请求（MRTR）]]
   - [[concepts/mcp-extensions|MCP 扩展]]
+  - [[concepts/mcp-bundles|MCP Bundles（MCPB）]]
 - [[concepts/agent2agent-protocol|Agent2Agent 协议（A2A）]]
 - [[concepts/agentic-commerce-protocol|Agentic Commerce Protocol（ACP）]]
 - [[concepts/agents-md|AGENTS.md]]

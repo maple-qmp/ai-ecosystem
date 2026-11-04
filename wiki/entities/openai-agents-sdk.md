@@ -7,7 +7,7 @@ layer: L4
 aliases: ["OpenAI Agents SDK", "Agents SDK", "openai-agents"]
 org: "[[entities/openai]]"
 released: "2025-03"
-competitors: ["[[entities/langgraph]]", "[[entities/vercel-ai-sdk]]", "[[entities/mastra]]", "[[entities/google-adk]]"]
+competitors: ["[[entities/langgraph]]", "[[entities/vercel-ai-sdk]]", "[[entities/mastra]]", "[[entities/google-adk]]", "[[entities/claude-agent-sdk]]"]
 depends_on: []
 status: active
 as_of: 2026-11
@@ -28,7 +28,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]"]
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架
 - **上游依赖**：—（默认调 OpenAI Responses API，可换）
-- **竞争 / 替代**：[[entities/langgraph|LangGraph]]、[[entities/vercel-ai-sdk|AI SDK]]、[[entities/mastra|Mastra]]、[[entities/google-adk|Google ADK]]、[[entities/deep-agents|Deep Agents]]
+- **竞争 / 替代**：[[entities/langgraph|LangGraph]]、[[entities/vercel-ai-sdk|AI SDK]]、[[entities/mastra|Mastra]]、[[entities/google-adk|Google ADK]]、[[entities/deep-agents|Deep Agents]]、[[entities/claude-agent-sdk|Claude Agent SDK]]
 
 ## 脱离 OpenAI 使用
 

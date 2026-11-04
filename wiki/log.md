@@ -8,6 +8,15 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-05] ingest | Claude 生态可独立使用的项目与模块调研
+
+- 来源：anthropics、anthropic-experimental、safety-research、modelcontextprotocol、agentskills 组织的 GitHub 仓库元数据与 README，code.claude.com 的第三方部署、LLM 网关、网关兼容、Claude apps gateway、自托管环境、数据使用、Agent SDK 文档，npm / PyPI 元数据，Ollama 与 DeepSeek 的 Anthropic 兼容文档，Petri 捐赠公告，Claude Code 源码泄露报道（`raw/Claude独立可用模块调研-2026-11.md`）
+- 新建来源页 `sources/claude-independent-modules-survey-2026-11`（含依赖分级）
+- 新建 4 个实体页：`claude-agent-sdk`、`sandbox-runtime`、`circuit-tracer`（含 jacobian-lens）、`petri`（含 Bloom）
+- 新建 3 个概念页：`anthropic-messages-api`（兼容端点与网关）、`mcp-bundles`、`claude-constitution`
+- 更新 `claude-code`（补协议、脱离 Anthropic 的三档用法、遥测开关、时间线）、`anthropic`（补开源与依赖分级、时间线）、`claude`、`agent-skills`（渐进披露、skills 仓库协议、治理）、`model-context-protocol`（AAIF 治理与协议迁移）；`openai-agents-sdk`、`codex-app-server` 的竞品补链接
+- 更新 L3、L4、X 地图页
+
 ## [2026-11-04] ingest | OpenAI Developers 可独立使用模块调研
 
 - 来源：developers.openai.com 与 learn.chatgpt.com 的 Codex、Agents SDK、ChatKit、Plugins、Agentic Commerce、Evals、SDK 文档，openai 组织下 GitHub 仓库元数据，PyPI 元数据，AAIF 成立公告、gpt-oss-safeguard 与 Promptfoo 收购报道（`raw/OpenAI-Developers独立可用模块调研-2026-11.md`）
