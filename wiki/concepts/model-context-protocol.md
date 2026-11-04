@@ -13,6 +13,7 @@ updated: 2026-11-04
 sources:
   - "[[sources/mcp-spec-2026-07-28]]"
   - "[[sources/mastra-ecosystem-survey-2026-11]]"
+  - "[[sources/java-agent-ecosystem-survey-2026-11]]"
 ---
 
 # Model Context Protocol（MCP）
@@ -47,6 +48,7 @@ sources:
 - IDE、桌面助手、编程工具的扩展生态（如 [[entities/claude-code|Claude Code]]）
 - 企业网关：统一做鉴权、路由与审计（2026-07-28 的请求头和缓存提示就是为此设计的）
 - Agent 框架内置：[[entities/mastra|Mastra]] 的 `@mastra/mcp` 2.0（2026-10-21）只接受 2026-07-28 客户端，去掉 SSE 传输、roots、sampling，暂不支持 tasks
+- Java 生态：官方 [[entities/mcp-java-sdk|MCP Java SDK]] 与 [[entities/spring-ai|Spring AI]] 团队合作维护；2.0.0（随 Spring AI 2.0，2026-06）对应 2025-11-25 规范，截至 2026-11 尚未支持 2026-07-28 规范（见 [[concepts/java-agent-development|Java Agent 开发]]）
 
 ## 生态位置
 
@@ -60,6 +62,7 @@ sources:
 - [[concepts/mcp-extensions|MCP 扩展]]
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/rag|检索增强生成（RAG）]]
+- [[concepts/agent2agent-protocol|Agent2Agent 协议（A2A）]]
 
 ## 相关实体
 
@@ -68,6 +71,7 @@ sources:
 - [[entities/cursor|Cursor]]
 - [[entities/github-copilot|GitHub Copilot]]
 - [[entities/mastra|Mastra]]
+- [[entities/mcp-java-sdk|MCP Java SDK]]
 
 ## 我的判断
 

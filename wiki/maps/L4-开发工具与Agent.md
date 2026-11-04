@@ -23,6 +23,19 @@ updated: 2026-11-04
 - [[entities/workflow-devkit|Workflow DevKit]]
 - [[entities/mastra|Mastra]]
 
+### Java / JVM
+
+- [[concepts/java-agent-development|Java Agent 开发]]（总览与选型）
+- [[entities/spring-ai|Spring AI]]
+  - [[entities/embabel|Embabel]]
+  - [[entities/spring-ai-alibaba|Spring AI Alibaba]]
+- [[entities/langchain4j|LangChain4j]]
+- [[entities/google-adk|Google ADK]]
+- [[entities/koog|Koog]]
+- [[entities/agentscope|AgentScope]]
+- [[entities/mcp-java-sdk|MCP Java SDK]]
+- [[entities/a2a-java-sdk|A2A Java SDK]]
+
 ### 可观测性与平台
 
 - [[entities/langsmith|LangSmith]]
@@ -39,10 +52,12 @@ updated: 2026-11-04
 - [[concepts/ai-agent|AI Agent]]
   - [[concepts/agent-harness|Agent Harness]]
   - [[concepts/observational-memory|Observational Memory]]
+  - [[concepts/goal-oriented-action-planning|目标导向行动规划（GOAP）]]
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]
   - [[concepts/mcp-request-flow|MCP 请求流程（2026-07-28）]]
   - [[concepts/multi-round-trip-requests|多轮往返请求（MRTR）]]
   - [[concepts/mcp-extensions|MCP 扩展]]
+- [[concepts/agent2agent-protocol|Agent2Agent 协议（A2A）]]
 
 ## 自动列表（Dataview）
 

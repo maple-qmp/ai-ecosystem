@@ -8,6 +8,15 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-04] ingest | Java Agent 开发生态调研
+
+- 来源：Spring AI 2.0 GA / 2.1.0-M1 公告、LangChain4j / Embabel / Koog / Spring AI Alibaba / MCP Java SDK 仓库、Google ADK for Java 1.0 公告、AgentScope Java 文档、A2A Java SDK 1.0.0.Final 公告、InfoQ、Maven Central 元数据（`raw/Java-Agent开发生态调研-2026-11.md`）
+- 新建来源页 `sources/java-agent-ecosystem-survey-2026-11`
+- 新建 10 个实体页：`spring-ai`、`langchain4j`、`embabel`、`google-adk`、`koog`、`jetbrains`、`agentscope`、`spring-ai-alibaba`、`mcp-java-sdk`、`a2a-java-sdk`
+- 新建 3 个概念页：`java-agent-development`（三层格局与选型）、`agent2agent-protocol`、`goal-oriented-action-planning`
+- 更新 `model-context-protocol`、`agent-harness`、`ai-agent`（补 Java 示例与来源），`alibaba`、`langchain`、`google-deepmind`（补链接）
+- 更新 L4、X 地图页
+
 ## [2026-11-04] ingest | Mastra 生态深度调研
 
 - 来源：GitHub 仓库、官方文档、Show HN（1.0）、Observational Memory 研究文章、Mastra Code / Agent Controller / MCP / Launch / Knowledge 公告、平台计费说明、A 轮报道（`raw/Mastra生态深度调研-2026-11.md`）
@@ -100,6 +109,16 @@
 
 
 > Wiki 状态概览：共 58 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 5 秒
+
+未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+
+
+
+## [2026-11-04 15:18] Wiki 维护报告
+
+
+> Wiki 状态概览：共 65 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 5 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
 

@@ -58,6 +58,7 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 - [[entities/vercel-ai-sdk|AI SDK]]
 - [[entities/claude|Claude]]
 - [[entities/gpt|GPT]]
+- [[entities/langchain4j|LangChain4j]]（名字相近的 Java 库，官方说明不是本项目的移植）
 
 ## 相关概念
 

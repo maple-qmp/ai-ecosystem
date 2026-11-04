@@ -7,6 +7,11 @@
 
 ## 实体
 
+- [[entities/mastra-factory|mastra-factory]] `aliases: Mastra Factory` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra-inc|Mastra 公司]]的开源、Agent 驱动的软件交付环境，在用户自己控制的 Web 应用里运行持久编程 Agent，用 [[entities/mastr
+- [[entities/mastra-code|mastra-code]] `aliases: Mastra Code, mastracode` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra-inc|Mastra 公司]]的开源终端（TUI）编程 Agent，2026-02-24 发布，用 [[entities/mastra|Mastra]] 框架构建。
+- [[entities/mastra-platform|mastra-platform]] `aliases: Mastra Platform, Mastra Cloud, Mastra Observability` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra-inc|Mastra 公司]]的闭源托管平台，给用 [[entities/mastra|Mastra]] 框架写的 Agent 提供部署、环境管理、可观测性、告警、
+- [[entities/mastra-inc|mastra-inc]] `aliases: Mastra Inc., Mastra 公司` `source: mastra-ecosystem-survey-2026-11` - 总部位于旧金山的 Agent 开发公司，2024 年成立，创始人是 Sam Bhagwat（CEO）、Abhi Aiyer（CTO）和 Shane Thomas（CPO），三人都来自前端框架 Gats
+- [[entities/mastra|mastra]] `aliases: Mastra, Mastra 框架, @mastra/core` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra-inc|Mastra 公司]]开发的开源 TypeScript Agent 框架（npm 核心包 `@mastra/core`），把 Agent、工作流、记忆、RA
 - [[entities/deep-agents|deep-agents]] `aliases: Deep Agents, deepagents, Managed Deep Agents` `source: langchain-ecosystem-survey-2026-11` - [[entities/langchain-inc|LangChain 公司]]的开源 [[concepts/agent-harness|Agent harness]]（`deepagents` 包），
 - [[entities/langsmith|langsmith]] `aliases: LangSmith, LangSmith Deployment, LangSmith Fleet, LangGraph Platform` `source: langchain-ecosystem-survey-2026-11` - [[entities/langchain-inc|LangChain 公司]]的闭源商业平台，也是公司的主要收入来源。2024-02 以 LLM 应用的可观测性（追踪）与评测工具发布，框架无关，不使用
 - [[entities/langgraph|langgraph]] `aliases: LangGraph, LangGraph.js` `source: langchain-ecosystem-survey-2026-11` - [[entities/langchain-inc|LangChain 公司]]的底层 Agent 编排框架，把 Agent 或工作流建模为由节点和边构成的状态图，开源，提供 Python 与 JS 实
@@ -42,6 +47,7 @@
 
 ## 概念
 
+- [[concepts/observational-memory|observational-memory]] `aliases: Observational Memory, 观察式记忆, OM` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra|Mastra]] 2026-02 提出的 Agent 记忆方法：主 Agent 旁边常驻两个后台 Agent，Observer 把对话历史压缩成一份带日期、带优先级
 - [[concepts/agent-harness|agent-harness]] `aliases: Agent Harness, Agent 运行框架, harness` `source: langchain-ecosystem-survey-2026-11` - 包裹在模型外面、让 [[concepts/ai-agent|AI Agent]] 能完成长时多步任务的一整套默认运行环境：工具调用循环之外，还预置规划、文件、上下文管理、子 Agent 和记忆等能力。
 - [[concepts/vector-database|vector-database]] `aliases: Vector Database, 向量库` - 以向量嵌入为索引、支持近似最近邻（ANN）检索的数据库，是 [[concepts/rag|RAG]] 与语义搜索的常用存储层。
 - [[concepts/transformer|transformer]] `aliases: 变换器, Attention Is All You Need` - 2017 年 Google 论文《Attention Is All You Need》提出的神经网络架构，以自注意力机制取代循环结构，是当今几乎所有大语言模型的基础。
@@ -59,6 +65,7 @@
 
 ## 来源
 
+- [[sources/mastra-ecosystem-survey-2026-11|mastra-ecosystem-survey-2026-11]]
 - [[sources/langchain-ecosystem-survey-2026-11|langchain-ecosystem-survey-2026-11]]
 - [[sources/vercel-oss-dependency-survey-2026-11|vercel-oss-dependency-survey-2026-11]]
 - [[sources/mcp-spec-2026-07-28|mcp-spec-2026-07-28]]

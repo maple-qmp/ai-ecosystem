@@ -30,6 +30,7 @@ updated: 2026-11-04
 - [[entities/vercel|Vercel]]
 - [[entities/langchain-inc|LangChain 公司]]
 - [[entities/mastra-inc|Mastra 公司]]
+- [[entities/jetbrains|JetBrains]]
 
 ### 概念
 

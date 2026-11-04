@@ -40,6 +40,7 @@ Google 的 AI 研究主体，2023 年由 Google Brain 与 DeepMind 合并而成�
 - [[entities/gemini|Gemini]]
 - [[entities/openai|OpenAI]]
 - [[entities/anthropic|Anthropic]]
+- [[entities/google-adk|Google ADK]]（Google 的开源 Agent 框架）
 
 ## 相关概念
 

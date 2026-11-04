@@ -9,7 +9,7 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-04
-sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
+sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/java-agent-ecosystem-survey-2026-11]]"]
 ---
 
 # AI Agent
@@ -40,6 +40,8 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 - [[concepts/rag|检索增强生成（RAG）]]
 - [[concepts/reasoning-model|推理模型]]
 - [[concepts/agent-harness|Agent Harness]]
+- [[concepts/agent2agent-protocol|Agent2Agent 协议（A2A）]]
+- [[concepts/java-agent-development|Java Agent 开发]]
 
 ## 相关实体
 
@@ -48,6 +50,8 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 - [[entities/langgraph|LangGraph]]
 - [[entities/deep-agents|Deep Agents]]
 - [[entities/cursor|Cursor]]
+- [[entities/spring-ai|Spring AI]]
+- [[entities/langchain4j|LangChain4j]]
 
 ## 我的判断
 

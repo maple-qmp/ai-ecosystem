@@ -13,14 +13,14 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-04
-sources: []
+sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
 ---
 
 # 阿里巴巴（通义）
 
 ## 描述
 
-阿里巴巴集团及阿里云，研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云提供算力与模型服务。
+阿里巴巴集团及阿里云，研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云提供算力与模型服务。在 Java Agent 开发方向开源了 [[entities/spring-ai-alibaba|Spring AI Alibaba]] 和 [[entities/agentscope|AgentScope]]（Java 版官方称在集团内 13+ 个业务单元生产使用）。
 
 ## 生态位置
 
@@ -37,10 +37,13 @@ sources: []
 
 - [[entities/qwen|Qwen]]
 - [[entities/deepseek|DeepSeek]]
+- [[entities/spring-ai-alibaba|Spring AI Alibaba]]
+- [[entities/agentscope|AgentScope]]
 
 ## 相关概念
 
 - [[concepts/mixture-of-experts|混合专家（MoE）]]
+- [[concepts/java-agent-development|Java Agent 开发]]
 
 ## 我的判断
 
