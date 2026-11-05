@@ -26,41 +26,6 @@
 - 重写 `model-context-protocol`：去掉种子标记，补充版本演进表，有来源支撑
 - 更新 L4 地图页和 `anthropic` 时间线
 
-## [2026-11-04 05:08] Wiki 维护报告
-
-
-> Wiki 状态概览：共 46 个页面，7 个缺失别名，重复 0 个，断链 7 个（其中 0 个涉及重复页面），孤立 1 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 1 个。本次 Lint 耗时 3 秒
-
-> 检测到 7 个页面缺少别名
-
-### 缺失别名的页面（程序检测）[共 7 个]
-
-- [[entities/vllm]]
-- [[entities/pytorch]]
-- [[entities/openai]]
-- [[entities/langchain]]
-- [[entities/cursor]]
-- [[entities/cuda]]
-- [[entities/claude-code]]
-
-### 断链（程序检测）[共 7 个]
-
-- [[overview]] → **maps/L0-算力与硬件\**（页面不存在）
-- [[overview]] → **maps/L1-数据\**（页面不存在）
-- [[overview]] → **maps/L2-基础模型\**（页面不存在）
-- [[overview]] → **maps/L3-训练与推理\**（页面不存在）
-- [[overview]] → **maps/L4-开发工具与Agent\**（页面不存在）
-- [[overview]] → **maps/L5-应用\**（页面不存在）
-- [[overview]] → **maps/X-横切主题\**（页面不存在）
-
-### 标签越界（程序检测）[共 1 个]
-
-- [[sources/mcp-spec-2026-07-28]] — 无效：mcp, specification
-
-### 孤立页面（程序检测）[共 1 个]
-
-- [[conventions]] — 无其他 Wiki 页面链接至此
-
 ## [2026-11-04 05:25] Wiki 维护报告
 
 
