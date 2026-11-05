@@ -36,7 +36,7 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 - 2022-05 0.1.0
 - 2024-03 0.8.0
 - 2025-01 0.14.0
-- 2026-03-30 1.0.0：API 分为稳定区与 `trl.experimental` 孵化区，报道称实现了 75+ 种后训练方法（二手报道）
+- 2026-03-30 PyPI 发布 1.0.0；2026-03-31 发布博客：API 分为稳定区与 `trl.experimental` 孵化区，已实现 75 种以上后训练方法，下一步包括异步 GRPO
 - 2026 年 README：经 PyTorch ROCm 支持 AMD Instinct GPU，经 TorchNeuron 支持 AWS Trainium；在单节点 8×B300 上对 Mistral Large 4、Reflection Beam 做 LoRA SFT
 - 2026-10-30 1.17.1
 
@@ -63,5 +63,6 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 来源摘录
 
+- "TRL now implements more than 75 post-training methods." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]
 - "A comprehensive library to post-train foundation models" — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]
 - "TRL is a cutting-edge library designed for post-training foundation models using advanced techniques like Supervised Fine-Tuning (SFT), Group Relative Policy Optimization (GRPO), and Direct Preference Optimization (DPO)." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]

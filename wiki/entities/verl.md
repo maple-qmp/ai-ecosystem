@@ -32,7 +32,7 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 时间线
 
-- 2024-08 HybridFlow 论文
+- 2024-09-28 HybridFlow 论文提交 arXiv，摘要称在多种 RLHF 算法上比现有基线吞吐提升 1.53–20.57 倍
 - 2024-11-01 PyPI 首个版本 0.1rc0
 - 2025-01 豆包 1.5 Pro 的 RL scaling 预览模型用 verl 训练（AIME pass@1 70.0）
 - 2025-03 DAPO 发布（完全基于 verl）；v0.3.0.post1 约 1.4 倍提速；论文在 EuroSys 2025 发表

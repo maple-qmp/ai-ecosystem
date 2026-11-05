@@ -20,7 +20,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/training-me
 
 ## 关键特征
 
-- **GPTQ**（IST Austria，ICLR 2023，arXiv 2210.17323）：生成式 Transformer 的训练后压缩，把 OPT、BLOOM 压到 2/3/4 bit，支持权重分组
+- **GPTQ**（IST Austria，ICLR 2023，arXiv 2210.17323）：论文标题为“Accurate Post-Training Quantization for Generative Pre-trained Transformers”，即生成式 Transformer 的训练后量化，把 OPT、BLOOM 压到 2/3/4 bit，支持权重分组
 - **AWQ**（MIT Han Lab，arXiv 2306.00978）：激活感知的 INT3/4 权重量化，支持指令微调模型与多模态模型，附 CUDA 推理内核和端侧推理 TinyChat
 - **bitsandbytes**：PyTorch 的 k-bit 量化库，提供 8-bit 优化器（分块量化）、LLM.int8()（向量级 8-bit 量化，离群特征单独用 16-bit 矩阵乘，推理显存减半且无性能下降）和 QLoRA 用的 4-bit 量化（NF4）
 - **新硬件格式**：FP8、MXFP8 / MXFP4、NVFP4，[[entities/vllm|vLLM]] 均已支持；训练侧 [[entities/axolotl|Axolotl]] 支持 FP8 混合精度训练和 int8 / int4 / FP8 / NVFP4 / MXFP4 的 QAT，[[entities/unsloth|Unsloth]] 支持 FP8 训练

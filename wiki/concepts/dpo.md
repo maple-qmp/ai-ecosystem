@@ -55,4 +55,5 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 来源摘录
 
+- "In this paper we introduce a new parameterization of the reward model in RLHF that enables extraction of the corresponding optimal policy in closed form, allowing us to solve the standard RLHF problem with only a simple classification loss." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]
 - "This repo includes a reference implementation of the DPO algorithm for training language models from preference data" — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]

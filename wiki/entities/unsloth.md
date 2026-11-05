@@ -21,7 +21,7 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 描述
 
-Unsloth AI 开发的微调与本地运行工具，用基于 Triton 的优化内核加速训练，README 称训练“快 2 倍、省 70% 显存，无精度损失”。支持 [[concepts/lora|LoRA]]、QLoRA、全量微调、[[concepts/pretraining|预训练]]、[[concepts/grpo|GRPO]]、[[concepts/dpo|DPO]] 和 FP8 训练，模型覆盖 LLM、扩散、TTS、嵌入等。现在定位为“第一个能运行和训练模型的桌面应用”，有 Unsloth Desktop、Unsloth Studio（Web UI）、Unsloth Core（代码库）三种用法；能本地运行 GGUF 模型，提供 OpenAI 兼容 API，`unsloth start claude` 一条命令把 [[entities/claude-code|Claude Code]]、[[entities/codex-cli|Codex]] 等编程 Agent 接到本地模型；训练结果可导出 [[concepts/gguf|GGUF]]、NVFP4、FP8。公司由 Daniel Han、Michael Han 兄弟 2023 年创办，参加 Y Combinator 2024 夏季批次（二手报道）。
+Unsloth AI 开发的微调与本地运行工具，用基于 Triton 的优化内核加速训练，README 称训练“快 2 倍、省 70% 显存，无精度损失”。支持 [[concepts/lora|LoRA]]、QLoRA、全量微调、[[concepts/pretraining|预训练]]、[[concepts/grpo|GRPO]]、[[concepts/dpo|DPO]] 和 FP8 训练，模型覆盖 LLM、扩散、TTS、嵌入等。现在定位为“第一个能运行和训练模型的桌面应用”，有 Unsloth Desktop、Unsloth Studio（Web UI）、Unsloth Core（代码库）三种用法；能本地运行 GGUF 模型，提供 OpenAI 兼容 API，`unsloth start claude` 一条命令把 [[entities/claude-code|Claude Code]]、[[entities/codex-cli|Codex]] 等编程 Agent 接到本地模型；训练结果可导出 [[concepts/gguf|GGUF]]、NVFP4、FP8。公司 Unsloth AI 由 Daniel Han（CEO）、Michael Han 兄弟 2023 年创办，位于旧金山，属于 Y Combinator 2024 夏季批次（S24），Lightspeed 是投资方之一。
 
 ## 生态位置
 
@@ -34,7 +34,7 @@ Unsloth AI 开发的微调与本地运行工具，用基于 Triton 的优化内�
 
 - 2023 项目开始（README 引用条目年份）
 - 2024-08-04 PyPI 首个版本 2024.8（版本号按年月）
-- 2024 夏 参加 Y Combinator S24（二手报道）
+- 2024 夏 参加 Y Combinator S24
 - 2026-11-04 发布 2026.11.2
 
 ## 相关实体

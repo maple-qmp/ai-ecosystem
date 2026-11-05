@@ -16,7 +16,7 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 定义
 
-用大模型（教师）的输出训练小模型（学生），把能力压缩进部署成本更低的模型。经典形式来自 Hinton、Vinyals、Dean 2015 年的论文“Distilling the Knowledge in a Neural Network”（arXiv 1503.02531）：让学生拟合教师带温度的 softmax 概率分布（“软目标”）。大模型时代更常见的是数据蒸馏：用强模型生成回答或推理轨迹，再用这些数据对小模型做[[concepts/supervised-fine-tuning|监督微调]]。
+用大模型（教师）的输出训练小模型（学生），把能力压缩进部署成本更低的模型。经典形式来自 Hinton、Vinyals、Dean 2015 年的论文“Distilling the Knowledge in a Neural Network”（arXiv 1503.02531，2015-03-09）：用教师产生的类别概率作为“软目标”训练学生，并提高最后一层 softmax 的温度，让软目标足够平滑；论文在 MNIST 和一个商用语音声学模型上，把一组模型的集成蒸馏成单个模型。大模型时代更常见的是数据蒸馏：用强模型生成回答或推理轨迹，再用这些数据对小模型做[[concepts/supervised-fine-tuning|监督微调]]。
 
 ## 关键特征
 
@@ -54,4 +54,5 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 来源摘录
 
+- "Our more general solution, called “distillation”, is to raise the temperature of the final softmax until the cumbersome model produces a suitably soft set of targets." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]
 - "We demonstrate that the reasoning patterns of larger models can be distilled into smaller models, resulting in better performance compared to the reasoning patterns discovered through RL on small models." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]

@@ -16,13 +16,13 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 定义
 
-可验证奖励强化学习：奖励不来自学习到的奖励模型，而来自能自动检验对错的规则或程序（答案比对、单元测试、格式检查），模型的回答被验证为正确才给奖励。名称出自 Ai2 的 Tülu 3 论文（2024-11，arXiv 2411.15124），在那里作为 SFT → DPO 之后的最后一个后训练阶段，用于数学、精确指令遵循等答案可检验的技能；Tülu 3 基于 Llama 3.1 基座，开放了权重、数据、代码和评测工具。
+可验证奖励强化学习：奖励不来自学习到的奖励模型，而来自能自动检验对错的规则或程序（答案比对、单元测试、格式检查），模型的回答被验证为正确才给奖励。名称出自 Ai2 的 Tülu 3 论文（2024-11-22，arXiv 2411.15124），在那里作为 SFT → DPO 之后的最后一个后训练阶段，用可验证奖励代替传统 RLHF 的奖励模型，用于数学、精确指令遵循等答案可检验的技能。Tülu 3 基于 [[entities/llama|Llama]] 3.1 基座，权重、数据、代码和训练配方全部开放。
 
 ## 关键特征
 
 - 与 [[concepts/rlhf|RLHF]] 的区别：不需要人工偏好标注，也不训练奖励模型，因此更难被“奖励黑客”钻空子；代价是只适用于答案能自动判定的任务
 - 与 [[concepts/grpo|GRPO]] 正交：RLVR 回答“奖励从哪来”，GRPO / PPO 回答“怎么用奖励更新策略”；实践中常组合使用（open-instruct 用 GRPO 跑 RLVR）
-- [[entities/deepseek-r1|DeepSeek-R1]] 一类[[concepts/reasoning-model|推理模型]]的 RL 阶段也以规则奖励为主（二手说法，R1 论文原文未核对）
+- [[entities/deepseek-r1|DeepSeek-R1]] 的 RL 同样用规则奖励：R1-Zero 的奖励系统主要由准确性奖励和格式奖励组成，R1 的推理数据沿用这种规则奖励，覆盖数学、代码和逻辑推理
 
 ## 应用
 
@@ -53,4 +53,6 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 来源摘录
 
+- "RLVR is based on a simple principle, common in RL literature, applied to language models: the policy only receives a reward when its generated responses are verifiably correct." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]
+- "To train DeepSeek-R1-Zero, we adopt a rule-based reward system that mainly consists of two types of rewards" — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]
 - "Code for DPO, preference finetuning and reinforcement learning with verifiable rewards (RLVR)." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]

@@ -16,7 +16,7 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 定义
 
-组相对策略优化：[[entities/deepseek|DeepSeek]] 在 DeepSeekMath 论文（2024-02，arXiv 2402.03300）中提出的强化学习算法，DeepSeekMath-RL 7B 即用它训练。做法是对同一个问题采样一组回答，用组内奖励的均值和标准差做归一化，得到每个回答的相对优势，以此替代 PPO 中的价值（critic）模型，省掉一个与策略同等规模的模型。[[entities/deepseek-r1|DeepSeek-R1]]（2025-01，arXiv 2501.12948）用大规模 RL 训练出长思维链，使 GRPO 成为[[concepts/reasoning-model|推理模型]]训练的标准算法。
+组相对策略优化：[[entities/deepseek|DeepSeek]] 在 DeepSeekMath 论文（2024-02，arXiv 2402.03300）中提出的强化学习算法，DeepSeekMath-RL 7B 即用它训练。GRPO 是 PPO 的变体：对同一个问题采样一组回答，以组内平均奖励为基线，奖励减去组均值、再除以组标准差，得到每个回答的相对优势，以此替代 PPO 中的价值（critic）模型，省掉一个与策略同等规模的模型。[[entities/deepseek-r1|DeepSeek-R1]]（2025-01，arXiv 2501.12948）用大规模 RL 训练出长思维链，使 GRPO 成为[[concepts/reasoning-model|推理模型]]训练的标准算法。
 
 ## 关键特征
 
@@ -59,5 +59,6 @@ sources: ["[[sources/training-methods-survey-2026-11]]"]
 
 ## 来源摘录
 
+- "GRPO foregoes the critic model, instead estimating the baseline from group scores, significantly reducing training resources." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]
 - "DeepSeekMath-RL 7B is trained on the foundation of DeepSeekMath-Instruct 7B, utilizing our proposed Group Relative Policy Optimization (GRPO) algorithm." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]
 - "Notably, it is the first open research to validate that reasoning capabilities of LLMs can be incentivized purely through RL, without the need for SFT." — [[sources/training-methods-survey-2026-11|训练与后训练方法调研]]

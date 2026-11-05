@@ -223,3 +223,11 @@
 - 重写 `lora`（并入 QLoRA）、`quantization`（补 GPTQ、AWQ、bitsandbytes、QAT），改为 `origin: source`
 - `deepseek-r1`、`reasoning-model` 中的 GRPO / RL 加链接；`hugging-face`、`bytedance` 的相关实体追加 TRL、verl
 - L3 地图页新增「训练方法」「训练工具」两组
+
+## [2026-11-06 05:21] update | 训练与后训练方法调研：arXiv 与一手页面复核
+
+**更新页面**：[[sources/training-methods-survey-2026-11]], [[concepts/grpo]], [[concepts/rlvr]], [[concepts/dpo]], [[concepts/knowledge-distillation]], [[concepts/quantization]], [[entities/trl]], [[entities/unsloth]], [[entities/verl]]
+
+- 网络放开后，用 arXiv API 核对了素材所引 13 篇论文的编号、标题、首次提交日期与摘要，并读了 Tülu 3、Hinton 蒸馏、DeepSeekMath、DeepSeek-R1 的正文；读了 Hugging Face「TRL v1.0」博客原文，以及 Y Combinator、Lightspeed 的 Unsloth 页面（`raw/训练与后训练方法调研-2026-11.md` 新增 arXiv 元数据表和论文引文）
+- 去掉全部「二手」标记：Tülu 3 / RLVR 的定义、Hinton 蒸馏的温度与软目标、DeepSeek-R1 的规则奖励（准确性 + 格式）、TRL v1.0（博客 2026-03-31，75+ 种方法）、Unsloth（YC S24，2023 年成立，位于旧金山）均已确认
+- 更正：GPTQ 的论文标题以 arXiv 为准（仓库 README 用的是旧标题）；HybridFlow 首次提交日期由 2024-08 改为 2024-09-28；删除一手页面找不到的“悉尼创办”和种子轮金额

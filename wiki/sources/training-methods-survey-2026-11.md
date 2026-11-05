@@ -33,11 +33,11 @@ sources:
 
 ## Key Points
 
-- **资料可靠性**：论文作者仓库 README、工具 README 与 PyPI 元数据为一手；arxiv.org 在调研会话中被网络策略拦截，论文编号取自作者仓库的引用条目；Tülu 3、Hinton 蒸馏论文的编号与日期、TRL v1.0 博客说法、Unsloth 公司信息来自搜索摘要，已在素材中标注「二手」
+- **资料可靠性**：全部为一手资料，包括论文作者仓库 README、工具 README、PyPI 元数据，以及经 arXiv API 核对的 13 篇论文的编号、标题、日期与摘要（Tülu 3、Hinton 蒸馏、DeepSeekMath、DeepSeek-R1 另读了正文）；TRL v1.0 读的是 Hugging Face 博客原文，Unsloth 公司信息读的是 Y Combinator 与 Lightspeed 的页面
 - **RLHF**：InstructGPT（2022）确立 SFT → 奖励模型 → PPO 三阶段；1.3B InstructGPT 比 175B GPT-3 更受偏好
 - **DPO**（2023）：证明奖励可由策略与参考模型的对数概率比表示，去掉奖励模型与在线采样
 - **GRPO**（DeepSeekMath，2024-02）：组内相对优势替代价值模型；R1-Zero 不经 SFT、纯 RL 激发推理；DAPO 等改进完全基于 verl
-- **RLVR**（Tülu 3，2024-11）：奖励来自可程序验证的正确性，与 GRPO 正交、常组合使用
+- **RLVR**（Tülu 3，2024-11）：策略只在回答可被验证为正确时获得奖励，与 GRPO 正交、常组合使用；DeepSeek-R1 的 RL 同样用规则奖励（准确性 + 格式）
 - **蒸馏**：R1 用约 80 万条推理样本蒸馏出 6 个 Qwen2.5 / Llama3 稠密模型，效果好于小模型直接 RL
 - **LoRA / QLoRA**：LoRA 在 GLUE 上以 0.8M 对 125M 可训练参数达到同等效果；QLoRA 单张 48GB GPU 微调 65B 模型
 - **工具版本**：TRL 1.0.0（2026-03-30）→ 1.17.1（2026-10-30）；Unsloth 2026.11.2；Axolotl 0.21.1；LLaMA-Factory 0.9.5（2026-05）；verl 0.9.1（2026-09），2026-01 迁入 verl-project 组织
