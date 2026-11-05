@@ -8,14 +8,14 @@ aliases: ["通义千问"]
 org: "[[entities/alibaba|阿里巴巴（通义）]]"
 released: "2023"
 open_weights: true
-competitors: ["[[entities/llama]]", "[[entities/deepseek-r1]]"]
+competitors: ["[[entities/llama]]", "[[entities/deepseek-r1]]", "[[entities/kimi]]", "[[entities/glm]]", "[[entities/minimax-m]]", "[[entities/doubao]]"]
 depends_on: []
 status: active
 as_of: 2026-06
 origin: claude-seed
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 sources: []
 ---
 
@@ -29,7 +29,7 @@ sources: []
 
 - **层级**：[[maps/L2-基础模型|L2-基础模型]] · 模型家族
 - **上游依赖**：—
-- **竞争 / 替代**：[[entities/llama|Llama]]、[[entities/deepseek-r1|DeepSeek-R1]]
+- **竞争 / 替代**：[[entities/llama|Llama]]、[[entities/deepseek-r1|DeepSeek-R1]]、[[entities/kimi|Kimi]]、[[entities/glm|GLM]]、[[entities/minimax-m|MiniMax-M]]、[[entities/doubao|豆包]]（闭源）
 
 ## 时间线
 
@@ -43,6 +43,9 @@ sources: []
 - [[entities/llama|Llama]]
 - [[entities/deepseek-r1|DeepSeek-R1]]
 - [[entities/hugging-face|Hugging Face]]
+- [[entities/kimi|Kimi]]
+- [[entities/glm|GLM]]
+- [[entities/doubao|豆包]]
 
 ## 相关概念
 

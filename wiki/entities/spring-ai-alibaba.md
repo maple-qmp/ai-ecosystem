@@ -13,8 +13,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
+updated: 2026-11-05
+sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot-ai-survey-2026-11]]", "[[sources/zhipu-ai-survey-2026-11]]", "[[sources/minimax-survey-2026-11]]"]
 ---
 
 # Spring AI Alibaba
@@ -29,6 +29,10 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
 - **上游依赖**：[[entities/spring-ai|Spring AI]]
 - **竞争 / 替代**：[[entities/agentscope|AgentScope Java]]（同属阿里，已互相集成）、[[entities/langchain4j|LangChain4j]]、[[entities/embabel|Embabel]]、[[entities/langgraph|LangGraph]]（Graph 层思路相近）
 
+## 接入其他中国模型
+
+官方 starter 只单列 DashScope，README 另提到 OpenAI / DeepSeek。[[entities/kimi|Kimi]]、[[entities/glm|GLM]]、[[entities/minimax-m|MiniMax-M]] 有两种接法：一是用 Spring AI 的 OpenAI 兼容客户端直连各家 API；二是走阿里云百炼，它 2026-05 起用统一 API 提供 Kimi K2.6、GLM-5.1、MiniMax M2.7。这是整理者根据两份文档归纳的，官方没有专门写这种用法。
+
 ## 时间线
 
 - 1.1.0.0 里程碑版：ReactAgent 前后钩子、`AgentTool`（Agent 当工具）、`ReactAgent.asNode()`（Agent 嵌入图）、`LlmRoutingAgent`、FlowAgent 抽象、A2A + Nacos
@@ -41,6 +45,9 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
 - [[entities/spring-ai|Spring AI]]
 - [[entities/agentscope|AgentScope]]
 - [[entities/alibaba|阿里巴巴（通义）]]
+- [[entities/kimi|Kimi]]
+- [[entities/glm|GLM]]
+- [[entities/minimax-m|MiniMax-M]]
 
 ## 相关概念
 

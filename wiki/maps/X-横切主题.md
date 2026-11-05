@@ -21,12 +21,16 @@ updated: 2026-11-05
 - [[entities/google-deepmind|Google DeepMind]]
 - [[entities/meta-ai|Meta AI]]
 - [[entities/deepseek|DeepSeek]]
+- [[entities/moonshot-ai|月之暗面（Moonshot AI）]]
+- [[entities/zhipu-ai|智谱（Z.ai）]]
+- [[entities/minimax|MiniMax]]
 - [[entities/mistral-ai|Mistral AI]]
 
 ### 公司
 
 - [[entities/microsoft|Microsoft]]
 - [[entities/alibaba|阿里巴巴（通义）]]
+- [[entities/bytedance|字节跳动]]（含火山引擎）
 - [[entities/vercel|Vercel]]
 - [[entities/langchain-inc|LangChain 公司]]
 - [[entities/mastra-inc|Mastra 公司]]

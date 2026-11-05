@@ -35,7 +35,7 @@ sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-module
 官方只支持 Claude 模型，但 Claude 可以不经 Anthropic 自家服务获取。分三档：
 
 - **不经 Anthropic、仍用 Claude（官方支持）**：设 `CLAUDE_CODE_USE_BEDROCK=1`、`CLAUDE_CODE_USE_VERTEX=1`、`CLAUDE_CODE_USE_FOUNDRY=1` 或 `CLAUDE_CODE_USE_ANTHROPIC_AWS=1`，分别走 Amazon Bedrock、Google Cloud's Agent Platform（原 Vertex AI）、Microsoft Foundry、Claude Platform on AWS；企业可在中间加 LLM 网关，或用内置在 `claude` 二进制里的 Claude apps gateway（`claude gateway --config gateway.yaml`，企业 IdP 登录，数据面不连 Anthropic）。托管设置 `allowedProviders` 可以锁定只用某个提供商
-- **换非 Claude 模型（官方不支持）**：Claude Code 只说 [[concepts/anthropic-messages-api|Anthropic Messages API]]，把 `ANTHROPIC_BASE_URL` 指向兼容端点即可，常见是 Ollama（本地，`ollama launch claude`）、[[entities/deepseek|DeepSeek]]、智谱 GLM、Kimi、[[entities/qwen|Qwen]]、OpenRouter。会失去提示缓存、精确 token 计数、引用、PDF、服务端工具等 Claude 专有特性，效果取决于对方模型的工具调用能力和上下文长度
+- **换非 Claude 模型（官方不支持）**：Claude Code 只说 [[concepts/anthropic-messages-api|Anthropic Messages API]]，把 `ANTHROPIC_BASE_URL` 指向兼容端点即可，常见是 Ollama（本地，`ollama launch claude`）、[[entities/deepseek|DeepSeek]]、[[entities/glm|智谱 GLM]]、[[entities/kimi|Kimi]]、[[entities/qwen|Qwen]]、OpenRouter。会失去提示缓存、精确 token 计数、引用、PDF、服务端工具等 Claude 专有特性，效果取决于对方模型的工具调用能力和上下文长度
 - **关掉回传**：`DISABLE_TELEMETRY=1`（指标）、`DISABLE_ERROR_REPORTING=1`（错误报告）、`CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1`（一次关闭非必要流量）、`CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY=1`（会话调查）。走云厂商时指标、错误报告、`/feedback` 默认就是关的，`/feedback` 改写到本地 `~/.claude/feedback-bundles/`
 - **仍会连 Anthropic 的地方**：WebFetch 的域名安全检查不论提供商都把主机名发到 `api.anthropic.com`，不受上面的开关影响，要用 `skipWebFetchPreflight: true` 关；fast mode 可用性检查也直连
 - **离不开 Anthropic 的部分**：claude.ai 订阅登录、网页版云端会话（自托管 runner 只是把执行放到自己机器上，队列、会话流、推理仍在 Anthropic）、服务端托管设置、Remote Control

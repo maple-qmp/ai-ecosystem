@@ -6,15 +6,15 @@ kind: lab
 layer: X
 aliases: ["深度求索"]
 released: "2023"
-competitors: ["[[entities/alibaba]]", "[[entities/openai]]"]
+competitors: ["[[entities/alibaba]]", "[[entities/openai]]", "[[entities/moonshot-ai]]", "[[entities/zhipu-ai]]", "[[entities/minimax]]"]
 depends_on: ["[[entities/nvidia]]"]
 status: active
 as_of: 2026-06
 origin: claude-seed
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: []
+updated: 2026-11-05
+sources: ["[[sources/moonshot-ai-survey-2026-11]]"]
 ---
 
 # DeepSeek
@@ -27,19 +27,23 @@ sources: []
 
 - **层级**：[[maps/X-横切主题|X-横切主题]] · AI 实验室
 - **上游依赖**：[[entities/nvidia|NVIDIA]]
-- **竞争 / 替代**：[[entities/alibaba|阿里巴巴（通义）]]、[[entities/openai|OpenAI]]
+- **竞争 / 替代**：[[entities/alibaba|阿里巴巴（通义）]]、[[entities/openai|OpenAI]]、[[entities/moonshot-ai|月之暗面]]、[[entities/zhipu-ai|智谱]]、[[entities/minimax|MiniMax]]
 
 ## 时间线
 
 - 2023 成立
 - 2024-12 DeepSeek-V3
 - 2025-01 DeepSeek-R1
+- 2026-02-23 [[entities/anthropic|Anthropic]] 指控其与月之暗面、MiniMax 用欺诈账号蒸馏 Claude
 
 ## 相关实体
 
 - [[entities/deepseek-r1|DeepSeek-R1]]
 - [[entities/qwen|Qwen]]
 - [[entities/alibaba|阿里巴巴（通义）]]
+- [[entities/moonshot-ai|月之暗面（Moonshot AI）]]
+- [[entities/zhipu-ai|智谱（Z.ai）]]
+- [[entities/minimax|MiniMax]]
 
 ## 相关概念
 

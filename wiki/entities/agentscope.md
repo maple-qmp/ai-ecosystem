@@ -13,8 +13,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
+updated: 2026-11-05
+sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot-ai-survey-2026-11]]", "[[sources/minimax-survey-2026-11]]", "[[sources/bytedance-doubao-survey-2026-11]]"]
 ---
 
 # AgentScope
@@ -37,10 +37,16 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
 - 持久会话：事件日志与检查点
 - 工具可在本地或配置好的沙箱中执行
 
+## 模型提供方
+
+- **Python 版**：模型模块内置 OpenAI、Anthropic、Gemini、DashScope、DeepSeek、Moonshot（[[entities/kimi|Kimi]]）、Volcengine（[[entities/doubao|豆包]]）、xAI、Ollama；2026-09 起新增 `MiniMaxChatModel`，默认用 [[entities/minimax-m|MiniMax-M3]]
+- **Java 2.0**：模型提供方拆成独立扩展模块，官方列出 DashScope、OpenAI、Anthropic、Gemini、Ollama；[[entities/glm|GLM]] 等其他模型通过 OpenAI 兼容模块接入
+
 ## 时间线
 
 - 2025 年末 AgentScope Java 1.0 与 AgentScope Runtime 1.0 同时发布
 - 2026 AgentScope Java 2.0（Harness SDK + Service）
+- 2026-09 Python 版新增 MiniMax 模型支持
 - 2026-10-08 `agentscope-core` 2.1.0-BETA1；最新正式版 2.0.4（Maven Central）
 
 ## 相关实体
@@ -48,6 +54,9 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
 - [[entities/alibaba|阿里巴巴（通义）]]
 - [[entities/spring-ai-alibaba|Spring AI Alibaba]]
 - [[entities/qwen|Qwen]]
+- [[entities/kimi|Kimi]]
+- [[entities/minimax-m|MiniMax-M]]
+- [[entities/doubao|豆包]]
 
 ## 相关概念
 
@@ -62,3 +71,4 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
 ## 来源摘录
 
 - "The Java Harness requires JDK 17 or later and credentials for your chosen model." — [[sources/java-agent-ecosystem-survey-2026-11|Java Agent 开发生态调研]]
+- "MiniMax chat models supported via `MiniMaxChatModel` (MiniMax-M3 by default)." — [[sources/minimax-survey-2026-11|MiniMax 调研]]（AgentScope README）

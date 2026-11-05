@@ -8,6 +8,14 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-05] ingest | 中国模型生态：月之暗面、智谱、MiniMax、字节跳动时间线调研
+
+- 来源：四家的 Hugging Face 模型卡、许可证与仓库元数据，Kimi K3 博客，ByteDance Seed 2.0 博客，Wikipedia 及其引用的 Bloomberg / TechCrunch / CNBC / Reuters / NYT / SCMP 等报道，上市报道，阿里云百炼 2026-05 峰会报道，AgentScope / Spring AI Alibaba README（`raw/月之暗面-Kimi调研-2026-11.md`、`raw/智谱-GLM调研-2026-11.md`、`raw/MiniMax调研-2026-11.md`、`raw/字节-豆包调研-2026-11.md`）
+- 新建 4 个来源页：`sources/moonshot-ai-survey-2026-11`、`sources/zhipu-ai-survey-2026-11`、`sources/minimax-survey-2026-11`、`sources/bytedance-doubao-survey-2026-11`
+- 新建 8 个实体页：组织 `moonshot-ai`、`zhipu-ai`、`minimax`、`bytedance`；模型家族 `kimi`、`glm`、`minimax-m`、`doubao`
+- 更新 `alibaba`（新增“与其他中国模型公司的关系”：投资、百炼上架第三方模型、框架侧接入）、`agentscope`（新增模型提供方一节）、`spring-ai-alibaba`（新增接入其他中国模型一节）、`qwen`、`deepseek`（竞品与时间线）；`anthropic-messages-api`、`claude-code` 中的 GLM / Kimi / MiniMax 改为链接
+- 更新 L2、X 地图页
+
 ## [2026-11-05] ingest | 推理引擎与本地部署调研
 
 - 来源：vLLM、SGLang、TensorRT-LLM、NVIDIA Dynamo、llm-d、llama.cpp、Ollama、LM Studio（lms）、DeepSpeed、Megatron-LM、EAGLE 的 GitHub README 与文档，GGUF 规范，vLLM 发布博客、LMSYS SGLang 博客、Hugging Face「GGML and llama.cpp join HF」博客原文，PyPI 版本元数据；融资与公司信息来自 TechCrunch、SiliconANGLE、Business Wire 等报道（原文未能打开，标注为二手）（`raw/推理引擎与本地部署调研-2026-11.md`）
@@ -188,5 +196,17 @@
 > Wiki 状态概览：共 105 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 7 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+
+
+
+## [2026-11-05 13:36] Wiki 维护报告
+
+
+> Wiki 状态概览：共 117 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 10 秒
+
+未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+
 
 

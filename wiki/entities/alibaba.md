@@ -5,33 +5,46 @@ tags: [organization]
 kind: company
 layer: X
 aliases: ["Alibaba", "阿里云", "通义"]
-competitors: ["[[entities/deepseek]]", "[[entities/meta-ai]]"]
+competitors: ["[[entities/deepseek]]", "[[entities/meta-ai]]", "[[entities/bytedance]]"]
 depends_on: []
 status: active
-as_of: 2026-06
+as_of: 2026-11
 origin: claude-seed
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
+updated: 2026-11-05
+sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot-ai-survey-2026-11]]", "[[sources/zhipu-ai-survey-2026-11]]", "[[sources/minimax-survey-2026-11]]"]
 ---
 
 # 阿里巴巴（通义）
 
 ## 描述
 
-阿里巴巴集团及阿里云，研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云提供算力与模型服务。在 Java Agent 开发方向开源了 [[entities/spring-ai-alibaba|Spring AI Alibaba]] 和 [[entities/agentscope|AgentScope]]（Java 版官方称在集团内 13+ 个业务单元生产使用）。
+阿里巴巴集团及阿里云，研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云提供算力与模型服务。在 Java Agent 开发方向开源了 [[entities/spring-ai-alibaba|Spring AI Alibaba]] 和 [[entities/agentscope|AgentScope]]（Java 版官方称在集团内 13+ 个业务单元生产使用）。阿里同时是多家中国模型公司的早期投资方：2023 年投资[[entities/zhipu-ai|智谱]]，2024-02 领投[[entities/moonshot-ai|月之暗面]]，2024-03 领投 [[entities/minimax|MiniMax]]；2026-05 起，阿里云百炼也上架了这三家的模型。
 
 ## 生态位置
 
 - **层级**：[[maps/X-横切主题|X-横切主题]] · 公司
 - **上游依赖**：—
-- **竞争 / 替代**：[[entities/deepseek|DeepSeek]]、[[entities/meta-ai|Meta AI]]
+- **竞争 / 替代**：[[entities/deepseek|DeepSeek]]、[[entities/meta-ai|Meta AI]]、[[entities/bytedance|字节跳动]]（火山引擎对阿里云百炼，豆包对千问）
+
+## 与其他中国模型公司的关系
+
+- **[[entities/moonshot-ai|月之暗面]]**：2024-02 领投约 10 亿美元，是主要股东；百炼上架 [[entities/kimi|Kimi]] K2.6；2026-07 有报道称阿里云为其提供 H200 集群，阿里否认
+- **[[entities/zhipu-ai|智谱]]**：2023 年约 25 亿元融资的投资方之一；百炼上架 [[entities/glm|GLM]]-5.1
+- **[[entities/minimax|MiniMax]]**：2024-03 领投 6 亿美元；百炼上架 [[entities/minimax-m|MiniMax]] M2.7
+- **[[entities/bytedance|字节跳动]]**：没有股权关系，在云和 C 端助手上正面竞争
+- **百炼第三方模型**：2026-05-20 阿里云峰会宣布百炼用统一 API 接入第三方模型，首批有 GLM-5.1、MiniMax M2.7、Kimi K2.6，以及多家公司的视频和多模态模型
+- **框架侧**：[[entities/agentscope|AgentScope]]（Python）内置 Moonshot、Volcengine、MiniMax 提供方；[[entities/spring-ai-alibaba|Spring AI Alibaba]] 官方只单列 DashScope 等，其他模型通过 OpenAI 兼容接口或百炼接入
 
 ## 时间线
 
 - 2023 通义千问发布
 - 2023 起陆续开源 Qwen 系列
+- 2023 投资智谱
+- 2024-02 领投月之暗面
+- 2024-03 领投 MiniMax
+- 2026-05-20 百炼上架第三方模型（GLM-5.1、MiniMax M2.7、Kimi K2.6 等）
 
 ## 相关实体
 
@@ -39,6 +52,10 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]"]
 - [[entities/deepseek|DeepSeek]]
 - [[entities/spring-ai-alibaba|Spring AI Alibaba]]
 - [[entities/agentscope|AgentScope]]
+- [[entities/moonshot-ai|月之暗面（Moonshot AI）]]
+- [[entities/zhipu-ai|智谱（Z.ai）]]
+- [[entities/minimax|MiniMax]]
+- [[entities/bytedance|字节跳动]]
 
 ## 相关概念
 
