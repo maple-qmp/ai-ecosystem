@@ -25,6 +25,7 @@ updated: 2026-11-05
 - [[entities/zhipu-ai|智谱（Z.ai）]]
 - [[entities/minimax|MiniMax]]
 - [[entities/mistral-ai|Mistral AI]]
+- [[entities/xai|xAI（SpaceX Super Intelligence）]]
 
 ### 公司
 

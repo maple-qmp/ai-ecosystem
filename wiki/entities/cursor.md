@@ -13,8 +13,8 @@ as_of: 2026-06
 origin: claude-seed
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: []
+updated: 2026-11-05
+sources: ["[[sources/frontier-closed-models-survey-2026-11]]"]
 ---
 
 # Cursor
@@ -32,6 +32,10 @@ Anysphere 公司基于 VS Code 打造的 AI 代码编辑器，可接入 [[entiti
 ## 时间线
 
 - 2023 发布
+- 2026-04-21 与 xAI 签收购期权协议
+- 2026-07-08 与 xAI 共同开发的 [[entities/grok|Grok 4.5]] 首发于 Cursor
+- 2026-08 OpenAI 停止向 Cursor 提供模型
+- 2026-08-14 被 SpaceX 以 600 亿美元全股票收购完成，归入 [[entities/xai|xAI（SpaceX Super Intelligence）]]
 
 ## 相关实体
 
@@ -39,6 +43,8 @@ Anysphere 公司基于 VS Code 打造的 AI 代码编辑器，可接入 [[entiti
 - [[entities/github-copilot|GitHub Copilot]]
 - [[entities/claude|Claude]]
 - [[entities/gpt|GPT]]
+- [[entities/xai|xAI（SpaceX Super Intelligence）]]
+- [[entities/grok|Grok]]
 
 ## 相关概念
 

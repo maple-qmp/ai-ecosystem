@@ -13,7 +13,7 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot-ai-survey-2026-11]]", "[[sources/zhipu-ai-survey-2026-11]]", "[[sources/minimax-survey-2026-11]]"]
+sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot-ai-survey-2026-11]]", "[[sources/zhipu-ai-survey-2026-11]]", "[[sources/minimax-survey-2026-11]]", "[[sources/open-weight-flagships-survey-2026-11]]"]
 ---
 
 # 阿里巴巴（通义）
@@ -39,12 +39,14 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot
 
 ## 时间线
 
-- 2023 通义千问发布
-- 2023 起陆续开源 Qwen 系列
 - 2023 投资智谱
+- 2023 起陆续开源 Qwen 系列
+- 2023 通义千问发布
 - 2024-02 领投月之暗面
 - 2024-03 领投 MiniMax
+- 2025-04 Qwen3 全系 Apache 2.0
 - 2026-05-20 百炼上架第三方模型（GLM-5.1、MiniMax M2.7、Kimi K2.6 等）
+- 2026-08-12 开放 Qwen3.8 旗舰权重（2.4T），改用带收入门槛的许可证，见 [[entities/qwen|Qwen]]
 
 ## 相关实体
 

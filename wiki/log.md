@@ -8,6 +8,15 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-05] ingest | 前沿闭源与开放权重旗舰模型时间线调研（核实 L2 种子页）
+
+- 来源：OpenAI 模型页与 API changelog，Anthropic 模型总览、弃用表与 Opus 4.8 / Opus 5 / Fable 5.1 模型页，Gemini API 模型页与 changelog，DeepSeek-V4、Qwen3.8、Mistral Large 4 的 Hugging Face 模型卡、许可证与 API 元数据，Wikipedia（GPT-5、Claude、Gemini、Grok、xAI、Llama、Qwen、DeepSeek、Mistral AI 等，经 MediaWiki API 读取）；Gemini 4 Argon 预览、GPT-6 Astra 准入和 Muse Spark Open 只有二手报道（`raw/前沿闭源模型时间线调研-2026-11.md`、`raw/开放权重旗舰模型时间线调研-2026-11.md`）
+- 新建 2 个来源页：`sources/frontier-closed-models-survey-2026-11`、`sources/open-weight-flagships-survey-2026-11`
+- 新建 5 个实体页：`grok`、`xai`、`muse`、`deepseek-v`、`mistral-models`
+- 重写 8 个种子页并改为 `origin: source`：`gpt`、`claude`、`gemini`、`llama`（status 改为 deprecated）、`qwen`、`deepseek`、`deepseek-r1`、`mistral-ai`
+- 更新 `openai`、`anthropic`、`google-deepmind`、`meta-ai`、`alibaba`、`cursor`（被 SpaceX 收购）的时间线与 sources
+- 更新 L2、X 地图页
+
 ## [2026-11-05] ingest | 中国模型生态：月之暗面、智谱、MiniMax、字节跳动时间线调研
 
 - 来源：四家的 Hugging Face 模型卡、许可证与仓库元数据，Kimi K3 博客，ByteDance Seed 2.0 博客，Wikipedia 及其引用的 Bloomberg / TechCrunch / CNBC / Reuters / NYT / SCMP 等报道，上市报道，阿里云百炼 2026-05 峰会报道，AgentScope / Spring AI Alibaba README（`raw/月之暗面-Kimi调研-2026-11.md`、`raw/智谱-GLM调研-2026-11.md`、`raw/MiniMax调研-2026-11.md`、`raw/字节-豆包调研-2026-11.md`）
@@ -208,5 +217,15 @@
 未检测到重复、断链、空洞、孤立页面或无来源引证。
 
 
+
+
+
+
+## [2026-11-05 21:54] Wiki 维护报告
+
+
+> Wiki 状态概览：共 140 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 10 秒
+
+未检测到重复、断链、空洞、孤立页面或无来源引证。
 
 

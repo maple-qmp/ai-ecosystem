@@ -13,8 +13,8 @@ as_of: 2026-06
 origin: claude-seed
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: []
+updated: 2026-11-05
+sources: ["[[sources/frontier-closed-models-survey-2026-11]]"]
 ---
 
 # Google DeepMind
@@ -34,6 +34,11 @@ Google 的 AI 研究主体，2023 年由 Google Brain 与 DeepMind 合并而成�
 - 2017 Transformer 论文
 - 2023 Brain 与 DeepMind 合并
 - 2023-12 Gemini 发布
+- 2024-02 Gemini 1.5（MoE、1M 上下文）；开放权重的 Gemma
+- 2025-03 Gemini 2.5 Pro
+- 2025-11 Gemini 3 Pro
+- 2026-04 Gemma 4
+- 2026-10-13 Gemini 4 Argon 正式开放，见 [[entities/gemini|Gemini]]
 
 ## 相关实体
 

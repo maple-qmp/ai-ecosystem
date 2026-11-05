@@ -14,7 +14,7 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-modules-survey-2026-11]]"]
+sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-modules-survey-2026-11]]", "[[sources/frontier-closed-models-survey-2026-11]]"]
 ---
 
 # Anthropic
@@ -44,14 +44,17 @@ Anthropic 的核心产品是专有的，可独立使用的部分集中在标准�
 - 2023-03 发布 Claude
 - 2024-11 发布 MCP
 - 2025 推出 Claude Code
-- 2025-12-03 宣布收购 [[entities/bun|Bun]]（金额未披露），同时宣布 Claude Code 年化收入达 10 亿美元
 - 2025-05 开源 [[entities/circuit-tracer|circuit-tracer]]
 - 2025-10 开源 [[entities/sandbox-runtime|Sandbox Runtime]] 与 [[entities/petri|Petri]]
 - 2025-12 MCP 捐给 Linux Foundation 下新成立的 Agentic AI Foundation；[[concepts/agent-skills|Agent Skills]] 作为开放标准发布
+- 2025-12-03 宣布收购 [[entities/bun|Bun]]（金额未披露），同时宣布 Claude Code 年化收入达 10 亿美元
 - 2026-01 发布新版 [[concepts/claude-constitution|Claude 宪法]]，CC0 协议
 - 2026-03-31 Claude Code npm 包误带 source map，源码外泄
+- 2026-04-07 Project Glasswing：Mythos Preview 只给受信机构
 - 2026-05-07 Petri 与 Bloom 交给非营利组织 Meridian Labs
+- 2026-06-09 发布 Claude Fable 5 与 Mythos 5
 - 2026-07-28 MCP 发布无状态版规范，见 [[concepts/mcp-request-flow|MCP 请求流程]]
+- 2026-09-22 起发布 Claude 5.5 系列（Opus / Sonnet / Haiku），见 [[entities/claude|Claude]]
 
 ## 相关实体
 
