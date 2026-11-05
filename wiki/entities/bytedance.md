@@ -13,7 +13,7 @@ origin: source
 reviewed: false
 created: 2026-11-05
 updated: 2026-11-05
-sources: ["[[sources/bytedance-doubao-survey-2026-11]]"]
+sources: ["[[sources/bytedance-doubao-survey-2026-11]]", "[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
 # 字节跳动
@@ -52,7 +52,8 @@ sources: ["[[sources/bytedance-doubao-survey-2026-11]]"]
 - 2025-08 特斯拉中国车机接入豆包；08-20 开源 Seed-OSS-36B
 - 2025-11 Doubao-Seed-Code 与低价编码订阅
 - 2025-12-18 冬季 FORCE 大会：豆包大模型 1.8、Seedance 1.5 Pro
-- 2026-02-14 Seed 2.0 与 Seedance 2.0；Dola 开始改用自研 Seed 模型（4 月全量）
+- 2026-02-14 Seed 2.0 与 [[entities/seedance|Seedance]] 2.0；Dola 开始改用自研 Seed 模型（4 月全量）
+- 2026-03 Seedance 2.0 收到迪士尼、Skydance 停止侵权函，暂停海外发布（二手）
 - 2026-04 日均 token 约 120 万亿
 - 2026-05 豆包用户约 3.3 亿，推出付费订阅
 - 2026-06-23 夏季 FORCE 大会：Seed 2.1，日均 token 超 180 万亿；IDC 称火山引擎 MaaS 份额 49.5%
@@ -61,6 +62,8 @@ sources: ["[[sources/bytedance-doubao-survey-2026-11]]"]
 ## 相关实体
 
 - [[entities/doubao|豆包]]
+- [[entities/seedance|Seedance / 即梦]]
+- [[entities/kuaishou|快手]]
 - [[entities/alibaba|阿里巴巴（通义）]]
 - [[entities/agentscope|AgentScope]]
 - [[entities/minimax|MiniMax]]

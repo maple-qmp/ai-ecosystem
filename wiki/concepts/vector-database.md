@@ -8,7 +8,7 @@ as_of: 2026-06
 origin: claude-seed
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-05
 sources: []
 ---
 
@@ -37,10 +37,12 @@ sources: []
 ## 相关概念
 
 - [[concepts/rag|检索增强生成（RAG）]]
+- [[concepts/embedding|嵌入（Embedding）]]
 
 ## 相关实体
 
 - [[entities/langchain|LangChain]]
+- 嵌入模型：[[entities/openai-embeddings|OpenAI text-embedding]]、[[entities/qwen3-embedding|Qwen3-Embedding]]、[[entities/bge|BGE]]、[[entities/voyage-embeddings|Voyage]]（已并入 MongoDB Atlas）、[[entities/cohere-embed|Cohere Embed]]
 
 ## 我的判断
 

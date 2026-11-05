@@ -209,3 +209,17 @@
 > Wiki 状态概览：共 140 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 10 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+## [2026-11-05 22:40] ingest | 多模态与嵌入模型调研：图像、视频、语音、嵌入
+
+**创建页面**：[[concepts/diffusion-model]], [[concepts/embedding]], [[concepts/text-to-speech]], [[entities/baai]], [[entities/bge]], [[entities/black-forest-labs]], [[entities/cohere]], [[entities/cohere-embed]], [[entities/elevenlabs]], [[entities/flux]], [[entities/gpt-image]], [[entities/imagen]], [[entities/kling]], [[entities/kuaishou]], [[entities/openai-embeddings]], [[entities/qwen3-embedding]], [[entities/seedance]], [[entities/sora]], [[entities/stability-ai]], [[entities/stable-diffusion]], [[entities/veo]], [[entities/voyage-ai]], [[entities/voyage-embeddings]], [[entities/whisper]], [[sources/multimodal-embedding-models-survey-2026-11]]
+
+**更新页面**：[[concepts/rag]], [[concepts/vector-database]], [[entities/alibaba]], [[entities/bytedance]], [[entities/gemini]], [[entities/google-deepmind]], [[entities/gpt]], [[entities/openai]], [[entities/qwen]], [[maps/L2-基础模型]]
+
+- 来源：Stable Diffusion / SD3.5、FLUX / FLUX.2、Whisper、Qwen3-Embedding、Qwen3-VL-Embedding、FlagEmbedding（BGE）、CosyVoice、Kokoro、Wan2.2、HunyuanVideo 的 GitHub README（一手）；其余事实来自 VentureBeat、9to5Google、CBS、SiliconANGLE、Bloomberg Law 等报道及 Gemini API changelog、Cohere changelog 的搜索摘要（二手，原文逐条标注）。本次云端环境无法访问 Wikipedia 和厂商文档站（`raw/多模态与嵌入模型调研-2026-11.md`）
+- 新建来源页 `sources/multimodal-embedding-models-survey-2026-11`
+- 新建 14 个模型家族页：图像 `stable-diffusion`、`flux`、`gpt-image`、`imagen`；视频 `sora`、`veo`、`kling`、`seedance`；语音 `whisper`；嵌入 `openai-embeddings`、`qwen3-embedding`、`bge`、`voyage-embeddings`、`cohere-embed`
+- 新建 7 个组织页（layer X）：`stability-ai`、`black-forest-labs`、`kuaishou`、`elevenlabs`、`baai`、`voyage-ai`、`cohere`
+- 新建 3 个概念页：`diffusion-model`、`embedding`、`text-to-speech`
+- 更新 `openai`、`google-deepmind`、`bytedance`、`alibaba` 的时间线与相关实体；`qwen`、`gemini`、`gpt` 加相关实体链接；`rag`、`vector-database` 只加嵌入相关链接（仍为种子页）
+- 更新 L2 地图页：新增「多模态」「嵌入」分组和 3 个概念

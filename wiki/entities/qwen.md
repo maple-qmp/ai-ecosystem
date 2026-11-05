@@ -16,7 +16,7 @@ origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/open-weight-flagships-survey-2026-11]]"]
+sources: ["[[sources/open-weight-flagships-survey-2026-11]]", "[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
 # Qwen
@@ -60,6 +60,7 @@ sources: ["[[sources/open-weight-flagships-survey-2026-11]]"]
 ## 相关实体
 
 - [[entities/alibaba|阿里巴巴（通义）]]
+- [[entities/qwen3-embedding|Qwen3-Embedding]]（基于 Qwen3 的嵌入与重排模型）
 - [[entities/agentscope|AgentScope]]
 - [[entities/spring-ai-alibaba|Spring AI Alibaba]]
 - [[entities/llama|Llama]]

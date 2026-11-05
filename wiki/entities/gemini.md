@@ -16,7 +16,7 @@ origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/frontier-closed-models-survey-2026-11]]"]
+sources: ["[[sources/frontier-closed-models-survey-2026-11]]", "[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
 # Gemini
@@ -62,6 +62,8 @@ sources: ["[[sources/frontier-closed-models-survey-2026-11]]"]
 
 - [[entities/google-deepmind|Google DeepMind]]
 - [[entities/google-adk|Google ADK]]
+- [[entities/imagen|Imagen]]（Nano Banana 之前的图像模型）
+- [[entities/veo|Veo]]（视频）
 - [[entities/claude|Claude]]
 - [[entities/gpt|GPT]]
 - [[entities/grok|Grok]]
