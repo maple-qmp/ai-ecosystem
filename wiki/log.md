@@ -8,6 +8,16 @@
 ---
 > 操作日志，按时间倒序记录所有 wiki 操作。
 
+## [2026-11-05] ingest | 推理引擎与本地部署调研
+
+- 来源：vLLM、SGLang、TensorRT-LLM、NVIDIA Dynamo、llm-d、llama.cpp、Ollama、LM Studio（lms）、DeepSpeed、Megatron-LM、EAGLE 的 GitHub README 与文档，GGUF 规范，vLLM 发布博客、LMSYS SGLang 博客、Hugging Face「GGML and llama.cpp join HF」博客原文，PyPI 版本元数据；融资与公司信息来自 TechCrunch、SiliconANGLE、Business Wire 等报道（原文未能打开，标注为二手）（`raw/推理引擎与本地部署调研-2026-11.md`）
+- 新建来源页 `sources/inference-engines-survey-2026-11`
+- 新建 11 个实体页：`sglang`、`tensorrt-llm`、`nvidia-dynamo`、`llm-d`、`llama-cpp`（含 ggml）、`ollama`、`lm-studio`、`deepspeed`、`megatron-lm`、`inferact`、`radixark`
+- 新建 4 个概念页：`kv-cache`、`speculative-decoding`、`disaggregated-serving`、`gguf`
+- 重写 `vllm`：去掉种子标记，补能力、时间线、Inferact
+- 更新 `nvidia`、`hugging-face`（ggml.ai 加入）、`pytorch`（PyTorch Foundation 托管 vLLM / DeepSpeed）、`microsoft`（DeepSpeed）、`quantization`、`anthropic-messages-api`（Ollama、LM Studio、vLLM 链接），补 sources
+- 更新 L3 地图页
+
 ## [2026-11-05] ingest | Claude 生态可独立使用的项目与模块调研
 
 - 来源：anthropics、anthropic-experimental、safety-research、modelcontextprotocol、agentskills 组织的 GitHub 仓库元数据与 README，code.claude.com 的第三方部署、LLM 网关、网关兼容、Claude apps gateway、自托管环境、数据使用、Agent SDK 文档，npm / PyPI 元数据，Ollama 与 DeepSeek 的 Anthropic 兼容文档，Petri 捐赠公告，Claude Code 源码泄露报道（`raw/Claude独立可用模块调研-2026-11.md`）

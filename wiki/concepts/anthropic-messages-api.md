@@ -9,7 +9,7 @@ origin: source
 reviewed: false
 created: 2026-11-05
 updated: 2026-11-05
-sources: ["[[sources/claude-independent-modules-survey-2026-11]]"]
+sources: ["[[sources/claude-independent-modules-survey-2026-11]]", "[[sources/inference-engines-survey-2026-11]]"]
 ---
 
 # Anthropic Messages API
@@ -30,10 +30,11 @@ sources: ["[[sources/claude-independent-modules-survey-2026-11]]"]
 
 - **企业 LLM 网关**：在 Claude Code 和模型提供商之间统一鉴权、计费、限流、审计；Anthropic 自己的 Claude apps gateway 内置在 `claude` 二进制里（`claude gateway --config gateway.yaml`），用企业 IdP 登录，数据面不连 Anthropic
 - **用别家模型驱动 Claude Code**（官方不支持）：
-  - Ollama（v0.14.0 起，2026-01）：`ANTHROPIC_BASE_URL=http://localhost:11434`，令牌随便填；或 `ollama launch claude` 一键配置；本地模型需要足够大的上下文
+  - [[entities/ollama|Ollama]]（v0.14.0 起，2026-01）：`ANTHROPIC_BASE_URL=http://localhost:11434`，令牌随便填；或 `ollama launch claude` 一键配置；本地模型需要足够大的上下文
   - DeepSeek：`https://api.deepseek.com/anthropic`
   - 智谱 GLM：`https://api.z.ai/api/anthropic`（国内 `open.bigmodel.cn/api/anthropic`）
-  - Kimi、MiniMax、Qwen、OpenRouter、LM Studio 等也有兼容端点（地址以各家文档为准）
+  - [[entities/lm-studio|LM Studio]]（0.4.x 起，`http://localhost:1234`）、[[entities/vllm|vLLM]]（服务端内置 Anthropic Messages API）
+  - Kimi、MiniMax、Qwen、OpenRouter 等也有兼容端点（地址以各家文档为准）
   - 一般还要用 `ANTHROPIC_MODEL` 等变量把 Opus / Sonnet / Haiku 档位映射到对方的模型名
 - **仍会访问 Anthropic 的地方**：WebFetch 的域名安全检查把主机名发到 `api.anthropic.com`，不受“关闭非必要流量”影响，需用 `skipWebFetchPreflight: true` 关掉；fast mode 可用性检查也直连 `api.anthropic.com`
 
@@ -57,6 +58,9 @@ sources: ["[[sources/claude-independent-modules-survey-2026-11]]"]
 - [[entities/deepseek|DeepSeek]]
 - [[entities/qwen|Qwen]]
 - [[entities/codex-cli|Codex CLI]]
+- [[entities/ollama|Ollama]]
+- [[entities/lm-studio|LM Studio]]
+- [[entities/vllm|vLLM]]
 
 ## 我的判断
 

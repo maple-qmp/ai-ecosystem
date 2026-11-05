@@ -14,15 +14,15 @@ as_of: 2026-06
 origin: claude-seed
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: []
+updated: 2026-11-05
+sources: ["[[sources/inference-engines-survey-2026-11]]"]
 ---
 
 # PyTorch
 
 ## 描述
 
-主流深度学习框架，起源于 [[entities/meta-ai|Meta]]，2022 年起由 Linux Foundation 下的 PyTorch Foundation 托管。研究与工业界训练大模型的默认选择，依赖 [[entities/cuda|CUDA]] 等后端。
+主流深度学习框架，起源于 [[entities/meta-ai|Meta]]，2022 年起由 Linux Foundation 下的 PyTorch Foundation 托管。研究与工业界训练大模型的默认选择，依赖 [[entities/cuda|CUDA]] 等后端。2025-05 PyTorch Foundation 扩展为伞形基金会，首批托管 [[entities/vllm|vLLM]] 和 [[entities/deepspeed|DeepSpeed]]；[[entities/tensorrt-llm|TensorRT-LLM]] 1.0、[[entities/megatron-lm|Megatron Core]] 也都构建在 PyTorch 之上。
 
 ## 生态位置
 
@@ -34,6 +34,7 @@ sources: []
 
 - 2016 发布
 - 2022 移交 PyTorch Foundation
+- 2025-05 PyTorch Foundation 成为伞形基金会，托管 vLLM、DeepSpeed
 
 ## 相关实体
 
@@ -41,6 +42,10 @@ sources: []
 - [[entities/cuda|CUDA]]
 - [[entities/hugging-face|Hugging Face]]
 - [[entities/vllm|vLLM]]
+- [[entities/deepspeed|DeepSpeed]]
+- [[entities/megatron-lm|Megatron-LM]]
+- [[entities/tensorrt-llm|TensorRT-LLM]]
+- [[entities/sglang|SGLang]]
 
 ## 相关概念
 
