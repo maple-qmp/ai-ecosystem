@@ -33,7 +33,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]"]
 ## 时间线
 
 - 2025-03-12 PyPI 首个开发包
-- 2026-03 GTC 期间发布 1.0，宣布投产；报道列出的采用方有 CoreWeave、Nebius、Together AI、[[entities/cursor|Cursor]]、Perplexity、字节跳动、美团等，NVIDIA 称在 GB200 NVL 上推理性能最高提升 7 倍
+- 2026-03 GTC 期间发布 1.0，宣布投产；报道列出的采用方有 CoreWeave、Nebius、Together AI、[[entities/cursor|Cursor]]、Perplexity、[[entities/bytedance|字节跳动]]、美团等，NVIDIA 称在 GB200 NVL 上推理性能最高提升 7 倍
 - 2026-11 稳定版 1.6.1，1.7.0 开发中
 
 ## 相关实体

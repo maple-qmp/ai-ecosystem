@@ -40,7 +40,7 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot
 ## 模型提供方
 
 - **Python 版**：模型模块内置 OpenAI、Anthropic、Gemini、DashScope、DeepSeek、Moonshot（[[entities/kimi|Kimi]]）、Volcengine（[[entities/doubao|豆包]]）、xAI、Ollama；2026-09 起新增 `MiniMaxChatModel`，默认用 [[entities/minimax-m|MiniMax-M3]]
-- **Java 2.0**：模型提供方拆成独立扩展模块，官方列出 DashScope、OpenAI、Anthropic、Gemini、Ollama；[[entities/glm|GLM]] 等其他模型通过 OpenAI 兼容模块接入
+- **Java 2.0**：模型提供方拆成独立扩展模块，官方列出 DashScope、OpenAI、Anthropic、Gemini、[[entities/ollama|Ollama]]；[[entities/glm|GLM]] 等其他模型通过 OpenAI 兼容模块接入
 
 ## 时间线
 
