@@ -76,6 +76,8 @@ Anthropic 的核心产品是专有的，可独立使用的部分集中在标准�
 - [[concepts/agent-skills|Agent Skills]]
 - [[concepts/anthropic-messages-api|Anthropic Messages API]]
 - [[concepts/claude-constitution|Claude 宪法]]
+- [[concepts/frontier-safety-frameworks|前沿模型安全框架]]（Responsible Scaling Policy）
+- [[concepts/california-sb-53|加州 SB 53]]
 
 ## 我的判断
 

@@ -65,6 +65,8 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/agent-harness|Agent Harness]]
+- [[concepts/benchmark-contamination|基准污染与饱和]]
+- [[concepts/terminal-bench|Terminal-Bench]]
 
 ## 我的判断
 

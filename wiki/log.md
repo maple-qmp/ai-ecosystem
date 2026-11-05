@@ -209,3 +209,16 @@
 > Wiki 状态概览：共 140 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 10 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+## [2026-11-05 21:08] ingest | AI 评测基准与政策法规调研（X 横切主题，核实规模定律种子页）
+
+**创建页面**：[[sources/ai-benchmarks-survey-2026-11]], [[sources/ai-policy-survey-2026-11]], [[concepts/swe-bench]], [[concepts/chatbot-arena]], [[concepts/humanitys-last-exam]], [[concepts/gpqa]], [[concepts/mmlu]], [[concepts/arc-agi]], [[concepts/terminal-bench]], [[concepts/tau-bench]], [[concepts/benchmark-contamination]], [[concepts/eu-ai-act]], [[concepts/china-generative-ai-measures]], [[concepts/us-federal-ai-policy]], [[concepts/california-sb-53]], [[concepts/frontier-safety-frameworks]]
+
+**更新页面**：[[concepts/scaling-laws]], [[entities/promptfoo]], [[entities/langsmith]], [[entities/anthropic]], [[entities/openai]], [[maps/X-横切主题]]
+
+- 来源：SWE-bench、SWE-bench Pro、FastChat、HLE、GPQA、MMLU、MMLU-Pro、ARC-AGI、Terminal-Bench、Harbor、τ²-bench 的 GitHub README，Kaplan 2020 与 Chinchilla 2022 论文摘要（GitHub 镜像）；欧盟 AI Act 第 51/53/55/101/113 条、《生成式人工智能服务管理暂行办法》、《互联网信息服务算法推荐管理规定》、加州 SB 53 的原文（GitHub 镜像），Anthropic RSP 页面与 v3 公告；排行榜分数、美国行政令、纽约 RAISE Act、备案数量、OpenAI Preparedness Framework 来自搜索摘要，标为二手（`raw/AI评测基准调研-2026-11.md`、`raw/AI政策法规调研-2026-11.md`）
+- 新建 2 个来源页：`sources/ai-benchmarks-survey-2026-11`、`sources/ai-policy-survey-2026-11`
+- 新建 14 个概念页（layer: X）：评测基准 8 个 + `benchmark-contamination`；政策法规 5 个
+- 重写 `scaling-laws`：依据两篇原始论文摘要改为 `origin: source`，补推理时计算扩展与监管算力门槛
+- `promptfoo`、`langsmith` 链到评测基准页，`anthropic`、`openai` 链到前沿模型安全框架页
+- 更新 X 地图页：新增「评测基准」「政策法规」分组

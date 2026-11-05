@@ -44,6 +44,26 @@ updated: 2026-11-05
 - [[entities/circuit-tracer|circuit-tracer]]（含 jacobian-lens）
 - [[entities/petri|Petri / Bloom]]
 
+### 评测基准
+
+- [[concepts/swe-bench|SWE-bench]]（含 Verified、Pro）
+- [[concepts/chatbot-arena|Chatbot Arena（LMArena / Arena）]]
+- [[concepts/humanitys-last-exam|Humanity's Last Exam]]
+- [[concepts/gpqa|GPQA]]
+- [[concepts/mmlu|MMLU / MMLU-Pro]]
+- [[concepts/arc-agi|ARC-AGI]]
+- [[concepts/terminal-bench|Terminal-Bench]]
+- [[concepts/tau-bench|τ-bench]]
+- [[concepts/benchmark-contamination|基准污染与饱和]]
+
+### 政策法规
+
+- [[concepts/eu-ai-act|欧盟《人工智能法》]]
+- [[concepts/china-generative-ai-measures|中国生成式 AI 管理办法与备案]]
+- [[concepts/us-federal-ai-policy|美国联邦 AI 行政令]]
+- [[concepts/california-sb-53|加州 SB 53]]（含纽约 RAISE Act）
+- [[concepts/frontier-safety-frameworks|前沿模型安全框架]]（Anthropic RSP、OpenAI Preparedness）
+
 ### 人物
 
 - [[entities/jarred-sumner|Jarred Sumner]]

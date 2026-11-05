@@ -55,6 +55,8 @@ sources: ["[[sources/openai-developers-survey-2026-11]]"]
 ## 相关概念
 
 - [[concepts/ai-agent|AI Agent]]
+- [[concepts/benchmark-contamination|基准污染与饱和]]
+- [[concepts/swe-bench|SWE-bench]]
 
 ## 我的判断
 
