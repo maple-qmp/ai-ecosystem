@@ -209,3 +209,16 @@
 > Wiki 状态概览：共 140 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 10 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+## [2026-11-05 22:46] ingest | AI 应用产品调研（补全 L5 应用层，核实编程类种子页）
+
+**创建页面**：[[entities/chatgpt]], [[entities/claude-app]], [[entities/devin]], [[entities/doubao-app]], [[entities/gemini-app]], [[entities/kimi-app]], [[entities/midjourney]], [[entities/perplexity]], [[entities/suno]], [[entities/windsurf]], [[sources/ai-applications-survey-2026-11]]
+
+**更新页面**：[[entities/claude-code]], [[entities/cursor]], [[entities/github-copilot]], [[maps/L5-应用]]
+
+- 来源：Anthropic 官网新闻（Claude 2、Claude 3.7 Sonnet and Claude Code、Claude 4、Claude Design、SpaceX 算力、Claude Tag、Agent Skills 捐赠）、Claude 定价页与产品页、Claude Code 文档、npm `@anthropic-ai/claude-code` 元数据、GitHub 官方文档仓库中的 Copilot 页面与模型表；其余产品官网被网络策略拦截，来自新闻报道与搜索摘要，标注为二手（`raw/AI应用产品调研-2026-11.md`）
+- 新建来源页 `sources/ai-applications-survey-2026-11`
+- 新建 10 个实体页（layer: L5，kind: app）：对话助手 `chatgpt`、`claude-app`、`gemini-app`、`doubao-app`、`kimi-app`；搜索 `perplexity`；编程 `devin`、`windsurf`；创意 `midjourney`、`suno`
+- 重写 `claude-code`、`cursor`、`github-copilot` 并改为 `origin: source`：补发布日期、套餐、支持模型、收购与营收，`## 我的判断` 未改动
+- 未建 Sora、Veo、可灵、FLUX 等生成模型页（由 L2 多模态调研负责），正文中只用普通文字提到
+- 更新 L5 地图页：手工列表按对话助手 / 搜索 / 编程 / 创意分组

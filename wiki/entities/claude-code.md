@@ -7,28 +7,28 @@ layer: L5
 aliases: ["Claude Code"]
 org: "[[entities/anthropic|Anthropic]]"
 released: "2025-02"
-competitors: ["[[entities/cursor]]", "[[entities/github-copilot]]", "[[entities/codex-cli]]", "[[entities/mastra-code]]"]
+competitors: ["[[entities/cursor]]", "[[entities/github-copilot]]", "[[entities/codex-cli]]", "[[entities/mastra-code]]", "[[entities/devin]]", "[[entities/windsurf]]"]
 depends_on: ["[[entities/claude]]", "[[entities/bun]]"]
 status: active
 as_of: 2026-11
-origin: claude-seed
+origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-modules-survey-2026-11]]"]
+sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-modules-survey-2026-11]]", "[[sources/ai-applications-survey-2026-11]]"]
 ---
 
 # Claude Code
 
 ## 描述
 
-[[entities/anthropic|Anthropic]] 的 Agent 式编程工具，可在终端、IDE、桌面与网页中读写代码、运行命令，并通过 [[concepts/model-context-protocol|MCP]] 接入外部工具。CLI 以 [[entities/bun|Bun]] 单文件可执行分发，Anthropic 因此在 2025-12 收购了 Bun。它是专有软件：GitHub 仓库 `anthropics/claude-code` 只放文档、插件示例和 issue，LICENSE 写明“All rights reserved”，使用受 Anthropic 商业条款约束。沙箱功能的底层 [[entities/sandbox-runtime|Sandbox Runtime]] 单独开源；把 Agent 循环当库用的是 [[entities/claude-agent-sdk|Claude Agent SDK]]。
+[[entities/anthropic|Anthropic]] 的 Agent 式编程工具，可在终端、IDE、桌面应用与浏览器中读代码库、改文件、运行命令，并通过 [[concepts/model-context-protocol|MCP]] 接入外部工具。2025-02 随 Claude 3.7 Sonnet 以研究预览发布，2025-05 随 Claude 4 正式发布，Claude 的 Pro 及以上订阅都包含它（见 [[entities/claude-app|Claude 应用]]）。CLI 以 [[entities/bun|Bun]] 单文件可执行分发，Anthropic 因此在 2025-12 收购了 Bun。它是专有软件：GitHub 仓库 `anthropics/claude-code` 只放文档、插件示例和 issue，LICENSE 写明“All rights reserved”，使用受 Anthropic 商业条款约束。沙箱功能的底层 [[entities/sandbox-runtime|Sandbox Runtime]] 单独开源；把 Agent 循环当库用的是 [[entities/claude-agent-sdk|Claude Agent SDK]]。
 
 ## 生态位置
 
-- **层级**：[[maps/L5-应用|L5-应用]] · 应用产品
+- **层级**：[[maps/L5-应用|L5-应用]] · 编程 Agent
 - **上游依赖**：[[entities/claude|Claude]]、[[entities/bun|Bun]]（运行时）
-- **竞争 / 替代**：[[entities/cursor|Cursor]]、[[entities/github-copilot|GitHub Copilot]]、[[entities/codex-cli|Codex CLI]]、[[entities/mastra-code|Mastra Code]]
+- **竞争 / 替代**：[[entities/cursor|Cursor]]、[[entities/github-copilot|GitHub Copilot]]、[[entities/codex-cli|Codex CLI]]、[[entities/mastra-code|Mastra Code]]、[[entities/devin|Devin]]、[[entities/windsurf|Windsurf（Devin Desktop）]]
 
 ## 脱离 Anthropic 使用
 
@@ -44,16 +44,21 @@ sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-module
 
 ## 时间线
 
-- 2025-02 研究预览
-- 2025-05 正式发布
+- 2025-02-24 随 Claude 3.7 Sonnet 以有限研究预览发布，定位命令行 Agent 式编程工具；npm 包同日创建
+- 2025-05-22 随 Claude 4 正式发布：支持通过 GitHub Actions 跑后台任务，原生集成 VS Code 与 JetBrains；npm 1.0.0 同日发布
+- 2025-08-20 进入 Team / Enterprise 商业套餐
+- 2025-09-29 Anthropic 发布「Enabling Claude Code to work more autonomously」；npm 2.0.0 同日发布
 - 2025-10 开源 [[entities/sandbox-runtime|Sandbox Runtime]]，随沙箱功能发布
 - 2025-11 年化收入达 10 亿美元（公开发布约 6 个月）
 - 2025-12 [[entities/anthropic|Anthropic]] 收购 [[entities/bun|Bun]]；Bun 此前已参与 Claude Code 原生安装器
 - 2026-01 Ollama v0.14.0 提供 Anthropic Messages 兼容接口，可用本地模型驱动 Claude Code
+- 2026-01-12 Cowork 研究预览，把 Claude Code 的 Agent 能力带进 Claude 桌面应用（二手报道）
 - 2026-03-31 npm 包 2.1.88 误带 source map，完整 TypeScript 源码外泄；Anthropic 撤下该版本，称是打包失误、无客户数据泄露；代码协议不变
+- 2026-05-06 Pro、Max、Team 与按席位 Enterprise 的五小时限额翻倍，Pro / Max 取消高峰时段限额下调
+- 2026-06-23 Claude Tag 发布，Anthropic 称它是「Claude Code 演进的开始」，产品团队 65% 的代码由内部版 Claude Tag 生成
 - 2026-07 Bun 用 Claude Code 跑约 50 个工作流完成 Zig → Rust 重写，见 [[concepts/agent-driven-code-migration|Agent 驱动的代码迁移]]
 - 2026-08 Bun 1.4 发布，Claude Code 的 p99 CPU 从 24% 降到 10%（Bun 自报）
-- 2026-11-04 发布 2.1.318
+- 2026-11-04 发布 2.1.318（npm `latest`），`stable` 标签为 2.1.311；npm 上累计 557 个版本
 
 ## 相关实体
 
@@ -65,6 +70,8 @@ sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-module
 - [[entities/claude-agent-sdk|Claude Agent SDK]]
 - [[entities/sandbox-runtime|Sandbox Runtime（srt）]]
 - [[entities/codex-cli|Codex CLI]]
+- [[entities/claude-app|Claude 应用]]
+- [[entities/devin|Devin]]
 
 ## 相关概念
 
@@ -85,3 +92,6 @@ sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-module
 - "If Bun breaks, Claude Code breaks." — [[sources/bun-survey-2026-11|Bun 深度调研]]
 - "By default, error reporting, telemetry, and bug reporting are disabled when using Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry, or Claude Platform on AWS." — [[sources/claude-independent-modules-survey-2026-11|Claude 独立模块调研]]
 - "This check runs regardless of which model provider you use and is not affected by `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC`." — [[sources/claude-independent-modules-survey-2026-11|Claude 独立模块调研]]（WebFetch 域名检查）
+- "Claude Code is available as a limited research preview, and enables developers to delegate substantial engineering tasks to Claude directly from their terminal." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（Anthropic 2025-02-24）
+- "Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（Claude Code 文档）
+- "We see Claude Tag as the beginning of an evolution of Claude Code: it makes the model even more proactive, and it works better with a full team." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]
