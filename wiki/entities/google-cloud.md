@@ -29,8 +29,8 @@ Google 的云业务，在 AI 算力上是三大云里自研程度最高的一家
 ## 时间线
 
 - 2025-10-23 Anthropic 宣布扩大 TPU 用量，最多 100 万颗、2026 年超过 1 GW 容量
-- 2025-11 发布第七代 TPU Ironwood
-- 2026 Ironwood 正式可用（各来源日期不一，需按官方公告核实）
+- 2025-04 Cloud Next 25 发布第七代 TPU Ironwood
+- 2025-11-06 宣布 Ironwood 正式可用（公告称数周内 GA），同场预览 Arm 架构 Axion N4A 实例
 - 2026 预览第八代 TPU，拆成 TPU 8t（训练）与 TPU 8i（推理），目标 2027 年底
 
 ## 相关实体

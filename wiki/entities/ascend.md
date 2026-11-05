@@ -34,7 +34,7 @@ sources: ["[[sources/ai-compute-hardware-survey-2026-11]]"]
 - 2019 昇腾 910 发布
 - 2023-10-16 `torch-npu` 首个 PyPI 版本
 - 2025-02-19 `vllm-ascend` 首个 PyPI 版本
-- 2025-09 Connect 公布路线图：950PR（2026 Q1）、950DT（2026 Q4）、960（2027 Q4）、970（2028 Q4）；Atlas 950 SuperPoD 最大 8,192 颗 950DT、宣称 16 PB/s 互联带宽，SuperCluster 规划 52 万颗以上
+- 2025-09 Huawei Connect 公布三年路线图：950PR（2026 Q1，配低成本 HBM HiBL 1.0）、950DT（2026 Q4，配 HiZQ 2.0，144 GB 显存、4 TB/s 访存带宽，支持 FP8 / MXFP8 / XMFP4 / HiF8）、960（2027 Q4，算力与带宽翻倍、新增 HiF4）、970（2028 Q4）；950 系列互联带宽 2 TB/s，为 910C 的 2.5 倍。Atlas 950 SuperPoD 最大 8,192 颗 950DT、160 个机柜、占地 1,000 ㎡、全光互联、互联带宽 16 PB/s、显存 1,152 TB，训练 491 万 token/s、推理 1,960 万 token/s，2026 Q4 上市；Atlas 960 SuperPoD 15,488 颗、30 EFLOPS（FP8）/ 60 EFLOPS（FP4）、4,460 TB 显存、34 PB/s，2027 Q4。同场发布 UnifiedBus 2.0 规范
 - 2026-01-14 [[entities/zhipu-ai|智谱]] GLM-Image 称训练全程在昇腾 Atlas 800T A2 完成
 - 2026-04 昇腾 SuperNode 全系完成 DeepSeek-V4 推理适配；DeepSeek 称 950PR 超节点规模出货前吞吐受限
 - 2026-04-30 TorchNPU 26.0.0 支持 PyTorch 2.10.0
@@ -64,3 +64,4 @@ sources: ["[[sources/ai-compute-hardware-survey-2026-11]]"]
 
 - "vLLM Ascend (`vllm-ascend`) is a community maintained hardware plugin for running vLLM seamlessly on the Huawei Ascend NPU." — [[sources/ai-compute-hardware-survey-2026-11|AI 算力与硬件调研]]
 - "TorchNPU is a deep learning adapter plugin built by Ascend for PyTorch, enabling the PyTorch framework to directly invoke Ascend NPU" — [[sources/ai-compute-hardware-survey-2026-11|AI 算力与硬件调研]]
+- "So we'll have the Ascend 950PR chip for prefill and recommendation, and the Ascend 950DT chip for decode and training." — [[sources/ai-compute-hardware-survey-2026-11|AI 算力与硬件调研]]

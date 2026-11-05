@@ -35,8 +35,9 @@ sources: ["[[sources/ai-compute-hardware-survey-2026-11]]"]
 - 2023 MI300 系列，成为首个被广泛部署的 AI 推理替代方案
 - 2025 MI350 系列（288 GB HBM3E）
 - 2026 MI450 向头部客户送样；AMD 否认 MI455X 延期的报道
-- 2026 下半年 MI450 量产与 Helios 机架目标；Oracle 计划自 2026 年底起在 OCI 部署 5 万颗
-- 2027 MI500（CDNA 6、HBM4E）规划
+- 2026 下半年 MI450 量产与 Helios 机架目标；Oracle 计划自 2026 年底起在 OCI 部署 5 万颗（二手报道）
+- 2026-10 ROCm 10.1.0 的兼容性矩阵仍未列出 MI450，最新的 Instinct 为 MI355X / MI350X / MI350P
+- 2027 AMD / Cisco / HUMAIN 合资项目计划部署最多 250 MW 的 MI400 系列算力，容量自 2027 下半年起上线；MI500（CDNA 6、HBM4E）规划
 
 ## 相关实体
 

@@ -29,7 +29,7 @@ sources: ["[[sources/ai-compute-hardware-survey-2026-11]]"]
 ## 时间线
 
 - 2019 昇腾 910 发布，CANN 与 MindSpore 同期成形
-- 2025-09 Huawei Connect 上公布三年芯片路线图：昇腾 950PR / 950DT / 960 / 970 与 Atlas 超节点
+- 2025-09 Huawei Connect 上徐直军公布三年芯片路线图（昇腾 950PR / 950DT / 960 / 970）与 Atlas 950 / 960 超节点，并发布 UnifiedBus 2.0（灵衢）互联规范
 - 2026-01-14 与[[entities/zhipu-ai|智谱]]联合开源 GLM-Image，称自回归基座从数据预处理到大规模预训练全流程在昇腾 Atlas 800T A2 上完成
 - 2026-04 称昇腾 SuperNode 全系完成 [[entities/deepseek-v|DeepSeek-V4]] 推理适配；另有华为团队称在昇腾 NPU SuperPOD 上完成 V4 家族全参数后训练的端到端优化
 - 2026 鲲鹏昇腾开发者大会口径为「CANN 全面开源开放」，已开放 50+ 代码仓、800+ 算子

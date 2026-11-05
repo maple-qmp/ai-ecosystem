@@ -33,13 +33,13 @@ GPU 与 AI 加速计算的主导厂商，其数据中心 GPU 与 [[entities/cuda
 - 2022 起数据中心 GPU 供不应求
 - 2025-03-22 TensorRT-LLM 完全开源
 - 2025-09-24 TensorRT-LLM 1.0，改为 PyTorch 架构
-- 2025-10 GTC Washington 首次展示 Vera Rubin 超级芯片，黄仁勋称 2026 下半年量产
+- 2025-10 GTC Washington 首次展示 Vera Rubin 超级芯片，黄仁勋当时称 2026 下半年量产
 - 2025-12 以报道约 200 亿美元与 [[entities/groq|Groq]] 达成非排他推理技术许可
 - 2026-03 GTC 发布 Dynamo 1.0
 - 2026-05-05 NVentures 参投 RadixArk 1 亿美元种子轮
 - 2026-07 Megatron Core 在 GB300 NVL72 上预训练 DeepSeek-V3，每 GPU 1,648 TFLOPs/s
 - 2026-08-26 公布 FY2027 Q2 财报：营收 962 亿美元，数据中心 890 亿美元
-- 2026 下半年 Vera Rubin 量产目标，各大云宣布提供其实例；NVIDIA 宣称 NVL144 的 FP4 推理 3.6 EFLOPS、FP8 训练 1.2 EFLOPS，为 GB300 NVL72 的 3.3 倍（厂商数字）
+- 2026-08 Vera Rubin 已进入满产（黄仁勋在财报新闻稿中称「Vera Rubin, now in full production」）；各大云宣布提供其实例。NVIDIA 宣称 NVL144 的 FP4 推理 3.6 EFLOPS、FP8 训练 1.2 EFLOPS，为 GB300 NVL72 的 3.3 倍（厂商数字）
 
 ## 相关实体
 
@@ -69,5 +69,6 @@ GPU 与 AI 加速计算的主导厂商，其数据中心 GPU 与 [[entities/cuda
 ## 来源摘录
 
 - "The open-source, datacenter-scale inference stack." — [[sources/inference-engines-survey-2026-11|推理引擎与本地部署调研]]
-- "FY2027 Q2（截至 2026-07-26）总营收 962 亿美元、同比 +106%，其中数据中心 890 亿美元、同比 +117%，占比超过 92%" — [[sources/ai-compute-hardware-survey-2026-11|AI 算力与硬件调研]]
-- "下季指引 1080 亿美元，且假设中国数据中心计算业务营收为零" — [[sources/ai-compute-hardware-survey-2026-11|AI 算力与硬件调研]]
+- "NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July 26, 2026, of $96.2 billion, up 18% from the previous quarter and up 106% from a year ago." — [[sources/ai-compute-hardware-survey-2026-11|AI 算力与硬件调研]]
+- "Revenue is expected to be $108.0 billion, plus or minus 2%. NVIDIA is not assuming any Data Center compute revenue from China in its outlook." — [[sources/ai-compute-hardware-survey-2026-11|AI 算力与硬件调研]]
+- "Vera Rubin, now in full production, was built to power exactly this moment." — [[sources/ai-compute-hardware-survey-2026-11|AI 算力与硬件调研]]

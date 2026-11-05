@@ -223,3 +223,17 @@
 - 重写 `nvidia`、`cuda` 两个种子页并改为 `origin: source`：补 FY2027 Q2 财务、Vera Rubin、Groq 许可、CUDA 13.0 的 tile 编程模型，补齐竞争对手与上游依赖字段（未设 `reviewed`）
 - 补技术上游：`glm` 与 `deepseek`、`deepseek-v` 的 `depends_on` 加入 `ascend`（GLM-Image 称全程在昇腾训练；DeepSeek-V4 的昇腾推理适配与后训练口径分歧已在页面写明）；`vllm`、`sglang` 的硬件一行改为指向 `amd-instinct`、`google-tpu`、`ascend`、`aws-trainium` 的链接
 - 更新 L0 地图页的手工列表，按芯片厂商 / 加速器 / 软件栈 / 云与算力服务 / 数据中心项目 / 概念分组
+
+## [2026-11-05 23:20] update | 用官方原文核实 L0 层（网络解禁后回查）
+
+**更新页面**：[[sources/ai-compute-hardware-survey-2026-11]], [[entities/nvidia]], [[entities/cuda]], [[entities/google-tpu]], [[entities/google-cloud]], [[entities/rocm]], [[entities/amd-instinct]], [[entities/ascend]], [[entities/huawei]], [[entities/aws-trainium]], [[entities/azure]], [[entities/groq]], [[entities/cerebras]], [[entities/coreweave]], [[entities/stargate]]
+
+- 来源：首轮调研被网络策略拦住的厂商域名解禁后逐条回查官方原文——NVIDIA FY2027 Q2 财报新闻稿、CUDA Toolkit 13.0 技术博客、Ironwood 的 Cloud Next 25 发布博客与 2025-11-06 GA 公告及 Cloud TPU 的 TPU7x 文档、Maia 200 官方博客、Trainium3 新闻稿、徐直军 Huawei Connect 2025 演讲全文、Groq 新闻室公告、ROCm 官方版本发布史与 10.1.0 兼容性矩阵、Epoch AI 的 Abilene 数据中心页（`raw/AI算力与硬件调研-2026-11.md` 的「核实记录」一节）
+- 更正 `rocm`：当前版本不是 7.2.1，而是 10.1.0（2026-10-05），补全 7.0.0 起的发布日期；10.1.0 的兼容性矩阵尚未列出 MI450，已写入 `amd-instinct`
+- 更正 `google-tpu`、`google-cloud`：Ironwood 是 2025-04 Cloud Next 25 发布、2025-11-06 宣布 GA，定位从「专为推理」扩回训练 / RL / 推理兼顾；补 ICI 9.6 Tb/s、42.5 EFLOPS、1.77 PB 共享 HBM、256 / 9,216 两种规模与官方性能口径
+- 更正 `nvidia`：Vera Rubin 已满产（财报新闻稿原文「now in full production」），不再写作「2026 下半年量产目标」
+- 更正 `cuda`：tile 编程模型是 13.0 本身引入并分两层提供，不只是「铺路」；删去无法核实的「13.1 推出 cuTile Python」
+- 更正 `aws-trainium`：补官方口径（算力 4.4 倍、能效 4 倍、访存带宽近 4 倍、延迟四分之一），删去新闻稿里不存在的 NeuronSwitch-v1 与「10 微秒以内」
+- 更正 `stargate`：Abilene 已是运行状态，引用 Oracle 2026-09-10 电话会「6 of the 8 campus buildings, representing 618 megawatts and 75% of total capacity」与 Epoch 的 824 MW / 101.9 万张 H100 等效估计，替换 2026-04 的旧快照
+- 补细节：`azure`（Maia 200 的 216 GB HBM3e、272 MB SRAM、FP4 10 PFLOPS、750 W、服务 GPT-5.2、Maia SDK）、`ascend`（950DT 的 144 GB / 4 TB/s、2 TB/s 互联、Atlas 950 / 960 SuperPoD 完整规格、UnifiedBus 2.0）、`groq`（官方公告不提金额，200 亿美元出自 CNBC；Simon Edwards 接任 CEO）
+- 仍无法核实并已在页面标注为二手：openai.com、investors.coreweave.com、sec.gov、cerebras.ai、amd.com 对自动化客户端返回 403，故 Stargate 站点清单、CoreWeave 财务、Cerebras IPO 与 AMD 的 ROCm 7 性能宣称、MI450 规格仍为新闻报道口径

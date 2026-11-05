@@ -18,7 +18,7 @@ sources: ["[[sources/ai-compute-hardware-survey-2026-11]]"]
 
 # CoreWeave
 
-最具代表性的 [[concepts/gpu-cloud|GPU 云]]（「neocloud」），从以太坊矿场转型而来，只做加速计算这一层。商业模式是先与模型公司签多年长约，再用这些合同融资或举债去买 [[entities/nvidia|NVIDIA]] GPU、租数据中心：2026 Q2 营收约 25.8 亿美元（上年同期 12.1 亿）、积压订单约 1,040 亿美元，Q3 初又新增 250 亿美元以上承诺，同期季度净亏约 6.26 亿美元。[[entities/openai|OpenAI]] 2025-03 与其签五年约 120 亿美元合同，并在 IPO 的定向增发中买入 3.5 亿美元股票。技术上它也参与开源推理编排栈 [[entities/llm-d|llm-d]] 的发起。
+最具代表性的 [[concepts/gpu-cloud|GPU 云]]（「neocloud」），从以太坊矿场转型而来，只做加速计算这一层。商业模式是先与模型公司签多年长约，再用这些合同融资或举债去买 [[entities/nvidia|NVIDIA]] GPU、租数据中心：2026 Q2 营收约 25.8 亿美元（上年同期 12.1 亿）、积压订单约 1,040 亿美元，Q3 初又新增 250 亿美元以上承诺，同期季度净亏约 6.26 亿美元（财务数字为二手报道，investors.coreweave.com 与 sec.gov 对自动化客户端返回 403，未能核对财报原文）。[[entities/openai|OpenAI]] 2025-03 与其签五年约 120 亿美元合同，并在 IPO 的定向增发中买入 3.5 亿美元股票。技术上它也参与开源推理编排栈 [[entities/llm-d|llm-d]] 的发起。
 
 ## 生态位置
 
