@@ -14,15 +14,15 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
+updated: 2026-11-05
+sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/ai-data-layer-survey-2026-11]]"]
 ---
 
 # LangChain
 
 ## 描述
 
-[[entities/langchain-inc|LangChain 公司]]维护的开源 LLM 应用与 Agent 开发框架，MIT 协议，有 Python 和 JavaScript/TypeScript（LangChain.js）两个实现，GitHub 主仓库约 14.9 万星。2022-10 由 Harrison Chase 发布，早期以“链”（chain）、提示模板、文档加载器和 [[concepts/rag|RAG]] 组件闻名，2023 年推出声明式组合语法 LCEL。2025-10-22 发布 1.0，定位改为构建在 [[entities/langgraph|LangGraph]] 运行时之上的高层 Agent API：核心是 `create_agent` 和中间件。模型、嵌入、工具、[[concepts/vector-database|向量库]]等集成以独立包发布（如 `langchain-openai`、`langchain-anthropic`），可接入 [[entities/gpt|GPT]]、[[entities/claude|Claude]] 等模型。
+[[entities/langchain-inc|LangChain 公司]]维护的开源 LLM 应用与 Agent 开发框架，MIT 协议，有 Python 和 JavaScript/TypeScript（LangChain.js）两个实现，GitHub 主仓库约 14.9 万星。2022-10 由 Harrison Chase 发布，早期以“链”（chain）、提示模板、文档加载器和 [[concepts/rag|RAG]] 组件闻名，2023 年推出声明式组合语法 LCEL。2025-10-22 发布 1.0，定位改为构建在 [[entities/langgraph|LangGraph]] 运行时之上的高层 Agent API：核心是 `create_agent` 和中间件。模型、嵌入、工具、[[concepts/vector-database|向量库]]等集成以独立包发布（如 `langchain-openai`、`langchain-anthropic`；向量库有 [[entities/chroma|Chroma]]、[[entities/qdrant|Qdrant]]、[[entities/milvus|Milvus]]、[[entities/pinecone|Pinecone]]、[[entities/weaviate|Weaviate]]、Postgres / [[entities/pgvector|pgvector]] 的集成包），可接入 [[entities/gpt|GPT]]、[[entities/claude|Claude]] 等模型。
 
 ## 1.0 的主要变化
 

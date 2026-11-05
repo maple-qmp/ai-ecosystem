@@ -209,3 +209,17 @@
 > Wiki 状态概览：共 140 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 10 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+## [2026-11-05 21:06] ingest | AI 数据层调研：向量库、预训练语料、合成数据与数据公司
+
+**创建页面**：[[sources/ai-data-layer-survey-2026-11]], [[entities/milvus]], [[entities/zilliz]], [[entities/qdrant]], [[entities/pgvector]], [[entities/pinecone]], [[entities/weaviate]], [[entities/chroma]], [[entities/common-crawl]], [[entities/fineweb]], [[entities/the-pile]], [[entities/dolma]], [[entities/scale-ai]], [[entities/surge-ai]], [[entities/mercor]], [[concepts/synthetic-data]], [[concepts/data-labeling]]
+
+**更新页面**：[[entities/hugging-face]], [[concepts/vector-database]], [[concepts/rag]], [[entities/meta-ai]], [[entities/langchain]], [[maps/L1-数据]]
+
+- 来源：Milvus、Qdrant、pgvector、Weaviate、Chroma、FineWeb 2、datatrove、Cosmopedia、transformers、Dolma、The Pile 的 GitHub README 与 CHANGELOG，PyPI 版本元数据；融资、公司与论文数字来自 Business Wire、TechCrunch、Reuters、Bloomberg、Wikipedia 等报道与搜索摘要（huggingface.co、arxiv.org、commoncrawl.org 及公司官网被网络策略拦截，标注为二手）（`raw/AI数据层调研-2026-11.md`）
+- 新建来源页 `sources/ai-data-layer-survey-2026-11`
+- 新建 14 个实体页：向量库 `milvus`、`qdrant`、`pgvector`、`pinecone`、`weaviate`、`chroma`；语料 `common-crawl`、`fineweb`、`the-pile`、`dolma`；公司 `zilliz`、`scale-ai`、`surge-ai`、`mercor`
+- 新建 2 个概念页：`synthetic-data`、`data-labeling`
+- 核实重写 3 个种子页并改为 `origin: source`：`hugging-face`（补 FineWeb、datatrove、Cosmopedia、融资与出售报道）、`vector-database`、`rag`（补 Lewis 等 2020 论文细节）
+- `meta-ai` 时间线补入股 Scale AI；`langchain` 的向量库集成改为链接到各向量库页
+- 更新 L1 地图页（按 向量库 / 语料 / 数据公司 / 概念 分组）
