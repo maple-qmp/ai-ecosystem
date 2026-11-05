@@ -9,14 +9,14 @@ org: "[[entities/zhipu-ai]]"
 released: "2023-03"
 open_weights: true
 competitors: ["[[entities/kimi]]", "[[entities/minimax-m]]", "[[entities/qwen]]", "[[entities/deepseek-r1]]", "[[entities/doubao]]"]
-depends_on: []
+depends_on: ["[[entities/ascend]]"]
 status: active
 as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
 updated: 2026-11-05
-sources: ["[[sources/zhipu-ai-survey-2026-11]]"]
+sources: ["[[sources/zhipu-ai-survey-2026-11]]", "[[sources/ai-compute-hardware-survey-2026-11]]"]
 ---
 
 # GLM
@@ -66,6 +66,7 @@ sources: ["[[sources/zhipu-ai-survey-2026-11]]"]
 - 2025-08-11 GLM-4.5V
 - 2025-09-30 GLM-4.6
 - 2025-12-22 GLM-4.7
+- 2026-01-14 与[[entities/huawei|华为]]联合开源图像模型 GLM-Image，称自回归基座从数据预处理到大规模预训练全流程在[[entities/ascend|昇腾]] Atlas 800T A2 上完成，框架为昇思 MindSpore
 - 2026-02 GLM-5
 - 2026-04-07 GLM-5.1 开源
 - 2026-06-16 GLM-5.2

@@ -209,3 +209,17 @@
 > Wiki 状态概览：共 140 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 10 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+## [2026-11-05 22:40] ingest | AI 算力与硬件调研（补 L0 层）
+
+**创建页面**：[[sources/ai-compute-hardware-survey-2026-11]], [[entities/google-cloud]], [[entities/google-tpu]], [[entities/amd]], [[entities/amd-instinct]], [[entities/rocm]], [[entities/huawei]], [[entities/ascend]], [[entities/cann]], [[entities/aws]], [[entities/aws-trainium]], [[entities/azure]], [[entities/groq]], [[entities/cerebras]], [[entities/coreweave]], [[entities/stargate]], [[concepts/ai-accelerator]], [[concepts/hbm]], [[concepts/scale-up-interconnect]], [[concepts/gpu-cloud]]
+
+**更新页面**：[[entities/nvidia]], [[entities/cuda]], [[entities/vllm]], [[entities/sglang]], [[entities/glm]], [[entities/deepseek]], [[entities/deepseek-v]], [[maps/L0-算力与硬件]]
+
+- 来源：Anthropic「Expanding our use of Google Cloud TPUs and services」官方博客（唯一可逐字核对的一手网页），ROCm / HIP / AWS Neuron SDK / vllm-ascend / TorchNPU / vLLM TPU / JAX / Cerebras Model Zoo / groq-python 的 GitHub README，PyPI 版本元数据；芯片规格、发布日期、融资与数据中心规模均来自新闻报道，nvidia.com、amd.com、aws.amazon.com、blogs.microsoft.com、openai.com、groq.com、cerebras.ai、huawei.com、wikipedia.org 在本次调研中被网络策略拦截，无法打开原文，已在素材里逐条标注「二手报道」（`raw/AI算力与硬件调研-2026-11.md`）
+- 新建来源页 `sources/ai-compute-hardware-survey-2026-11`
+- 新建 16 个实体页：芯片厂商 `amd`、`huawei`、`groq`、`cerebras`；加速器 `google-tpu`、`amd-instinct`、`ascend`、`aws-trainium`；软件栈 `rocm`、`cann`；云与算力 `aws`、`azure`、`google-cloud`、`coreweave`；数据中心项目 `stargate`
+- 新建 4 个概念页：`ai-accelerator`、`hbm`、`scale-up-interconnect`、`gpu-cloud`
+- 重写 `nvidia`、`cuda` 两个种子页并改为 `origin: source`：补 FY2027 Q2 财务、Vera Rubin、Groq 许可、CUDA 13.0 的 tile 编程模型，补齐竞争对手与上游依赖字段（未设 `reviewed`）
+- 补技术上游：`glm` 与 `deepseek`、`deepseek-v` 的 `depends_on` 加入 `ascend`（GLM-Image 称全程在昇腾训练；DeepSeek-V4 的昇腾推理适配与后训练口径分歧已在页面写明）；`vllm`、`sglang` 的硬件一行改为指向 `amd-instinct`、`google-tpu`、`ascend`、`aws-trainium` 的链接
+- 更新 L0 地图页的手工列表，按芯片厂商 / 加速器 / 软件栈 / 云与算力服务 / 数据中心项目 / 概念分组

@@ -15,7 +15,7 @@ origin: source
 reviewed: false
 created: 2026-11-05
 updated: 2026-11-05
-sources: ["[[sources/inference-engines-survey-2026-11]]"]
+sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/ai-compute-hardware-survey-2026-11]]"]
 ---
 
 # SGLang
@@ -37,7 +37,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]"]
 - **SGLang Diffusion**：内置的图像、视频生成引擎
 - **SGLang Omni**：语音模型服务（TTS、ASR）
 - **SpecForge**：训练推测解码的草稿模型，再部署到 SGLang
-- **硬件**：NVIDIA（Blackwell 到 Jetson）、AMD Instinct、Google TPU（SGLang-TorchTPU、SGL-JAX）、Intel、Apple Silicon、华为昇腾、摩尔线程；在接入 AWS Trainium、平头哥 PPU、寒武纪等
+- **硬件**：NVIDIA（Blackwell 到 Jetson）、[[entities/amd-instinct|AMD Instinct]]、[[entities/google-tpu|Google TPU]]（SGLang-TorchTPU、SGL-JAX）、Intel、Apple Silicon、[[entities/ascend|华为昇腾]]、摩尔线程；在接入 [[entities/aws-trainium|AWS Trainium]]、平头哥 PPU、寒武纪等
 
 ## 时间线
 

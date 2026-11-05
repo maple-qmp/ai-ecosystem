@@ -15,7 +15,7 @@ origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/inference-engines-survey-2026-11]]"]
+sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/ai-compute-hardware-survey-2026-11]]"]
 ---
 
 # vLLM
@@ -38,7 +38,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]"]
 - **量化**：FP8、MXFP8 / MXFP4、NVFP4、INT8、INT4、GPTQ / AWQ、[[concepts/gguf|GGUF]] 等（见 [[concepts/quantization|量化]]）
 - **并行**：张量、流水线、数据、专家、上下文并行
 - **接口**：OpenAI 兼容服务器、Anthropic Messages API、gRPC；结构化输出、工具调用与推理解析器、多 LoRA
-- **硬件**：NVIDIA、AMD、Intel GPU，x86 / ARM / PowerPC CPU；TPU、Gaudi、昇腾、Apple Silicon 等通过插件
+- **硬件**：NVIDIA、[[entities/amd-instinct|AMD Instinct]]、Intel GPU，x86 / ARM / PowerPC CPU；[[entities/google-tpu|TPU]]（vLLM JAX / vllm-torchtpu）、Gaudi、[[entities/ascend|昇腾]]（`vllm-ascend` 插件）、Apple Silicon 等通过插件
 
 ## 时间线
 
