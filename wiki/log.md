@@ -209,3 +209,17 @@
 > Wiki 状态概览：共 140 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 10 秒
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+## [2026-11-05 22:45] ingest | 训练与后训练方法调研（L3 训练部分，核实 LoRA / 量化种子页）
+
+**创建页面**：[[sources/training-methods-survey-2026-11]], [[concepts/pretraining]], [[concepts/supervised-fine-tuning]], [[concepts/rlhf]], [[concepts/dpo]], [[concepts/grpo]], [[concepts/rlvr]], [[concepts/knowledge-distillation]], [[entities/trl]], [[entities/unsloth]], [[entities/axolotl]], [[entities/llama-factory]], [[entities/verl]]
+
+**更新页面**：[[concepts/lora]], [[concepts/quantization]], [[concepts/reasoning-model]], [[entities/deepseek-r1]], [[entities/hugging-face]], [[entities/bytedance]], [[maps/L3-训练与推理]]
+
+- 来源：InstructGPT、DPO、DeepSeekMath、DeepSeek-R1、LoRA、QLoRA、GPTQ、AWQ、DAPO、Ai2 open-instruct 的作者仓库 README（论文摘要与引用条目），TRL、Unsloth、Axolotl、LLaMA-Factory、verl、PEFT、bitsandbytes 的 GitHub README，PyPI 版本元数据；arxiv.org 被网络策略拦截，Tülu 3 与 Hinton 蒸馏论文的编号、TRL v1.0 博客说法、Unsloth 公司信息来自搜索摘要（标注为二手）（`raw/训练与后训练方法调研-2026-11.md`）
+- 新建来源页 `sources/training-methods-survey-2026-11`
+- 新建 7 个概念页：`pretraining`、`supervised-fine-tuning`、`rlhf`、`dpo`、`grpo`、`rlvr`、`knowledge-distillation`
+- 新建 5 个实体页（kind: framework）：`trl`、`unsloth`、`axolotl`、`llama-factory`、`verl`
+- 重写 `lora`（并入 QLoRA）、`quantization`（补 GPTQ、AWQ、bitsandbytes、QAT），改为 `origin: source`
+- `deepseek-r1`、`reasoning-model` 中的 GRPO / RL 加链接；`hugging-face`、`bytedance` 的相关实体追加 TRL、verl
+- L3 地图页新增「训练方法」「训练工具」两组

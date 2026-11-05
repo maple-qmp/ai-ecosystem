@@ -16,7 +16,7 @@ sources: []
 
 ## 定义
 
-在给出答案前先生成较长思维链、并通过强化学习训练这种能力的模型，把“推理时计算”作为新的扩展维度。代表有 OpenAI o 系列、DeepSeek-R1，以及各家模型的思考模式。
+在给出答案前先生成较长思维链、并通过强化学习（如 [[concepts/grpo|GRPO]]、[[concepts/rlvr|RLVR]]）训练这种能力的模型，把“推理时计算”作为新的扩展维度。代表有 OpenAI o 系列、DeepSeek-R1，以及各家模型的思考模式。
 
 ## 关键特征
 
@@ -37,6 +37,8 @@ sources: []
 
 - [[concepts/scaling-laws|规模定律]]
 - [[concepts/ai-agent|AI Agent]]
+- [[concepts/grpo|GRPO]]
+- [[concepts/rlvr|RLVR]]
 
 ## 相关实体
 

@@ -61,6 +61,7 @@ sources: ["[[sources/bytedance-doubao-survey-2026-11]]"]
 ## 相关实体
 
 - [[entities/doubao|豆包]]
+- [[entities/verl|verl]]
 - [[entities/alibaba|阿里巴巴（通义）]]
 - [[entities/agentscope|AgentScope]]
 - [[entities/minimax|MiniMax]]

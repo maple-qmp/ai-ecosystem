@@ -40,6 +40,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]"]
 - [[entities/qwen|Qwen]]
 - [[entities/pytorch|PyTorch]]
 - [[entities/llama-cpp|llama.cpp]]
+- [[entities/trl|TRL]]
 
 ## 相关概念
 
