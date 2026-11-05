@@ -223,3 +223,12 @@
 - 核实重写 3 个种子页并改为 `origin: source`：`hugging-face`（补 FineWeb、datatrove、Cosmopedia、融资与出售报道）、`vector-database`、`rag`（补 Lewis 等 2020 论文细节）
 - `meta-ai` 时间线补入股 Scale AI；`langchain` 的向量库集成改为链接到各向量库页
 - 更新 L1 地图页（按 向量库 / 语料 / 数据公司 / 概念 分组）
+
+## [2026-11-05 21:25] ingest | AI 数据层调研：第二轮核实（网络放开后对照一手资料）
+
+**更新页面**：[[sources/ai-data-layer-survey-2026-11]], [[entities/fineweb]], [[entities/common-crawl]], [[entities/the-pile]], [[entities/dolma]], [[entities/milvus]], [[entities/zilliz]], [[entities/qdrant]], [[entities/pgvector]], [[entities/pinecone]], [[entities/chroma]], [[entities/scale-ai]], [[entities/surge-ai]], [[entities/mercor]], [[entities/hugging-face]], [[concepts/vector-database]], [[concepts/rag]], [[concepts/synthetic-data]], [[concepts/data-labeling]]
+
+- 来源：Hugging Face 数据集卡片（FineWeb、FineWeb-Edu、FineWeb 2、Cosmopedia、Dolma、Dolma 3），arXiv 摘要，Nature 原文，Common Crawl 官网，Zilliz、Qdrant、Pinecone、Scale AI、Chroma 官方公告，TechCrunch 原文，Wikipedia（Surge AI），Semafor（`raw/AI数据层调研-2026-11.md` 第七节）
+- 更正：FineWeb 现为 18.5 万亿 token 以上（首发 15 万亿）；Dolma 3 预训练混合 5.93 万亿 token、清洗池 9.31 万亿；Milvus 3.0 发布日以 Zilliz 新闻稿 2026-07-16 为准；Scale AI 交易日为 2025-06-12；Pinecone 已有开源的 pg_pinecone，不再是“没有开源仓库”
+- 新事实：Chroma 2026-10 宣布并入 Replit，Chroma Cloud 2026-12 关停；Pinecone 2026 年 Nexus、全文检索、BYOC GA；Mercor 2026-03 数据泄露、Meta 暂停合同；报道称 NVIDIA 同意以约 129 亿美元收购 Hugging Face（无官方公告）
+- 多处“二手报道”标注改为一手来源，并补充原文摘录

@@ -16,7 +16,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]", "[[sources/langchain-ecosy
 
 ## 定义
 
-在生成前先从外部知识库检索相关内容并放进上下文，让模型基于最新或私有资料作答。方法由 Lewis、Perez、Kiela 等在 NeurIPS 2020 论文「Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks」中提出（论文收录在 [[entities/meta-ai|Meta AI]] 的研究页）：参数化记忆是预训练的 seq2seq 模型，非参数化记忆是 Wikipedia 的稠密向量索引，用预训练的神经检索器访问。论文报告它在三项开放域问答任务上达到 SOTA，生成的语言也比纯参数化基线更具体、多样、符合事实。
+在生成前先从外部知识库检索相关内容并放进上下文，让模型基于最新或私有资料作答。方法由 Lewis、Perez、Kiela 等在论文「Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks」中提出（2020-05-22 提交 arXiv，发表于 NeurIPS 2020，收录在 [[entities/meta-ai|Meta AI]] 的研究页）：参数化记忆是预训练的 seq2seq 模型，非参数化记忆是 Wikipedia 的稠密向量索引，用预训练的神经检索器访问。论文报告它在三项开放域问答任务上达到 SOTA，生成的语言也比纯参数化基线更具体、多样、符合事实。
 
 ## 关键特征
 
@@ -54,4 +54,5 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]", "[[sources/langchain-ecosy
 
 ## 来源摘录
 
+- "We introduce RAG models where the parametric memory is a pre-trained seq2seq model and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever." — [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]]
 - "Weaviate is a cloud-native vector database that stores both objects and vectors, enabling semantic search at scale." — [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]]

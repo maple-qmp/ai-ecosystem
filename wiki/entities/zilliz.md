@@ -20,7 +20,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 
 ## 描述
 
-开源[[concepts/vector-database|向量数据库]] [[entities/milvus|Milvus]] 的主要贡献者和商业公司，总部在美国加州 Redwood City。Milvus 本身托管在 LF AI & Data Foundation，Zilliz 负责托管服务 Zilliz Cloud，提供 Serverless、Dedicated 和 BYOC（自带云）三种形态。2022-08 完成 6000 万美元 B 轮，累计融资约 1.13 亿美元（二手报道）；2026-07 宣布 Milvus 3.0。
+开源[[concepts/vector-database|向量数据库]] [[entities/milvus|Milvus]] 的主要贡献者和商业公司，总部在美国加州 Redwood City。Milvus 本身托管在 LF AI & Data Foundation，Zilliz 负责托管服务 Zilliz Cloud，提供 Serverless、Dedicated 和 BYOC（自带云）三种形态。2022-08 完成 6000 万美元 B 轮，累计融资约 1.13 亿美元（二手报道）。2026-07-16 发布 Milvus 3.0，同时把 Zilliz Cloud 定位为以 Milvus 3.0 为核心的全托管“Vector Lakebase”，在同一份 AI 数据上提供实时服务、交互式探索、批量分析与共享索引。联合创始人 James Luan 任 CTO。
 
 ## 生态位置
 
@@ -30,7 +30,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 ## 时间线
 
 - 2022-08 B 轮 6000 万美元（二手报道）
-- 2026-07 发布 Milvus 3.0（Business Wire 新闻稿，2026-07-31）
+- 2026-07-16 发布 Milvus 3.0 与 Zilliz Vector Lakebase（Zilliz 新闻稿）
 
 ## 相关实体
 
@@ -48,4 +48,5 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 
 ## 来源摘录
 
+- "Milvus 3.0 introduces a lake-native architecture that allows production indexing and retrieval to operate directly over data in object storage." — [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]]
 - "Milvus is available as a fully managed service on Zilliz Cloud, with Serverless, Dedicated and BYOC options available." — [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]]

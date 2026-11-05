@@ -27,7 +27,7 @@ PostgreSQL 的开源向量相似度检索扩展（支持 Postgres 13+），思�
 
 - **层级**：[[maps/L1-数据|L1-数据]] · 向量库（数据库扩展）
 - **上游依赖**：PostgreSQL
-- **竞争 / 替代**：专用向量库 [[entities/milvus|Milvus]]、[[entities/qdrant|Qdrant]]、[[entities/weaviate|Weaviate]]、[[entities/pinecone|Pinecone]]、[[entities/chroma|Chroma]]
+- **竞争 / 替代**：同为 Postgres 扩展的 pg_pinecone（[[entities/pinecone|Pinecone]] 2026-10 开源）；专用向量库 [[entities/milvus|Milvus]]、[[entities/qdrant|Qdrant]]、[[entities/weaviate|Weaviate]]、[[entities/pinecone|Pinecone]]、[[entities/chroma|Chroma]]
 - **下游**：[[entities/langchain|LangChain]] 的 `langchain-postgres` 集成包
 
 ## 时间线

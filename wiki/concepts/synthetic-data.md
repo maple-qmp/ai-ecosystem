@@ -20,10 +20,10 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 
 ## 关键特征
 
-- **预训练语料**：[[entities/hugging-face|Hugging Face]] 的 Cosmopedia 用 Mixtral-8x7B-Instruct 生成合成教科书、博客、故事与 WikiHow 文章，共 3000 多万个文件、250 亿 token，生成耗时超过 1 万 H100 GPU 小时
-- **对齐数据**：NVIDIA Nemotron-4-340B-Instruct 对齐阶段用的数据超过 98% 是合成的，人工标注只有约 2 万条；技术报告认为人工标注太贵，所以合成数据对对齐至关重要
+- **预训练语料**：[[entities/hugging-face|Hugging Face]] 的 Cosmopedia（Apache-2.0）用 Mixtral-8x7B-Instruct 生成合成教科书、博客、故事与 WikiHow 文章，共 3000 多万个文件、250 亿 token，生成耗时超过 1 万 H100 GPU 小时。它以网页样本为种子，让模型围绕种子写新内容；数据集卡片称这一做法沿用 Phi-1.5，是目前最可扩展的合成数据方法
+- **对齐数据**：[[entities/nvidia|NVIDIA]] Nemotron-4 340B（2024-06）对齐阶段用的数据超过 98% 是合成的，人工标注只有约 2 万条；技术报告认为人工标注太贵，所以合成数据对对齐至关重要，并把这套模型定位为“给小模型生成训练数据”的工具，同时开源了合成数据生成流水线
 - **质量控制**：要配合过滤（奖励模型、分类器打分）、MinHash 去重，以及针对评测基准的 n-gram 去污染。Cosmopedia 用 datatrove 去重和去污染，Nemotron 用奖励模型做质量过滤与偏好排序
-- **模型崩溃风险**：Shumailov 等（Nature，2024-07）发现，不加区分地用模型生成的内容训练后代模型，原始数据分布的尾部会逐渐消失，这一现象在 LLM、VAE 和高斯混合模型中都出现。所以合成数据通常要与真实数据混用
+- **模型崩溃风险**：Shumailov 等（Nature，2024-07）发现，不加区分地用模型生成的内容训练后代模型会造成不可逆的缺陷，原始数据分布的尾部会逐渐消失，这一现象在 LLM、VAE 和高斯混合模型中都出现。论文由此认为，随着网上的 LLM 生成内容增多，真实人类交互数据会越来越有价值。所以合成数据通常要与真实数据混用
 
 ## 应用
 
@@ -54,5 +54,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 
 ## 来源摘录
 
+- "Notably, over 98% of data used in our model alignment process is synthetically generated, showcasing the effectiveness of these models in generating synthetic data." — [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]]
+- "We find that indiscriminate use of model-generated content in training causes irreversible defects in the resulting models, in which tails of the original content distribution disappear." — [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]]
 - "It contains over 30 million files and 25 billion tokens, making it the largest open synthetic dataset to date." — [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]]
 - "Cosmopedia consists of 25B tokens and was generated in > 10k H100 GPU hours." — [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]]

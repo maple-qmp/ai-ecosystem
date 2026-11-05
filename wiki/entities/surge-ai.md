@@ -4,7 +4,7 @@ type: entity
 tags: [organization]
 kind: company
 layer: L1
-aliases: ["Surge AI", "Surge", "surgehq"]
+aliases: ["Surge AI", "Surge", "Surge Labs", "surgehq"]
 competitors: ["[[entities/scale-ai]]", "[[entities/mercor]]"]
 depends_on: []
 status: active
@@ -20,7 +20,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 
 ## 描述
 
-Edwin Chen 创立的数据标注公司，报道称它是 [[entities/scale-ai|Scale AI]] 规模更大的竞争对手。它长期没有接受外部融资，报道称 2024 年收入超过 10 亿美元（另有报道为 12 亿美元），高于同期 [[entities/scale-ai|Scale AI]] 的约 8.7 亿美元。2025-07 起它洽谈首轮外部融资，目标至多 10 亿美元，估值先报 150 亿美元，后有报道称至少 250 亿美元；截至 2026-11 未找到交割报道（以上均为二手报道）。
+总部在旧金山的数据标注公司（法定名 Surge Labs Inc.），2020 年由 Edwin Chen 创立，起因是他对众包标注的质量不满。业务集中在 RLHF、RL 环境和语言数据标注，客户包括 [[entities/anthropic|Anthropic]]、[[entities/openai|OpenAI]]、Google、Microsoft、[[entities/meta-ai|Meta]] 和美国陆军，2025 年合作的标注员约 100 万人。它一直没有接受外部融资，报道称 2024 年收入超过 10 亿美元，高于同期 [[entities/scale-ai|Scale AI]] 的约 8.7 亿美元；2025-07 起与 Andreessen Horowitz、Warburg Pincus、TPG 等洽谈首轮外部融资，估值区间 150 亿–250 亿美元，截至 2026-11 未找到交割报道。2025-09 Chen 仍任 CEO，持股 75%。公司也有争议：2025-05 被提起集体诉讼，指控把标注员错误归类为独立承包人；2025-07 两份内部文件外泄（以上来自 Wikipedia 与 Reuters、Bloomberg 报道）。
 
 ## 生态位置
 
@@ -29,14 +29,19 @@ Edwin Chen 创立的数据标注公司，报道称它是 [[entities/scale-ai|Sca
 
 ## 时间线
 
+- 2020 Edwin Chen 创立
 - 2024 收入超过 10 亿美元（报道）
+- 2025-05 被提起集体诉讼，指控错误归类标注员
 - 2025-07-01 Reuters 报道其聘请财务顾问，寻求至多 10 亿美元融资、估值 150 亿美元
-- 2025-07 Bloomberg 报道洽谈估值至少 250 亿美元
+- 2025-07 Bloomberg 报道洽谈估值至少 250 亿美元；同月两份内部文件外泄
+- 2025-09 Chen 仍任 CEO，持股 75%
 
 ## 相关实体
 
 - [[entities/scale-ai|Scale AI]]
 - [[entities/mercor|Mercor]]
+- [[entities/anthropic|Anthropic]]
+- [[entities/openai|OpenAI]]
 
 ## 相关概念
 
@@ -48,4 +53,4 @@ Edwin Chen 创立的数据标注公司，报道称它是 [[entities/scale-ai|Sca
 
 ## 来源摘录
 
-- 一手资料中无 Surge AI 原文（公司官网与新闻原文在调研会话中无法访问），以上事实来自 [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]] 中的二手报道
+- 一手资料中无 Surge AI 原文，以上事实来自 [[sources/ai-data-layer-survey-2026-11|AI 数据层调研]] 中的 Wikipedia 条目与新闻报道
