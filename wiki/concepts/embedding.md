@@ -8,7 +8,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
@@ -20,11 +20,12 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 ## 关键特征
 
-- **维度可调**：主流模型支持 Matryoshka 式截短（MRL），同一向量取前 256～4096 维都可用，例如 [[entities/openai-embeddings|OpenAI text-embedding-3-large]] 最高 3072 维、[[entities/qwen3-embedding|Qwen3-Embedding-8B]] 4096 维、[[entities/cohere-embed|Cohere Embed 4]] 256～1536 维
-- **嵌入 + 重排**：检索先用嵌入模型召回，再用重排模型（cross-encoder）精排；Qwen3、BGE、Voyage 都成对发布 Embedding 和 Reranker
+- **维度可调**：主流模型支持 Matryoshka 式截短（MRL），同一向量取前 256～4096 维都可用，例如 [[entities/openai-embeddings|OpenAI text-embedding-3-large]] 最高 3072 维、[[entities/qwen3-embedding|Qwen3-Embedding-8B]] 4096 维、[[entities/cohere-embed|Cohere Embed 4]] 256～1536 维；Cohere Embed 5 的 Pro / Fast 两档共用一个向量空间，可以用大模型建索引、用小模型编码查询
+- **嵌入 + 重排**：检索先用嵌入模型召回，再用重排模型（cross-encoder）精排；Qwen3、BGE、Voyage、Cohere（Embed 5 / Rerank 5）都成对发布嵌入和重排模型
 - **指令感知**：Qwen3-Embedding 等允许按任务写一句指令，官方称一般能提升 1%～5%
-- **多模态嵌入**：2025—2026 年的主线是把文本、图像、截图、视频、音频放进同一向量空间：Qwen3-VL-Embedding、BGE-VL、voyage-multimodal-3.5、Cohere Embed 4、Gemini Embedding 2（2026-03 预览）
-- **向量空间不兼容**：换模型或换代要重算全部向量，例如 Gemini Embedding 2 与 gemini-embedding-001 不兼容
+- **多模态嵌入**：2025—2026 年的主线是把文本、图像、截图、视频、音频放进同一向量空间：Qwen3-VL-Embedding、BGE-VL、voyage-multimodal-3.5、Cohere Embed 4 / 5、Gemini Embedding 2（2026-03 预览、04-22 GA）
+- **向量空间不兼容**：换模型或换代要重算全部向量，例如 Gemini Embedding 2 与 gemini-embedding-001 不兼容；旧模型也会下线，如 Google 的 text-embedding-004 已于 2026-01-14 关闭
+- **2026 年的格局**：下半年的新发布集中在闭源厂商（Cohere Embed 5 于 2026-09-30 发布）；开放权重阵营（Qwen、BGE）在 2026 年没有新的通用文本嵌入模型；OpenAI 仍停留在 2024 年的 text-embedding-3
 - **评测**：MTEB（多语言）、C-MTEB（中文，BAAI 2023-08 发布）、RTEB（检索）、MMEB（多模态）
 
 ## 应用
@@ -60,4 +61,5 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 ## 来源摘录
 
+- "Gemini Embedding 2 is our first natively multimodal embedding model that maps text, images, video, audio and documents into a single embedding space, enabling multimodal retrieval and classification across different types of media — and it’s available now in public preview." — [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]（Google 博客）
 - "The 8B size embedding model ranks No.1 in the MTEB multilingual leaderboard (as of June 5, 2025, score 70.58), while the reranking model excels in various text retrieval scenarios." — [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]（QwenLM/Qwen3-Embedding README，原文加粗已去掉）

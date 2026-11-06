@@ -12,7 +12,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
@@ -20,7 +20,7 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 ## 描述
 
-专做[[concepts/embedding|嵌入]]和重排模型的公司，模型家族见 [[entities/voyage-embeddings|Voyage]]。2025-02-24 被数据库公司 MongoDB 收购（本库尚无 MongoDB 页面）：第一阶段继续通过 Voyage 官网和 AWS、Azure Marketplace 提供模型，第二阶段并入 MongoDB Atlas，先做 Vector Search 的自动嵌入，再加原生重排。2026-01-15 的 Voyage 4 系列已直接集成进 Atlas，也可用于本地部署的 MongoDB 社区版。
+专做[[concepts/embedding|嵌入]]和重排模型的公司，创始人是马腾宇（Tengyu Ma），模型家族见 [[entities/voyage-embeddings|Voyage]]。2025-02-24 被数据库公司 MongoDB 收购（本库尚无 MongoDB 页面）：第一阶段继续通过 Voyage 官网和 AWS、Azure Marketplace 提供模型，第二阶段并入 MongoDB Atlas，先做 Vector Search 的自动嵌入，再加原生重排。2026-01-15 的 Voyage 4 系列已直接集成进 Atlas，也可用于本地部署的 MongoDB 社区版。
 
 ## 生态位置
 
@@ -49,4 +49,4 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 ## 来源摘录
 
-（本次未能直接读取 MongoDB 官方新闻稿原文，暂无逐字摘录；见 [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]）
+- "NEW YORK—February 24, 2025—MongoDB, Inc. (NASDAQ: MDB), the leading database for modern applications, today announced it has acquired Voyage AI, a pioneer in state-of-the-art embedding and reranking models that power next-generation AI applications." — [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]（MongoDB 新闻稿）

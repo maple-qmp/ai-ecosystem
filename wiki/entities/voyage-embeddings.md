@@ -15,7 +15,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
@@ -23,7 +23,7 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 ## 描述
 
-[[entities/voyage-ai|Voyage AI]] 的[[concepts/embedding|嵌入]]与重排模型家族。2025-02 Voyage AI 被 MongoDB 收购，模型随后并入 MongoDB Atlas 的自动嵌入和 Vector Search。2026-01-15 发布的 Voyage 4 系列有五个模型：通用的 voyage-4、精度最高的 voyage-4-large、低价低延迟的 voyage-4-lite、供本地开发且开放权重的 voyage-4-nano，以及多模态的 voyage-multimodal-3.5。MongoDB 称它在 RTEB 检索榜排第一（厂商说法）。它代表了“嵌入模型并入数据库”的路线，见[[concepts/vector-database|向量数据库]]。
+[[entities/voyage-ai|Voyage AI]] 的[[concepts/embedding|嵌入]]与重排模型家族。2025-02 Voyage AI 被 MongoDB 收购，模型随后并入 MongoDB Atlas 的自动嵌入和 Vector Search。此前已有 voyage-3、voyage-3-large、voyage-3.5 等版本。2026-01-15 发布的 Voyage 4 系列有五个模型：通用的 voyage-4、精度最高的 voyage-4-large、低价低延迟的 voyage-4-lite、供本地开发且开放权重的 voyage-4-nano，以及多模态的 voyage-multimodal-3.5。其中 voyage-4-large 用了 MoE 架构（见[[concepts/mixture-of-experts|混合专家（MoE）]]）。MongoDB 称它在 RTEB 检索榜排第一（厂商说法）。它代表了“嵌入模型并入数据库”的路线，见[[concepts/vector-database|向量数据库]]。
 
 ## 生态位置
 
@@ -54,4 +54,4 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 ## 来源摘录
 
-（本次未能直接读取 MongoDB 官方新闻稿原文，暂无逐字摘录；事实来自报道，见 [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]）
+- "NEW YORK—February 24, 2025—MongoDB, Inc. (NASDAQ: MDB), the leading database for modern applications, today announced it has acquired Voyage AI, a pioneer in state-of-the-art embedding and reranking models that power next-generation AI applications." — [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]（MongoDB 新闻稿）

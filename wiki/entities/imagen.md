@@ -15,7 +15,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
@@ -23,21 +23,26 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 ## 描述
 
-Google 的文生图[[concepts/diffusion-model|扩散模型]]家族，2022-05 以论文形式公布，和同期的 [[entities/stable-diffusion|Stable Diffusion]] 一样用冻结的大型文本编码器做条件。Imagen 4 于 2025-05 Google I/O 与 Veo 3 和 Flow 一同发布，通过 Gemini API 和 Vertex AI 提供。之后 Google 的图像生成主力转到 [[entities/gemini|Gemini]] 原生出图的 Nano Banana 系列（2025-08 起）。2026-06 Gemini API 宣布 Imagen 4 弃用，2026-08-17 关闭，所以本页标为 deprecated。
+Google 已停用的文生图模型系列，最初由 Google Brain 开发（2023-04 并入 DeepMind）。2022-05 以论文形式公布，用 T5 编码提示词，再用级联[[concepts/diffusion-model|扩散模型]]从 64×64 逐级放大到 1024×1024，和同期的 [[entities/stable-diffusion|Stable Diffusion]] 一样依赖冻结的大型文本编码器。之后发布 Imagen 2（2023-12）、Imagen 3（2024-08）和 Imagen 4（2025-05-20 Google I/O，最高 2K）。Google 的图像生成主力后来转到 [[entities/gemini|Gemini]] 原生出图的 Nano Banana 系列（2025-08 起），Imagen 4 于 2026-06-15 宣布弃用、2026-08-17 在 Gemini API 关闭。
 
 ## 生态位置
 
-- **层级**：[[maps/L2-基础模型|L2-基础模型]] · 模型家族（闭源，图像生成，已弃用）
+- **层级**：[[maps/L2-基础模型|L2-基础模型]] · 模型家族（闭源，图像生成，已停用）
 - **上游依赖**：Google TPU（本库尚无页面）
 - **竞争 / 替代**：[[entities/gpt-image|GPT Image]]、[[entities/flux|FLUX]]、[[entities/stable-diffusion|Stable Diffusion]]；后继是 Gemini 的 Nano Banana
 
 ## 时间线
 
 - 2022-05 Imagen 论文（arXiv 2205.11487）
-- 2025-05 Google I/O：Imagen 4，与 [[entities/veo|Veo]] 3、Flow 同场
-- 2025-08 Nano Banana（Gemini 2.5 Flash Image）上线，与 Imagen 4 并列
-- 2026-06 Gemini API 宣布 Imagen 4（generate / ultra / fast）弃用
+- 2023-12 Imagen 2（文字与 logo 生成）
+- 2024-08 Imagen 3
+- 2025-05-20 Google I/O：Imagen 4，与 [[entities/veo|Veo]] 3、Flow 同场
+- 2025-08-14 Imagen 4 Ultra / Standard / Fast 在 Gemini API GA
+- 2025-08 Nano Banana（Gemini 2.5 Flash Image）上线
+- 2026-05-28 Nano Banana 2 与 Nano Banana Pro GA
+- 2026-06-15 宣布 Imagen 4 弃用
 - 2026-08-17 Imagen 4 在 Gemini API 关闭
+- 2026-10-06 Nano Banana 2.1 GA
 
 ## 相关实体
 
@@ -56,4 +61,5 @@ Google 的文生图[[concepts/diffusion-model|扩散模型]]家族，2022-05 以
 
 ## 来源摘录
 
+- "Imagen is a discontinued series of text-to-image models developed by Google DeepMind." — [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]（Wikipedia）
 - "Similar to Google's Imagen, this model uses a frozen CLIP ViT-L/14 text encoder to condition the model on text prompts." — [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]（CompVis/stable-diffusion README，原文链接已去掉）

@@ -223,3 +223,13 @@
 - 新建 3 个概念页：`diffusion-model`、`embedding`、`text-to-speech`
 - 更新 `openai`、`google-deepmind`、`bytedance`、`alibaba` 的时间线与相关实体；`qwen`、`gemini`、`gpt` 加相关实体链接；`rag`、`vector-database` 只加嵌入相关链接（仍为种子页）
 - 更新 L2 地图页：新增「多模态」「嵌入」分组和 3 个概念
+
+## [2026-11-06 10:14] update | 多模态与嵌入模型调研：网络放开后的一手核实
+
+**更新页面**：[[concepts/diffusion-model]], [[concepts/embedding]], [[concepts/text-to-speech]], [[entities/baai]], [[entities/bge]], [[entities/black-forest-labs]], [[entities/bytedance]], [[entities/cohere]], [[entities/cohere-embed]], [[entities/elevenlabs]], [[entities/flux]], [[entities/gpt-image]], [[entities/imagen]], [[entities/kling]], [[entities/kuaishou]], [[entities/openai]], [[entities/openai-embeddings]], [[entities/qwen3-embedding]], [[entities/seedance]], [[entities/sora]], [[entities/stability-ai]], [[entities/veo]], [[entities/voyage-ai]], [[entities/voyage-embeddings]], [[entities/whisper]], [[maps/L2-基础模型]], [[sources/multimodal-embedding-models-survey-2026-11]]
+
+- 来源：Wikipedia（Sora、Veo、Kling AI、Imagen、GPT Image、DALL-E、Flux、Seedance、Stability AI、Whisper、ElevenLabs、Cohere、Kuaishou、BAAI 的 wikitext 原文），OpenAI 弃用表 / 模型页 / API changelog，Gemini API changelog，Google DeepMind Veo 页与 Gemini Embedding 2 公告，Cohere changelog，MongoDB 新闻稿，BFL、ElevenLabs、Voyage 博客，ByteDance Seed 官网，快手 Kling 4.0 新闻稿，Hugging Face API；写入 `raw/多模态与嵌入模型调研-2026-11.md` 第 6 节
+- 更正 5 处：Cohere Embed 5 已于 2026-09-30 发布（原写“未找到”）；Seedance 2.0 的停止侵权函是 2026-02-13（原写 3 月）；Veo 3.1 Lite 是 2026-03-31；GPT Image 是自回归而非扩散模型；whisper-1 API 将于 2027-02-26 下线
+- 新增：FLUX 3 多模态系列（2026-07 起）、GPT-Image-2.5 / 2.6、Eleven v4、Seedance 2.5、Seedream 5.0 Pro、Gemini Omni、Rerank 5、Cohere 收购 Aleph Alpha、OpenAI 旧 TTS 弃用等
+- 原先空着的「来源摘录」都补上了官方或 Wikipedia 原文
+- 字节页把 Seedance 发函时间改为 2026-02-13；OpenAI 页补 whisper-1 下线日期；L2 地图页更新注释

@@ -8,7 +8,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
@@ -20,10 +20,10 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 ## 关键特征
 
-- **合成（TTS）**：闭源有 [[entities/elevenlabs|ElevenLabs]] Eleven v3（2025-06，70 多种语言、多人对话、音频标签控制情绪）、OpenAI gpt-4o-mini-tts（2025-03，可用指令控制语气，只有预置音色）、Gemini 2.5 TTS；开放权重有 Kokoro-82M（Apache）、阿里 Fun-CosyVoice 3.0（基于 LLM 的零样本多语种，0.5B）、Sesame CSM、Chatterbox、Dia、Orpheus
+- **合成（TTS）**：闭源有 [[entities/elevenlabs|ElevenLabs]] Eleven v3（2025-06，70 多种语言、多人对话、音频标签控制情绪）与 Eleven v4（2026-09-28）、OpenAI gpt-4o-mini-tts（2025-03，可用指令控制语气，只有预置音色）、Gemini TTS（2026 有 gemini-3.1-flash-tts 预览）；开放权重有 Kokoro-82M（Apache）、阿里 Fun-CosyVoice 3.0（基于 LLM 的零样本多语种，0.5B）、Sesame CSM、Chatterbox、Dia、Orpheus
 - **声音克隆**：零样本克隆已很普遍（CosyVoice、Chatterbox），Kokoro 这类小模型不支持
-- **识别（ASR）**：开源的 [[entities/whisper|Whisper]]（2022-09，MIT）仍是基线；闭源后继有 gpt-4o-transcribe / GPT-Transcribe 和 ElevenLabs Scribe
-- **语音到语音**：OpenAI 推荐低延迟场景直接用 Realtime API 的 speech-to-speech 模型，2026 年有 GPT-Realtime 2.x 和全双工的 GPT-Live 1；Google 有 Gemini Live；ElevenLabs 有 Eleven v3 Conversational。这些主要服务语音 [[concepts/ai-agent|AI Agent]]
+- **识别（ASR）**：开源的 [[entities/whisper|Whisper]]（2022-09，MIT）仍是基线；闭源后继有 GPT-Transcribe / GPT-Live-Transcribe（2026-07-28）、GPT-Realtime-Whisper 和 ElevenLabs Scribe
+- **语音到语音成为主线**：OpenAI 推荐低延迟场景直接用 Realtime API 的 speech-to-speech 模型，2026 年有 GPT-Realtime-2（05-07）和全双工的 GPT-Live 1（09-10 GA）；它还在 2026-10-01 宣布 tts-1、tts-1-hd、gpt-4o-mini-tts 于 2027-01-06 下线，迁移目标就是 gpt-realtime-2.1-mini，单独的 TTS 接口被并进实时语音模型；Google 有 Gemini Live；ElevenLabs 有 Eleven v3 Conversational 和 Eleven Realtime（2026-10-20）。这些主要服务语音 [[concepts/ai-agent|AI Agent]]
 
 ## 应用
 

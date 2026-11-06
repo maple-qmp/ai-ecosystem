@@ -15,7 +15,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
@@ -33,9 +33,10 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 ## 时间线
 
-- 2025-06 Qwen3-Embedding 与 Qwen3-Reranker（0.6B / 4B / 8B）
+- 2025-06-03 Qwen3-Embedding 与 Qwen3-Reranker（0.6B / 4B / 8B）上传 Hugging Face
 - 2025-06-05 8B 嵌入模型居 MTEB 多语言榜第一（70.58）
-- 2026-01-08 Qwen3-VL-Embedding 与 Qwen3-VL-Reranker 技术报告（2B / 8B）
+- 2026-01-07 Qwen3-VL-Embedding 2B / 8B 上传 Hugging Face；01-08 技术报告
+- 截至 2026-11 没有更新的 Qwen 嵌入模型
 
 ## 相关实体
 

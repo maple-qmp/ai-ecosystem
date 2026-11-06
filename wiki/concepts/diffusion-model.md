@@ -8,7 +8,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
@@ -21,11 +21,12 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ## 关键特征
 
 - **潜空间扩散**：CompVis 的 Latent Diffusion（2021-12）先用 VAE 把图像压到低维潜空间，在潜空间里去噪，再解码回像素，大幅降低算力需求；[[entities/stable-diffusion|Stable Diffusion]] v1 因此只需 10GB 显存
-- **文本条件**：用冻结的文本编码器（CLIP、T5）把提示词编码后注入去噪网络，[[entities/imagen|Imagen]] 和 Stable Diffusion 都采用这一做法
+- **文本条件**：用冻结的文本编码器（CLIP、T5）把提示词编码后注入去噪网络，[[entities/imagen|Imagen]] 和 Stable Diffusion 都采用这一做法；Imagen 还用级联扩散，从 64×64 逐级放大到 1024×1024
 - **主干从 UNet 换成 Transformer（DiT）**：SD3 / 3.5 改用 MM-DiT；[[entities/flux|FLUX.2]] [dev] 是 32B 参数的 flow matching transformer。Flow matching 是扩散的变体，学习从噪声到数据的速度场
 - **蒸馏提速**：FLUX.2 [klein] 蒸馏版只需 4 步，Base 版 50 步
-- **视频扩散**：在时间维度上一起去噪；阿里 Wan2.2 还把[[concepts/mixture-of-experts|混合专家（MoE）]]引入视频扩散，按去噪阶段分配专家
-- **与语言模型融合**：闭源厂商开始让多模态 LLM 直接出图（[[entities/gpt-image|GPT Image]]、Gemini 的 Nano Banana），本次调研没有找到其内部架构的公开说明
+- **视频扩散**：在时间维度上一起去噪。[[entities/sora|Sora]] 在潜空间里对 3D“补丁”去噪；[[entities/kling|可灵]]用 DiT 配合自研 3D VAE 做时空联合压缩；阿里 Wan2.2 把[[concepts/mixture-of-experts|混合专家（MoE）]]引入视频扩散，按去噪阶段分配专家
+- **多模态统一**：[[entities/flux|FLUX 3]]（2026-07）用一个 flow 模型同时学习图像、视频和音频，并延伸到机器人动作预测
+- **非扩散的替代路线**：[[entities/gpt-image|GPT Image]] 是自回归模型，它的前身 DALL·E 2 / 3 才是扩散模型；Gemini 的 Nano Banana 同样由多模态 LLM 直接出图，内部架构未公开
 
 ## 应用
 
@@ -63,3 +64,4 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 
 - "Stable Diffusion is a latent text-to-image diffusion model." — [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]（CompVis/stable-diffusion README）
 - "Wan2.2 introduces a Mixture-of-Experts (MoE) architecture into video diffusion models." — [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]（Wan-Video/Wan2.2 README）
+- "According to OpenAI, Sora is a diffusion transformer, a denoising latent diffusion model with one transformer as its denoiser." — [[sources/multimodal-embedding-models-survey-2026-11|多模态与嵌入模型调研]]（Wikipedia Sora 条目）

@@ -46,7 +46,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-cl
 - 2024-09 o1 推理模型
 - 2025-03 开源 [[entities/openai-agents-sdk|Agents SDK]]
 - 2025-04 开源 [[entities/codex-cli|Codex CLI]]
-- 2025-03-20 gpt-4o-transcribe 与 gpt-4o-mini-tts 进 API，接替 [[entities/whisper|Whisper]]
+- 2025-03-20 gpt-4o-transcribe 与 gpt-4o-mini-tts 进 API，接替 [[entities/whisper|Whisper]]（whisper-1 API 2027-02-26 下线）
 - 2025-08 发布开放权重模型 [[entities/gpt-oss|gpt-oss]]
 - 2025-08-07 发布 [[entities/gpt|GPT-5]]，o 系列推理模型并入主线
 - 2025-09 与 Stripe 发布 [[concepts/agentic-commerce-protocol|Agentic Commerce Protocol]]
