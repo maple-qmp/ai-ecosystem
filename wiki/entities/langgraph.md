@@ -7,15 +7,15 @@ layer: L4
 aliases: ["LangGraph", "LangGraph.js"]
 org: "[[entities/langchain-inc]]"
 released: "2024"
-competitors: []
+competitors: ["[[entities/crewai]]", "[[entities/microsoft-agent-framework]]", "[[entities/pydantic-ai]]", "[[entities/workflow-devkit]]"]
 depends_on: []
 status: active
 as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/python-agent-frameworks-survey-2026-11]]"]
 ---
 
 # LangGraph
@@ -28,14 +28,15 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架（运行时）
 - **下游**：[[entities/langchain|LangChain]]、[[entities/deep-agents|Deep Agents]]
-- **竞争 / 替代**：[[entities/workflow-devkit|Workflow DevKit]]（持久化工作流）、[[entities/mastra|Mastra]]（Workflows 与 Harness）、CrewAI、Microsoft Agent Framework、[[entities/openai-agents-sdk|OpenAI Agents SDK]]
+- **竞争 / 替代**：[[entities/workflow-devkit|Workflow DevKit]]（持久化工作流）、[[entities/mastra|Mastra]]（Workflows 与 Harness）、[[entities/crewai|CrewAI]]、[[entities/microsoft-agent-framework|Microsoft Agent Framework]]、[[entities/pydantic-ai|Pydantic AI]]、[[entities/openai-agents-sdk|OpenAI Agents SDK]]
 
 ## 时间线
 
 - 2024 发布
 - 2025-05-14 LangGraph Platform GA（托管长时、有状态 Agent）
 - 2025-10 LangGraph Platform 更名 LangSmith Deployment，LangGraph Studio 更名 LangSmith Studio
-- 2025-10-22 LangGraph 1.0：唯一明显变更是弃用 `langgraph.prebuilt`，其中的 `create_react_agent` 改由 `langchain.agents.create_agent` 取代；承诺 2.0 前无破坏性变更
+- 2025-10-22 LangGraph 1.0：唯一明显变更是弃用 `langgraph.prebuilt`，其中的 `create_react_agent` 改由 `langchain.agents.create_agent` 取代；承诺 2.0 前无破坏性变更（PyPI 上 1.0.0 上传于 2025-10-17）
+- 2026-11-05 Python 版 1.2.20（PyPI）
 
 ## 相关实体
 
@@ -48,6 +49,7 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/agent-harness|Agent Harness]]
+- [[concepts/python-agent-development|Python Agent 开发]]
 
 ## 我的判断
 

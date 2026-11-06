@@ -3,7 +3,7 @@ title: L4-开发工具与Agent
 type: map
 layer: L4
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # L4-开发工具与Agent
@@ -32,6 +32,18 @@ updated: 2026-11-05
   - [[entities/codex-app-server|Codex App Server / SDK]]
 - [[entities/claude-code|Claude Code]]
   - [[entities/sandbox-runtime|Sandbox Runtime（srt）]]
+
+### Python
+
+- [[concepts/python-agent-development|Python Agent 开发]]（总览与选型）
+- [[entities/microsoft-agent-framework|Microsoft Agent Framework]]（含 AutoGen、Semantic Kernel）
+- [[entities/crewai|CrewAI]]
+- [[entities/llamaindex|LlamaIndex]]
+- [[entities/pydantic-ai|Pydantic AI]]
+- [[entities/dspy|DSPy]]
+- [[entities/smolagents|smolagents]]
+- [[entities/agno|Agno]]
+- LangGraph、Google ADK、OpenAI Agents SDK 的 Python 版见上方「框架」与下方「Java / JVM」
 
 ### Java / JVM
 

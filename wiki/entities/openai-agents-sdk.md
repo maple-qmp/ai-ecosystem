@@ -14,8 +14,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/openai-developers-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/python-agent-frameworks-survey-2026-11]]"]
 ---
 
 # OpenAI Agents SDK
@@ -55,12 +55,15 @@ sources: ["[[sources/openai-developers-survey-2026-11]]"]
 - [[entities/codex-cli|Codex CLI]]
 - [[entities/gpt-oss|gpt-oss]]
 - [[entities/langsmith|LangSmith]]
+- [[entities/pydantic-ai|Pydantic AI]]
+- [[entities/microsoft-agent-framework|Microsoft Agent Framework]]
 
 ## 相关概念
 
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/agent-harness|Agent Harness]]
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]
+- [[concepts/python-agent-development|Python Agent 开发]]
 
 ## 我的判断
 

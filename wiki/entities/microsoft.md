@@ -13,7 +13,7 @@ origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-06
-sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/major-ai-orgs-survey-2026-11]]"]
+sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/major-ai-orgs-survey-2026-11]]", "[[sources/python-agent-frameworks-survey-2026-11]]"]
 ---
 
 # Microsoft
@@ -53,6 +53,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/major-ai-or
 - [[entities/deepspeed|DeepSpeed]]
 - [[entities/azure|Azure]]
 - [[entities/anthropic|Anthropic]]
+- [[entities/microsoft-agent-framework|Microsoft Agent Framework]]（合并 Semantic Kernel 与 AutoGen 的 Agent 框架）
 
 ## 相关概念
 

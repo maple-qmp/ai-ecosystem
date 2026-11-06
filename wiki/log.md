@@ -371,3 +371,15 @@
 - 主要补充：OpenAI 2025-10 改制为 OpenAI Group PBC，持股结构为 Foundation 26%、Microsoft 27%、其余 47%，2026-04 估值 8520 亿美元；Anthropic G 轮、H 轮（9650 亿美元）和 2026-10-26 的 S-1（Nasdaq: ANT）；DeepMind 2010 年创立、2014 年被收购；Meta 2025-06 成立 MSL，LeCun 离职，Muse Glimmer 与 Muse Spark Open 开放权重；Microsoft AI 与 MAI 自研模型；阿里 3800 亿元投资计划、千问 App；Vercel F 轮与 2026-04 安全事件
 - 更正：Google DeepMind 的 `released` 由 2023 改为 2010-11，别名删掉不准确的“Google AI”；Meta AI 补 `released: 2013`
 - 待核实：Microsoft 与 OpenAI 2026-04 改约的具体条款；Anthropic S-1 的亏损数字；OpenAI 停供 Cursor 的原因，已写入 OpenAI 页的 `## Contradictions`
+
+
+## [2026-11-06 11:57] ingest | Python Agent 框架调研
+
+**创建页面**：[[sources/python-agent-frameworks-survey-2026-11]], [[concepts/python-agent-development]], [[entities/microsoft-agent-framework]], [[entities/crewai]], [[entities/llamaindex]], [[entities/pydantic-ai]], [[entities/dspy]], [[entities/smolagents]], [[entities/agno]]
+
+**更新页面**：[[entities/langgraph]], [[entities/google-adk]], [[entities/openai-agents-sdk]], [[entities/microsoft]], [[entities/hugging-face]], [[maps/L4-开发工具与Agent]]
+
+- 来源：Microsoft Agent Framework 1.0 公告、Pydantic AI v2 公告、ADK 2.0 文档，以及各项目 GitHub README；版本号和发布日期取自 PyPI JSON API，星数和协议取自 GitHub API（均为 2026-11-06 读取）；素材为 `raw/Python-Agent框架调研-2026-11.md`
+- AutoGen 不单独建页，作为前身写进 Microsoft Agent Framework 页（仓库已归档）；Semantic Kernel 同样并入
+- LangGraph 补 Python 版时间线，并记下 PyPI 1.0.0 上传日期（2025-10-17）与官方公告日期（2025-10-22）不同；Google ADK 补 Python 2.0（图式 Workflow Runtime）
+- 待核实：Agno 前身是 Phidata 的说法（来自训练知识）；DSPy 3.2–3.4 的内容来自维护者 X 帖子与二手资料；AutoGen 仓库的代码协议

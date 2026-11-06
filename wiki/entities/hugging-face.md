@@ -12,8 +12,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-05
-sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/ai-data-layer-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/ai-data-layer-survey-2026-11]]", "[[sources/python-agent-frameworks-survey-2026-11]]"]
 ---
 
 # Hugging Face
@@ -50,6 +50,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/ai-data-lay
 - [[entities/common-crawl|Common Crawl]]
 - [[entities/weaviate|Weaviate]]
 - [[entities/nvidia|NVIDIA]]
+- [[entities/smolagents|smolagents]]（极简 Python Agent 库）
 
 ## 相关概念
 
