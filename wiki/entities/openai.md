@@ -82,6 +82,8 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-cl
 - [[concepts/scaling-laws|规模定律]]
 - [[concepts/agents-md|AGENTS.md]]
 - [[concepts/agentic-commerce-protocol|Agentic Commerce Protocol]]
+- [[concepts/frontier-safety-frameworks|前沿模型安全框架]]（Preparedness Framework）
+- [[concepts/swe-bench|SWE-bench]]（Verified 由 Preparedness 团队合作推出）
 
 ## 我的判断
 
