@@ -7,14 +7,14 @@ layer: X
 aliases: ["DeepSeek", "深度求索", "杭州深度求索"]
 released: "2023-07"
 competitors: ["[[entities/alibaba]]", "[[entities/openai]]", "[[entities/moonshot-ai]]", "[[entities/zhipu-ai]]", "[[entities/minimax]]"]
-depends_on: ["[[entities/nvidia]]"]
+depends_on: ["[[entities/nvidia]]", "[[entities/ascend]]"]
 status: active
 as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/moonshot-ai-survey-2026-11]]", "[[sources/open-weight-flagships-survey-2026-11]]"]
+sources: ["[[sources/moonshot-ai-survey-2026-11]]", "[[sources/open-weight-flagships-survey-2026-11]]", "[[sources/ai-compute-hardware-survey-2026-11]]"]
 ---
 
 # DeepSeek
@@ -26,7 +26,7 @@ sources: ["[[sources/moonshot-ai-survey-2026-11]]", "[[sources/open-weight-flags
 ## 生态位置
 
 - **层级**：[[maps/X-横切主题|X-横切主题]] · AI 实验室
-- **上游依赖**：[[entities/nvidia|NVIDIA]]（早期 A100 集群）；华为昇腾（2026 起，本库尚无页面）
+- **上游依赖**：[[entities/nvidia|NVIDIA]]（早期 A100 集群）；[[entities/ascend|华为昇腾]]（2026 起）
 - **竞争 / 替代**：[[entities/alibaba|阿里巴巴（通义）]]、[[entities/openai|OpenAI]]、[[entities/moonshot-ai|月之暗面]]、[[entities/zhipu-ai|智谱]]、[[entities/minimax|MiniMax]]
 
 ## 时间线
