@@ -14,7 +14,7 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-closed-models-survey-2026-11]]"]
+sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-closed-models-survey-2026-11]]", "[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
 # OpenAI
@@ -46,6 +46,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-cl
 - 2024-09 o1 推理模型
 - 2025-03 开源 [[entities/openai-agents-sdk|Agents SDK]]
 - 2025-04 开源 [[entities/codex-cli|Codex CLI]]
+- 2025-03-20 gpt-4o-transcribe 与 gpt-4o-mini-tts 进 API，接替 [[entities/whisper|Whisper]]（whisper-1 API 2027-02-26 下线）
 - 2025-08 发布开放权重模型 [[entities/gpt-oss|gpt-oss]]
 - 2025-08-07 发布 [[entities/gpt|GPT-5]]，o 系列推理模型并入主线
 - 2025-09 与 Stripe 发布 [[concepts/agentic-commerce-protocol|Agentic Commerce Protocol]]
@@ -53,7 +54,8 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-cl
 - 2025-12 与 Anthropic、Block 共同发起 Linux Foundation 下的 Agentic AI Foundation，捐出 [[concepts/agents-md|AGENTS.md]]
 - 2026-02-13 ChatGPT 下线 GPT-4o
 - 2026-03 收购 [[entities/promptfoo|Promptfoo]]
-- 2026-03-24 宣布停止 Sora 应用与 API
+- 2026-03-24 宣布停止 [[entities/sora|Sora]] 应用与 API（API 2026-09-24 下线）
+- 2026-04-21 ChatGPT Images 2.0 / gpt-image-2，见 [[entities/gpt-image|GPT Image]]；DALL·E 2 / 3 于 05-12 从 API 下线
 - 2026-08 以蒸馏等违约行为为由停止向 [[entities/cursor|Cursor]] 提供模型
 - 2026-09-03 发布 GPT-6 Astra
 - 2026-11-30 Evals 平台与 Agent Builder 计划关闭
@@ -69,6 +71,10 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-cl
 - [[entities/codex-cli|Codex CLI]]
 - [[entities/chatkit|ChatKit]]
 - [[entities/promptfoo|Promptfoo]]
+- [[entities/gpt-image|GPT Image（含 DALL·E）]]
+- [[entities/sora|Sora]]
+- [[entities/whisper|Whisper]]
+- [[entities/openai-embeddings|OpenAI text-embedding]]
 
 ## 相关概念
 

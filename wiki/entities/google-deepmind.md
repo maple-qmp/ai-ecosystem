@@ -14,7 +14,7 @@ origin: claude-seed
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/frontier-closed-models-survey-2026-11]]"]
+sources: ["[[sources/frontier-closed-models-survey-2026-11]]", "[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
 # Google DeepMind
@@ -36,13 +36,17 @@ Google 的 AI 研究主体，2023 年由 Google Brain 与 DeepMind 合并而成�
 - 2023-12 Gemini 发布
 - 2024-02 Gemini 1.5（MoE、1M 上下文）；开放权重的 Gemma
 - 2025-03 Gemini 2.5 Pro
+- 2025-05-20 Google I/O：[[entities/veo|Veo]] 3（原生音频）、[[entities/imagen|Imagen]] 4、Flow
 - 2025-11 Gemini 3 Pro
 - 2026-04 Gemma 4
+- 2026-08-17 Imagen 4 在 Gemini API 关闭，图像生成转到 Nano Banana
 - 2026-10-13 Gemini 4 Argon 正式开放，见 [[entities/gemini|Gemini]]
 
 ## 相关实体
 
 - [[entities/gemini|Gemini]]
+- [[entities/veo|Veo]]
+- [[entities/imagen|Imagen]]
 - [[entities/openai|OpenAI]]
 - [[entities/anthropic|Anthropic]]
 - [[entities/google-adk|Google ADK]]（Google 的开源 Agent 框架）

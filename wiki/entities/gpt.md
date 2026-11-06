@@ -16,7 +16,7 @@ origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-05
-sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-closed-models-survey-2026-11]]"]
+sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-closed-models-survey-2026-11]]", "[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
 # GPT
@@ -68,6 +68,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/frontier-cl
 - [[entities/gpt-oss|gpt-oss]]
 - [[entities/codex-cli|Codex CLI]]
 - [[entities/tiktoken|tiktoken]]
+- [[entities/gpt-image|GPT Image]]、[[entities/sora|Sora]]、[[entities/whisper|Whisper]]（图像、视频、语音线）
 - [[entities/github-copilot|GitHub Copilot]]
 - [[entities/claude|Claude]]
 - [[entities/gemini|Gemini]]

@@ -46,6 +46,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 - [[concepts/rag|检索增强生成（RAG）]]
 - [[concepts/quantization|量化]]
 - [[concepts/observational-memory|观察式记忆]]
+- [[concepts/embedding|嵌入（Embedding）]]
 
 ## 相关实体
 
@@ -57,6 +58,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 - [[entities/weaviate|Weaviate]]
 - [[entities/chroma|Chroma]]
 - [[entities/langchain|LangChain]]
+- 嵌入模型：[[entities/openai-embeddings|OpenAI text-embedding]]、[[entities/qwen3-embedding|Qwen3-Embedding]]、[[entities/bge|BGE]]、[[entities/voyage-embeddings|Voyage]]（已并入 MongoDB Atlas）、[[entities/cohere-embed|Cohere Embed]]
 
 ## 我的判断
 

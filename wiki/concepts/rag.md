@@ -39,6 +39,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]", "[[sources/langchain-ecosy
 ## 相关概念
 
 - [[concepts/vector-database|向量数据库]]
+- [[concepts/embedding|嵌入（Embedding）]]
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/observational-memory|观察式记忆]]
 
@@ -49,6 +50,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]", "[[sources/langchain-ecosy
 - [[entities/meta-ai|Meta AI]]
 - [[entities/milvus|Milvus]]
 - [[entities/weaviate|Weaviate]]
+- 嵌入模型：[[entities/openai-embeddings|OpenAI text-embedding]]、[[entities/qwen3-embedding|Qwen3-Embedding]]、[[entities/bge|BGE]]、[[entities/voyage-embeddings|Voyage]]、[[entities/cohere-embed|Cohere Embed]]
 
 ## 我的判断
 
