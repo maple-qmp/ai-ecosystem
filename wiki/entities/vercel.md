@@ -10,18 +10,18 @@ competitors: []
 depends_on: []
 status: active
 as_of: 2026-11
-origin: claude-seed
+origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]", "[[sources/bun-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]", "[[sources/bun-survey-2026-11]]", "[[sources/major-ai-orgs-survey-2026-11]]"]
 ---
 
 # Vercel
 
 ## 描述
 
-美国前端云平台公司，前身为 ZEIT（2015 年由 Guillermo Rauch 创立，2020 年更名）。商业模式是“开源框架 + 托管平台”：维护 [[entities/nextjs|Next.js]]、[[entities/vercel-ai-sdk|AI SDK]]、[[entities/turborepo|Turborepo]]、[[entities/workflow-devkit|Workflow DevKit]] 等开源框架，同时出售托管、AI Gateway、Remote Cache、Blob、Sandbox 等服务，以及 v0 应用生成器。框架代码大多不绑定平台，绑定主要体现在默认配置上。
+美国前端云平台公司，前身为 ZEIT（2015 年由 Guillermo Rauch 创立，2020 年更名）。商业模式是“开源框架 + 托管平台”：维护 [[entities/nextjs|Next.js]]、[[entities/vercel-ai-sdk|AI SDK]]、[[entities/turborepo|Turborepo]]、[[entities/workflow-devkit|Workflow DevKit]] 等开源框架，同时出售托管、AI Gateway、Remote Cache、Blob、Sandbox 等服务，以及 v0 应用生成器。框架代码大多不绑定平台，绑定主要体现在默认配置上。总部旧金山，2025 年约 550 人；2025-09 F 轮融资 3 亿美元，估值 93 亿美元（Accel 与 GIC 共同领投）。
 
 ## 生态位置
 
@@ -69,12 +69,20 @@ sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]", "[[sources/bun-sur
 - 2015 以 ZEIT 名义创立
 - 2016-10 发布 Next.js
 - 2020-04 更名 Vercel
+- 2021-06 C 轮 1.02 亿美元
 - 2021-12 收购 Turborepo
+- 2022-10 收购 Splitbee
+- 2023 推出 AI 建站工具 v0
 - 2023-06 发布 AI SDK
+- 2024-05 融资 2.5 亿美元，估值 32.5 亿
+- 2025-01 收购 Tremor
 - 2025-07 收购 NuxtLabs，Nuxt 与 Nitro 仍保持 MIT 和平台中立
+- 2025-09 F 轮 3 亿美元、估值 93 亿（Accel 与 GIC 共同领投），另有约 3 亿美元老股要约收购
 - 2025-10 发布 Workflow DevKit；Next.js 16 推出 Adapter API（alpha）
 - 2025-10-28 平台以公开测试支持 [[entities/bun|Bun]] 运行时（Next.js、Hono、自定义 API 路由）
-- 2026-03 Next.js 16.2，Adapter API 稳定
+- 2026-03 Next.js 16.2，Adapter API 稳定；HashiCorp 联合创始人 Mitchell Hashimoto 加入董事会
+- 2026-04-19 披露安全事件：第三方 AI 工具 Context.ai 被攻破，攻击者经员工 Google Workspace 账号访问了部分未标为敏感的环境变量
+- 2026-07 收购 Better Auth 与 Stakpak
 
 ## 相关实体
 
@@ -96,3 +104,4 @@ sources: ["[[sources/vercel-oss-dependency-survey-2026-11]]", "[[sources/bun-sur
 
 ## 来源摘录
 
+- "a Series F funding round valuing our company at $9.3 billion. The $300M investment is co-led by longtime partners at Accel and new investors at GIC" — [[sources/major-ai-orgs-survey-2026-11|主要 AI 实验室与公司调研]]（Vercel 博客）

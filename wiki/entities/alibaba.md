@@ -4,23 +4,23 @@ type: entity
 tags: [organization]
 kind: company
 layer: X
-aliases: ["Alibaba", "阿里云", "通义"]
+aliases: ["阿里巴巴", "Alibaba", "Alibaba Group", "阿里云", "通义", "千问"]
 competitors: ["[[entities/deepseek]]", "[[entities/meta-ai]]", "[[entities/bytedance]]"]
 depends_on: []
 status: active
 as_of: 2026-11
-origin: claude-seed
+origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-05
-sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot-ai-survey-2026-11]]", "[[sources/zhipu-ai-survey-2026-11]]", "[[sources/minimax-survey-2026-11]]", "[[sources/open-weight-flagships-survey-2026-11]]", "[[sources/multimodal-embedding-models-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot-ai-survey-2026-11]]", "[[sources/zhipu-ai-survey-2026-11]]", "[[sources/minimax-survey-2026-11]]", "[[sources/open-weight-flagships-survey-2026-11]]", "[[sources/multimodal-embedding-models-survey-2026-11]]", "[[sources/major-ai-orgs-survey-2026-11]]"]
 ---
 
 # 阿里巴巴（通义）
 
 ## 描述
 
-阿里巴巴集团及阿里云，研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云提供算力与模型服务。在 Java Agent 开发方向开源了 [[entities/spring-ai-alibaba|Spring AI Alibaba]] 和 [[entities/agentscope|AgentScope]]（Java 版官方称在集团内 13+ 个业务单元生产使用）。阿里同时是多家中国模型公司的早期投资方：2023 年投资[[entities/zhipu-ai|智谱]]，2024-02 领投[[entities/moonshot-ai|月之暗面]]，2024-03 领投 [[entities/minimax|MiniMax]]；2026-05 起，阿里云百炼也上架了这三家的模型。
+阿里巴巴集团及阿里云，2023 年起由蔡崇信任董事会主席、吴泳铭任 CEO。研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云提供算力与模型服务。2025-02 宣布未来三年在云和 AI 基础设施上投入至少 3800 亿元，超过过去十年总和。C 端产品 2025-11-17 由通义 App 改版为“千问”App，接入 Qwen3-Max，2026-01 起接入外卖等阿里生态服务。在 Java Agent 开发方向开源了 [[entities/spring-ai-alibaba|Spring AI Alibaba]] 和 [[entities/agentscope|AgentScope]]（Java 版官方称在集团内 13+ 个业务单元生产使用）。阿里同时是多家中国模型公司的早期投资方：2023 年投资[[entities/zhipu-ai|智谱]]，2024-02 领投[[entities/moonshot-ai|月之暗面]]，2024-03 领投 [[entities/minimax|MiniMax]]；2026-05 起，阿里云百炼也上架了这三家的模型。
 
 ## 生态位置
 
@@ -40,15 +40,22 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot
 ## 时间线
 
 - 2023 投资智谱
+- 2023 蔡崇信任董事会主席、吴泳铭任 CEO
+- 2023-04 通义千问发布
 - 2023 起陆续开源 Qwen 系列
-- 2023 通义千问发布
 - 2024-02 领投月之暗面
 - 2024-03 领投 MiniMax
-- 2025-04 Qwen3 全系 Apache 2.0
+- 2025-02 宣布三年投入至少 3800 亿元建设云与 AI 基础设施
+- 2025-04-28 Qwen3 全系 Apache 2.0
 - 2025-06 开放 [[entities/qwen3-embedding|Qwen3-Embedding]] 与 Qwen3-Reranker
-- 2026-01 Qwen3-VL-Embedding / Reranker
+- 2025-11-17 通义 App 改版为“千问”App 公测，一周下载量破千万，23 天月活破 3000 万（官方口径，含 Web 与 PC）
+- 2026-01 Qwen3-VL-Embedding / Reranker；千问 App 接入外卖等阿里生态服务
+- 2026-02 Qwen3.5 开放权重，闭源 Qwen3.5-Plus
+- 2026-03 Qwen 负责人林俊旸离职，阿里表示继续开源；阿里国际推出电商 Agent 平台 Accio Work
+- 2026-04 Qwen3.6（Apache 2.0）
 - 2026-05-20 百炼上架第三方模型（GLM-5.1、MiniMax M2.7、Kimi K2.6 等）
-- 2026-08-12 开放 Qwen3.8 旗舰权重（2.4T），改用带收入门槛的许可证，见 [[entities/qwen|Qwen]]
+- 2026-06 被 [[entities/anthropic|Anthropic]] 指控蒸馏 Claude
+- 2026-08-12 开放 Qwen3.8 旗舰权重（2.4T），改用带收入门槛的许可证，见 [[entities/qwen|Qwen]]；08-14 Qwen3.8-27B 以 Apache 2.0 开放
 
 ## 相关实体
 
@@ -73,3 +80,4 @@ sources: ["[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/moonshot
 
 ## 来源摘录
 
+- "Former Qwen AI model division head, Lin Junyang, resigned in March 2026 after the release of Qwen3.5 and Qwen3.5-Plus" — [[sources/major-ai-orgs-survey-2026-11|主要 AI 实验室与公司调研]]（Wikipedia）

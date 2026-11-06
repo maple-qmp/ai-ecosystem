@@ -349,3 +349,25 @@
 - 新增：FLUX 3 多模态系列（2026-07 起）、GPT-Image-2.5 / 2.6、Eleven v4、Seedance 2.5、Seedream 5.0 Pro、Gemini Omni、Rerank 5、Cohere 收购 Aleph Alpha、OpenAI 旧 TTS 弃用等
 - 原先空着的「来源摘录」都补上了官方或 Wikipedia 原文
 - 字节页把 Seedance 发函时间改为 2026-02-13；OpenAI 页补 whisper-1 下线日期；L2 地图页更新注释
+
+
+## [2026-11-06 10:36] Wiki 维护报告
+
+
+> Wiki 状态概览：共 242 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 16 秒
+
+未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+
+
+## [2026-11-06 10:57] ingest | 主要 AI 实验室与公司调研：七个种子组织页核实
+
+**创建页面**：[[sources/major-ai-orgs-survey-2026-11]]
+
+**更新页面**：[[entities/openai]], [[entities/anthropic]], [[entities/google-deepmind]], [[entities/meta-ai]], [[entities/microsoft]], [[entities/alibaba]], [[entities/vercel]]
+
+- 来源：Microsoft 官方博客（2025-10-28 OpenAI 新协议、2025-11-18 与 NVIDIA 和 Anthropic 合作）、Anthropic G 轮与 H 轮公告、Meta Newsroom（Muse Spark）、Vercel 博客（F 轮），以及 OpenAI、Anthropic、Google DeepMind、Meta AI、Meta Superintelligence Labs、Microsoft、Microsoft AI、Alibaba Group、Qwen、Vercel 的 Wikipedia 原文；素材为 `raw/主要AI实验室与公司调研-2026-11.md`。openai.com 返回 403
+- 七页 `origin` 由 `claude-seed` 改为 `source`，`reviewed` 仍为 false，等你人工核实
+- 主要补充：OpenAI 2025-10 改制为 OpenAI Group PBC，持股结构为 Foundation 26%、Microsoft 27%、其余 47%，2026-04 估值 8520 亿美元；Anthropic G 轮、H 轮（9650 亿美元）和 2026-10-26 的 S-1（Nasdaq: ANT）；DeepMind 2010 年创立、2014 年被收购；Meta 2025-06 成立 MSL，LeCun 离职，Muse Glimmer 与 Muse Spark Open 开放权重；Microsoft AI 与 MAI 自研模型；阿里 3800 亿元投资计划、千问 App；Vercel F 轮与 2026-04 安全事件
+- 更正：Google DeepMind 的 `released` 由 2023 改为 2010-11，别名删掉不准确的“Google AI”；Meta AI 补 `released: 2013`
+- 待核实：Microsoft 与 OpenAI 2026-04 改约的具体条款；Anthropic S-1 的亏损数字；OpenAI 停供 Cursor 的原因，已写入 OpenAI 页的 `## Contradictions`
