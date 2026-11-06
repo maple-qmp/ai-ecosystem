@@ -222,3 +222,11 @@
 - 重写 `scaling-laws`：依据两篇原始论文摘要改为 `origin: source`，补推理时计算扩展与监管算力门槛
 - `promptfoo`、`langsmith` 链到评测基准页，`anthropic`、`openai` 链到前沿模型安全框架页
 - 更新 X 地图页：新增「评测基准」「政策法规」分组
+
+## [2026-11-06 02:04] ingest | AI 评测基准与政策法规调研：一手来源二次核实
+
+**更新页面**：[[sources/ai-benchmarks-survey-2026-11]], [[sources/ai-policy-survey-2026-11]], [[concepts/swe-bench]], [[concepts/chatbot-arena]], [[concepts/humanitys-last-exam]], [[concepts/gpqa]], [[concepts/mmlu]], [[concepts/arc-agi]], [[concepts/terminal-bench]], [[concepts/tau-bench]], [[concepts/benchmark-contamination]], [[concepts/eu-ai-act]], [[concepts/china-generative-ai-measures]], [[concepts/us-federal-ai-policy]], [[concepts/california-sb-53]], [[concepts/frontier-safety-frameworks]], [[concepts/scaling-laws]]
+
+- 来源：网络策略放开后，补读 arXiv 摘要、swebench.com 与 Scale AI 官方排行榜、arena.ai、lastexam.ai、arcprize.org、tbench.ai 博客、联邦公报行政令原文、欧盟出版局的 Regulation (EU) 2026/1744 正文与元数据、欧盟委员会实践准则签署方名单、网信办标识办法发布稿、OpenAI Preparedness Framework v2 PDF；更新两份素材 `raw/AI评测基准调研-2026-11.md`、`raw/AI政策法规调研-2026-11.md`
+- 更正：SWE-bench Verified 官方榜最高 79.2%（首轮聚合站的 93.9%–96.4% 删除）；GPQA 专家准确率 65%（非 81%）；GSM1k 掉分最多 8%；τ-bench 成绩改用论文表述；实践准则不授予合规推定；纽约 RAISE Act 的事件报告时限为 72 小时
+- 补充：Terminal-Bench 2.1 / 3.0 / 4.0 与排行榜诚信规则，HLE-Rolling / HLE-Diamond，SWE-Bench Pro 公开榜，ARC Prize 2026 赛程，EO 14409、EO 14434，Omnibus 新增禁止条款与第 50(2) 条过渡期，2026-08 备案数量（1,112 款），实践准则签署方官方名单

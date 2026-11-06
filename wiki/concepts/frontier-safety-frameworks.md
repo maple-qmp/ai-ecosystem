@@ -8,7 +8,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/ai-policy-survey-2026-11]]"]
 ---
 
@@ -29,10 +29,14 @@ sources: ["[[sources/ai-policy-survey-2026-11]]"]
 
 ### OpenAI Preparedness Framework
 
-- 2023-12 发布 beta 版；第 2 版 2025-04-15 发布（二手）
-- **跟踪类别**：生物与化学、网络安全、AI 自我改进；核与放射、长程自主、故意藏拙（sandbagging）、自主复制、破坏防护等列为研究类别
-- **两级阈值**：High（放大已有危害）与 Critical（带来全新威胁）；达到阈值须提交能力报告和防护报告，由安全顾问组（SAG）审查后再部署
-- **调整条款**：若其他实验室发布了缺少同等防护的可比系统，OpenAI 在一定条件下可下调自身要求
+- 2023-12 发布 beta 版；第 2 版 2025-04-15 发布，截至 2026 年中仍是现行版本（二手）
+- **跟踪类别**：生物与化学、网络安全、AI 自我改进。v2 把原“模型自主”拆开：AI 自我改进升为跟踪类别，长程自主、自主复制与适应列为研究类别
+- **两级阈值**：
+  - High：显著增加现有的严重危害途径，部署前须有足以把风险降到足够低的防护
+  - Critical：带来性质全新、无先例的严重危害途径，无论是否计划部署，开发期间就须有防护
+- **安全顾问组（SAG）**：OpenAI 领导层组成的内部跨部门小组，负责监督框架，并就所需防护给出建议
+- **边际风险条款**：如果能严格确认其他开发者发布了缺少可比防护的同级系统，OpenAI 可以调整防护要求，但须同时满足三个条件：评估认为不会实质增加总体风险；公开承认作了调整；防护仍须比对方更严，以免安全上的“逐底竞争”
+- 2026-05-28 OpenAI 另发布针对加州和欧盟法律要求的 Frontier Governance Framework（二手）
 - Preparedness 团队还与 SWE-bench 作者合作推出了 [[concepts/swe-bench|SWE-bench Verified]]
 
 ## 应用
@@ -67,6 +71,8 @@ sources: ["[[sources/ai-policy-survey-2026-11]]"]
 
 ## 来源摘录
 
+- "Critical capability thresholds mean capabilities that present a meaningful risk of a qualitatively new threat vector for severe harm with no ready precedent." — [[sources/ai-policy-survey-2026-11|AI 政策法规调研]]
+- "in order to avoid a race to the bottom on safety, we keep our safeguards at a level more protective than the other AI developer, and share information to validate this claim." — [[sources/ai-policy-survey-2026-11|AI 政策法规调研]]
 - "We believe that risk governance in this rapidly evolving domain should be proportional, iterative, and exportable." — [[sources/ai-policy-survey-2026-11|AI 政策法规调研]]
 - "Our new RSP introduces a requirement to develop and publish a Frontier Safety Roadmap." — [[sources/ai-policy-survey-2026-11|AI 政策法规调研]]
 - "Version 3.0 is a comprehensive rewrite of the RSP." — [[sources/ai-policy-survey-2026-11|AI 政策法规调研]]

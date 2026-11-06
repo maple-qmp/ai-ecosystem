@@ -8,7 +8,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/ai-benchmarks-survey-2026-11]]"]
 ---
 
@@ -21,8 +21,10 @@ MMLU（Measuring Massive Multitask Language Understanding）是 Hendrycks 等 20
 ## 关键特征
 
 - **MMLU 历史分数**：随机基线 25%，GPT-3 175B few-shot 43.9%，Chinchilla 70B 67.5%（README 榜单）
+- **MMLU 发布时**：多数模型接近随机水平，最大的 GPT-3 平均比随机高近 20 个百分点
+- **MMLU-Pro 的动机**：MMLU 上的表现进入平台期；MMLU-Pro 同时剔除了 MMLU 中过于简单和有噪声的题
 - **MMLU-Pro 更难更稳**：相比 MMLU 准确率下降 16%–33%；对提示词变化的敏感度从 4–5% 降到 2%；使用思维链的模型得分更高
-- **饱和**：MMLU 已饱和，前沿模型发布时多改报 MMLU-Pro 或多语言版本（二手）
+- **饱和**：[[concepts/humanitys-last-exam|HLE]] 论文指出 LLM 在 MMLU 上已超过 90%；前沿模型发布时多改报 MMLU-Pro 或多语言版本
 
 ## 应用
 
