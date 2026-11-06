@@ -210,42 +210,6 @@
 
 未检测到重复、断链、空洞、孤立页面或无来源引证。
 
-## [2026-11-05 21:06] ingest | AI 数据层调研：向量库、预训练语料、合成数据与数据公司
-
-**创建页面**：[[sources/ai-data-layer-survey-2026-11]], [[entities/milvus]], [[entities/zilliz]], [[entities/qdrant]], [[entities/pgvector]], [[entities/pinecone]], [[entities/weaviate]], [[entities/chroma]], [[entities/common-crawl]], [[entities/fineweb]], [[entities/the-pile]], [[entities/dolma]], [[entities/scale-ai]], [[entities/surge-ai]], [[entities/mercor]], [[concepts/synthetic-data]], [[concepts/data-labeling]]
-
-**更新页面**：[[entities/hugging-face]], [[concepts/vector-database]], [[concepts/rag]], [[entities/meta-ai]], [[entities/langchain]], [[maps/L1-数据]]
-
-- 来源：Milvus、Qdrant、pgvector、Weaviate、Chroma、FineWeb 2、datatrove、Cosmopedia、transformers、Dolma、The Pile 的 GitHub README 与 CHANGELOG，PyPI 版本元数据；融资、公司与论文数字来自 Business Wire、TechCrunch、Reuters、Bloomberg、Wikipedia 等报道与搜索摘要（huggingface.co、arxiv.org、commoncrawl.org 及公司官网被网络策略拦截，标注为二手）（`raw/AI数据层调研-2026-11.md`）
-- 新建来源页 `sources/ai-data-layer-survey-2026-11`
-- 新建 14 个实体页：向量库 `milvus`、`qdrant`、`pgvector`、`pinecone`、`weaviate`、`chroma`；语料 `common-crawl`、`fineweb`、`the-pile`、`dolma`；公司 `zilliz`、`scale-ai`、`surge-ai`、`mercor`
-- 新建 2 个概念页：`synthetic-data`、`data-labeling`
-- 核实重写 3 个种子页并改为 `origin: source`：`hugging-face`（补 FineWeb、datatrove、Cosmopedia、融资与出售报道）、`vector-database`、`rag`（补 Lewis 等 2020 论文细节）
-- `meta-ai` 时间线补入股 Scale AI；`langchain` 的向量库集成改为链接到各向量库页
-- 更新 L1 地图页（按 向量库 / 语料 / 数据公司 / 概念 分组）
-
-## [2026-11-05 21:08] ingest | AI 评测基准与政策法规调研（X 横切主题，核实规模定律种子页）
-
-**创建页面**：[[sources/ai-benchmarks-survey-2026-11]], [[sources/ai-policy-survey-2026-11]], [[concepts/swe-bench]], [[concepts/chatbot-arena]], [[concepts/humanitys-last-exam]], [[concepts/gpqa]], [[concepts/mmlu]], [[concepts/arc-agi]], [[concepts/terminal-bench]], [[concepts/tau-bench]], [[concepts/benchmark-contamination]], [[concepts/eu-ai-act]], [[concepts/china-generative-ai-measures]], [[concepts/us-federal-ai-policy]], [[concepts/california-sb-53]], [[concepts/frontier-safety-frameworks]]
-
-**更新页面**：[[concepts/scaling-laws]], [[entities/promptfoo]], [[entities/langsmith]], [[entities/anthropic]], [[entities/openai]], [[maps/X-横切主题]]
-
-- 来源：SWE-bench、SWE-bench Pro、FastChat、HLE、GPQA、MMLU、MMLU-Pro、ARC-AGI、Terminal-Bench、Harbor、τ²-bench 的 GitHub README，Kaplan 2020 与 Chinchilla 2022 论文摘要（GitHub 镜像）；欧盟 AI Act 第 51/53/55/101/113 条、《生成式人工智能服务管理暂行办法》、《互联网信息服务算法推荐管理规定》、加州 SB 53 的原文（GitHub 镜像），Anthropic RSP 页面与 v3 公告；排行榜分数、美国行政令、纽约 RAISE Act、备案数量、OpenAI Preparedness Framework 来自搜索摘要，标为二手（`raw/AI评测基准调研-2026-11.md`、`raw/AI政策法规调研-2026-11.md`）
-- 新建 2 个来源页：`sources/ai-benchmarks-survey-2026-11`、`sources/ai-policy-survey-2026-11`
-- 新建 14 个概念页（layer: X）：评测基准 8 个 + `benchmark-contamination`；政策法规 5 个
-- 重写 `scaling-laws`：依据两篇原始论文摘要改为 `origin: source`，补推理时计算扩展与监管算力门槛
-- `promptfoo`、`langsmith` 链到评测基准页，`anthropic`、`openai` 链到前沿模型安全框架页
-- 更新 X 地图页：新增「评测基准」「政策法规」分组
-
-## [2026-11-05 21:25] ingest | AI 数据层调研：第二轮核实（网络放开后对照一手资料）
-
-**更新页面**：[[sources/ai-data-layer-survey-2026-11]], [[entities/fineweb]], [[entities/common-crawl]], [[entities/the-pile]], [[entities/dolma]], [[entities/milvus]], [[entities/zilliz]], [[entities/qdrant]], [[entities/pgvector]], [[entities/pinecone]], [[entities/chroma]], [[entities/scale-ai]], [[entities/surge-ai]], [[entities/mercor]], [[entities/hugging-face]], [[concepts/vector-database]], [[concepts/rag]], [[concepts/synthetic-data]], [[concepts/data-labeling]]
-
-- 来源：Hugging Face 数据集卡片（FineWeb、FineWeb-Edu、FineWeb 2、Cosmopedia、Dolma、Dolma 3），arXiv 摘要，Nature 原文，Common Crawl 官网，Zilliz、Qdrant、Pinecone、Scale AI、Chroma 官方公告，TechCrunch 原文，Wikipedia（Surge AI），Semafor（`raw/AI数据层调研-2026-11.md` 第七节）
-- 更正：FineWeb 现为 18.5 万亿 token 以上（首发 15 万亿）；Dolma 3 预训练混合 5.93 万亿 token、清洗池 9.31 万亿；Milvus 3.0 发布日以 Zilliz 新闻稿 2026-07-16 为准；Scale AI 交易日为 2025-06-12；Pinecone 已有开源的 pg_pinecone，不再是“没有开源仓库”
-- 新事实：Chroma 2026-10 宣布并入 Replit，Chroma Cloud 2026-12 关停；Pinecone 2026 年 Nexus、全文检索、BYOC GA；Mercor 2026-03 数据泄露、Meta 暂停合同；报道称 NVIDIA 同意以约 129 亿美元收购 Hugging Face（无官方公告）
-- 多处“二手报道”标注改为一手来源，并补充原文摘录
-
 ## [2026-11-05 22:40] ingest | 多模态与嵌入模型调研：图像、视频、语音、嵌入
 
 **创建页面**：[[concepts/diffusion-model]], [[concepts/embedding]], [[concepts/text-to-speech]], [[entities/baai]], [[entities/bge]], [[entities/black-forest-labs]], [[entities/cohere]], [[entities/cohere-embed]], [[entities/elevenlabs]], [[entities/flux]], [[entities/gpt-image]], [[entities/imagen]], [[entities/kling]], [[entities/kuaishou]], [[entities/openai-embeddings]], [[entities/qwen3-embedding]], [[entities/seedance]], [[entities/sora]], [[entities/stability-ai]], [[entities/stable-diffusion]], [[entities/veo]], [[entities/voyage-ai]], [[entities/voyage-embeddings]], [[entities/whisper]], [[sources/multimodal-embedding-models-survey-2026-11]]
@@ -315,13 +279,32 @@
 - 补细节：`azure`（Maia 200 的 216 GB HBM3e、272 MB SRAM、FP4 10 PFLOPS、750 W、服务 GPT-5.2、Maia SDK）、`ascend`（950DT 的 144 GB / 4 TB/s、2 TB/s 互联、Atlas 950 / 960 SuperPoD 完整规格、UnifiedBus 2.0）、`groq`（官方公告不提金额，200 亿美元出自 CNBC；Simon Edwards 接任 CEO）
 - 仍无法核实并已在页面标注为二手：openai.com、investors.coreweave.com、sec.gov、cerebras.ai、amd.com 对自动化客户端返回 403，故 Stargate 站点清单、CoreWeave 财务、Cerebras IPO 与 AMD 的 ROCm 7 性能宣称、MI450 规格仍为新闻报道口径
 
-## [2026-11-06 02:04] ingest | AI 评测基准与政策法规调研：一手来源二次核实
+## [2026-11-06 05:06] ingest | AI 数据层调研：向量库、预训练语料、合成数据与数据公司
 
-**更新页面**：[[sources/ai-benchmarks-survey-2026-11]], [[sources/ai-policy-survey-2026-11]], [[concepts/swe-bench]], [[concepts/chatbot-arena]], [[concepts/humanitys-last-exam]], [[concepts/gpqa]], [[concepts/mmlu]], [[concepts/arc-agi]], [[concepts/terminal-bench]], [[concepts/tau-bench]], [[concepts/benchmark-contamination]], [[concepts/eu-ai-act]], [[concepts/china-generative-ai-measures]], [[concepts/us-federal-ai-policy]], [[concepts/california-sb-53]], [[concepts/frontier-safety-frameworks]], [[concepts/scaling-laws]]
+**创建页面**：[[sources/ai-data-layer-survey-2026-11]], [[entities/milvus]], [[entities/zilliz]], [[entities/qdrant]], [[entities/pgvector]], [[entities/pinecone]], [[entities/weaviate]], [[entities/chroma]], [[entities/common-crawl]], [[entities/fineweb]], [[entities/the-pile]], [[entities/dolma]], [[entities/scale-ai]], [[entities/surge-ai]], [[entities/mercor]], [[concepts/synthetic-data]], [[concepts/data-labeling]]
 
-- 来源：网络策略放开后，补读 arXiv 摘要、swebench.com 与 Scale AI 官方排行榜、arena.ai、lastexam.ai、arcprize.org、tbench.ai 博客、联邦公报行政令原文、欧盟出版局的 Regulation (EU) 2026/1744 正文与元数据、欧盟委员会实践准则签署方名单、网信办标识办法发布稿、OpenAI Preparedness Framework v2 PDF；更新两份素材 `raw/AI评测基准调研-2026-11.md`、`raw/AI政策法规调研-2026-11.md`
-- 更正：SWE-bench Verified 官方榜最高 79.2%（首轮聚合站的 93.9%–96.4% 删除）；GPQA 专家准确率 65%（非 81%）；GSM1k 掉分最多 8%；τ-bench 成绩改用论文表述；实践准则不授予合规推定；纽约 RAISE Act 的事件报告时限为 72 小时
-- 补充：Terminal-Bench 2.1 / 3.0 / 4.0 与排行榜诚信规则，HLE-Rolling / HLE-Diamond，SWE-Bench Pro 公开榜，ARC Prize 2026 赛程，EO 14409、EO 14434，Omnibus 新增禁止条款与第 50(2) 条过渡期，2026-08 备案数量（1,112 款），实践准则签署方官方名单
+**更新页面**：[[entities/hugging-face]], [[concepts/vector-database]], [[concepts/rag]], [[entities/meta-ai]], [[entities/langchain]], [[maps/L1-数据]]
+
+- 来源：Milvus、Qdrant、pgvector、Weaviate、Chroma、FineWeb 2、datatrove、Cosmopedia、transformers、Dolma、The Pile 的 GitHub README 与 CHANGELOG，PyPI 版本元数据；融资、公司与论文数字来自 Business Wire、TechCrunch、Reuters、Bloomberg、Wikipedia 等报道与搜索摘要（huggingface.co、arxiv.org、commoncrawl.org 及公司官网被网络策略拦截，标注为二手）（`raw/AI数据层调研-2026-11.md`）
+- 新建来源页 `sources/ai-data-layer-survey-2026-11`
+- 新建 14 个实体页：向量库 `milvus`、`qdrant`、`pgvector`、`pinecone`、`weaviate`、`chroma`；语料 `common-crawl`、`fineweb`、`the-pile`、`dolma`；公司 `zilliz`、`scale-ai`、`surge-ai`、`mercor`
+- 新建 2 个概念页：`synthetic-data`、`data-labeling`
+- 核实重写 3 个种子页并改为 `origin: source`：`hugging-face`（补 FineWeb、datatrove、Cosmopedia、融资与出售报道）、`vector-database`、`rag`（补 Lewis 等 2020 论文细节）
+- `meta-ai` 时间线补入股 Scale AI；`langchain` 的向量库集成改为链接到各向量库页
+- 更新 L1 地图页（按 向量库 / 语料 / 数据公司 / 概念 分组）
+
+## [2026-11-06 05:08] ingest | AI 评测基准与政策法规调研（X 横切主题，核实规模定律种子页）
+
+**创建页面**：[[sources/ai-benchmarks-survey-2026-11]], [[sources/ai-policy-survey-2026-11]], [[concepts/swe-bench]], [[concepts/chatbot-arena]], [[concepts/humanitys-last-exam]], [[concepts/gpqa]], [[concepts/mmlu]], [[concepts/arc-agi]], [[concepts/terminal-bench]], [[concepts/tau-bench]], [[concepts/benchmark-contamination]], [[concepts/eu-ai-act]], [[concepts/china-generative-ai-measures]], [[concepts/us-federal-ai-policy]], [[concepts/california-sb-53]], [[concepts/frontier-safety-frameworks]]
+
+**更新页面**：[[concepts/scaling-laws]], [[entities/promptfoo]], [[entities/langsmith]], [[entities/anthropic]], [[entities/openai]], [[maps/X-横切主题]]
+
+- 来源：SWE-bench、SWE-bench Pro、FastChat、HLE、GPQA、MMLU、MMLU-Pro、ARC-AGI、Terminal-Bench、Harbor、τ²-bench 的 GitHub README，Kaplan 2020 与 Chinchilla 2022 论文摘要（GitHub 镜像）；欧盟 AI Act 第 51/53/55/101/113 条、《生成式人工智能服务管理暂行办法》、《互联网信息服务算法推荐管理规定》、加州 SB 53 的原文（GitHub 镜像），Anthropic RSP 页面与 v3 公告；排行榜分数、美国行政令、纽约 RAISE Act、备案数量、OpenAI Preparedness Framework 来自搜索摘要，标为二手（`raw/AI评测基准调研-2026-11.md`、`raw/AI政策法规调研-2026-11.md`）
+- 新建 2 个来源页：`sources/ai-benchmarks-survey-2026-11`、`sources/ai-policy-survey-2026-11`
+- 新建 14 个概念页（layer: X）：评测基准 8 个 + `benchmark-contamination`；政策法规 5 个
+- 重写 `scaling-laws`：依据两篇原始论文摘要改为 `origin: source`，补推理时计算扩展与监管算力门槛
+- `promptfoo`、`langsmith` 链到评测基准页，`anthropic`、`openai` 链到前沿模型安全框架页
+- 更新 X 地图页：新增「评测基准」「政策法规」分组
 
 ## [2026-11-06 05:21] update | 训练与后训练方法调研：arXiv 与一手页面复核
 
@@ -330,6 +313,23 @@
 - 网络放开后，用 arXiv API 核对了素材所引 13 篇论文的编号、标题、首次提交日期与摘要，并读了 Tülu 3、Hinton 蒸馏、DeepSeekMath、DeepSeek-R1 的正文；读了 Hugging Face「TRL v1.0」博客原文，以及 Y Combinator、Lightspeed 的 Unsloth 页面（`raw/训练与后训练方法调研-2026-11.md` 新增 arXiv 元数据表和论文引文）
 - 去掉全部「二手」标记：Tülu 3 / RLVR 的定义、Hinton 蒸馏的温度与软目标、DeepSeek-R1 的规则奖励（准确性 + 格式）、TRL v1.0（博客 2026-03-31，75+ 种方法）、Unsloth（YC S24，2023 年成立，位于旧金山）均已确认
 - 更正：GPTQ 的论文标题以 arXiv 为准（仓库 README 用的是旧标题）；HybridFlow 首次提交日期由 2024-08 改为 2024-09-28；删除一手页面找不到的“悉尼创办”和种子轮金额
+
+## [2026-11-06 05:25] ingest | AI 数据层调研：第二轮核实（网络放开后对照一手资料）
+
+**更新页面**：[[sources/ai-data-layer-survey-2026-11]], [[entities/fineweb]], [[entities/common-crawl]], [[entities/the-pile]], [[entities/dolma]], [[entities/milvus]], [[entities/zilliz]], [[entities/qdrant]], [[entities/pgvector]], [[entities/pinecone]], [[entities/chroma]], [[entities/scale-ai]], [[entities/surge-ai]], [[entities/mercor]], [[entities/hugging-face]], [[concepts/vector-database]], [[concepts/rag]], [[concepts/synthetic-data]], [[concepts/data-labeling]]
+
+- 来源：Hugging Face 数据集卡片（FineWeb、FineWeb-Edu、FineWeb 2、Cosmopedia、Dolma、Dolma 3），arXiv 摘要，Nature 原文，Common Crawl 官网，Zilliz、Qdrant、Pinecone、Scale AI、Chroma 官方公告，TechCrunch 原文，Wikipedia（Surge AI），Semafor（`raw/AI数据层调研-2026-11.md` 第七节）
+- 更正：FineWeb 现为 18.5 万亿 token 以上（首发 15 万亿）；Dolma 3 预训练混合 5.93 万亿 token、清洗池 9.31 万亿；Milvus 3.0 发布日以 Zilliz 新闻稿 2026-07-16 为准；Scale AI 交易日为 2025-06-12；Pinecone 已有开源的 pg_pinecone，不再是“没有开源仓库”
+- 新事实：Chroma 2026-10 宣布并入 Replit，Chroma Cloud 2026-12 关停；Pinecone 2026 年 Nexus、全文检索、BYOC GA；Mercor 2026-03 数据泄露、Meta 暂停合同；报道称 NVIDIA 同意以约 129 亿美元收购 Hugging Face（无官方公告）
+- 多处“二手报道”标注改为一手来源，并补充原文摘录
+
+## [2026-11-06 10:04] ingest | AI 评测基准与政策法规调研：一手来源二次核实
+
+**更新页面**：[[sources/ai-benchmarks-survey-2026-11]], [[sources/ai-policy-survey-2026-11]], [[concepts/swe-bench]], [[concepts/chatbot-arena]], [[concepts/humanitys-last-exam]], [[concepts/gpqa]], [[concepts/mmlu]], [[concepts/arc-agi]], [[concepts/terminal-bench]], [[concepts/tau-bench]], [[concepts/benchmark-contamination]], [[concepts/eu-ai-act]], [[concepts/china-generative-ai-measures]], [[concepts/us-federal-ai-policy]], [[concepts/california-sb-53]], [[concepts/frontier-safety-frameworks]], [[concepts/scaling-laws]]
+
+- 来源：网络策略放开后，补读 arXiv 摘要、swebench.com 与 Scale AI 官方排行榜、arena.ai、lastexam.ai、arcprize.org、tbench.ai 博客、联邦公报行政令原文、欧盟出版局的 Regulation (EU) 2026/1744 正文与元数据、欧盟委员会实践准则签署方名单、网信办标识办法发布稿、OpenAI Preparedness Framework v2 PDF；更新两份素材 `raw/AI评测基准调研-2026-11.md`、`raw/AI政策法规调研-2026-11.md`
+- 更正：SWE-bench Verified 官方榜最高 79.2%（首轮聚合站的 93.9%–96.4% 删除）；GPQA 专家准确率 65%（非 81%）；GSM1k 掉分最多 8%；τ-bench 成绩改用论文表述；实践准则不授予合规推定；纽约 RAISE Act 的事件报告时限为 72 小时
+- 补充：Terminal-Bench 2.1 / 3.0 / 4.0 与排行榜诚信规则，HLE-Rolling / HLE-Diamond，SWE-Bench Pro 公开榜，ARC Prize 2026 赛程，EO 14409、EO 14434，Omnibus 新增禁止条款与第 50(2) 条过渡期，2026-08 备案数量（1,112 款），实践准则签署方官方名单
 
 ## [2026-11-06 10:09] ingest | AI 应用产品调研：网络放开后用一手资料复核
 
