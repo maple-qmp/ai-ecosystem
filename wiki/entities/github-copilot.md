@@ -14,7 +14,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/ai-applications-survey-2026-11]]"]
 ---
 
@@ -22,7 +22,7 @@ sources: ["[[sources/ai-applications-survey-2026-11]]"]
 
 ## 描述
 
-GitHub（[[entities/microsoft|Microsoft]]）的 AI 编程助手，2021-06 技术预览、2022-06 正式发布，是第一个大规模普及的 AI 编程产品。官方文档现在把它定义为“帮助你编写、理解和交付软件的 AI 助手”，能力分四类：辅助（补全、问答）、Agent（研究仓库、提计划、改文件、审 PR）、定制（指令、技能、自定义 Agent）和外部 Agent / 模型 / 工具（第三方编程 Agent 与 MCP 服务器）。它早已不只用 OpenAI 模型：2026-11 的模型表同时列出 [[entities/gpt|GPT]]、[[entities/claude|Claude]]、[[entities/gemini|Gemini]]、[[entities/grok|Grok]]、[[entities/kimi|Kimi K3]] 和微软自家的 MAI-Code。计费改为按 AI 积分（每积分 0.01 美元）计量，套餐从 Free 到 Max、Business、Enterprise，所有套餐都含 Copilot CLI 和 GitHub Copilot app。用户数 2025-07 超过 2000 万，但 2026 年在开发者工作场景的采用率被 [[entities/claude-code|Claude Code]] 超过。
+GitHub（[[entities/microsoft|Microsoft]]）的 AI 编程助手，2021-06-29 技术预览、2022-06-21 正式发布，是第一个大规模普及的 AI 编程产品。2025 年起转向 Agent：02 月 agent mode，05 月发布异步执行任务的 coding agent（09 月正式可用），10 月发布 Agent HQ，把 Anthropic、OpenAI、Google、Cognition、xAI 的编程 Agent 接进 GitHub；2026 年又推出正式版 Copilot CLI（02 月）和 Agent 原生的桌面应用 GitHub Copilot app（06 月）。官方文档现在把它定义为“帮助你编写、理解和交付软件的 AI 助手”，能力分四类：辅助（补全、问答）、Agent（研究仓库、提计划、改文件、审 PR）、定制（指令、技能、自定义 Agent）和外部 Agent / 模型 / 工具（第三方编程 Agent 与 MCP 服务器）。它早已不只用 OpenAI 模型：2026-11 的模型表同时列出 [[entities/gpt|GPT]]、[[entities/claude|Claude]]、[[entities/gemini|Gemini]]、[[entities/grok|Grok]]、[[entities/kimi|Kimi K3]] 和微软自家的 MAI-Code。计费改为按 AI 积分（每积分 0.01 美元）计量，套餐从 Free 到 Max、Business、Enterprise，所有套餐都含 Copilot CLI 和 GitHub Copilot app。GitHub 称 80% 的新开发者在第一周就用 Copilot；但在 2026 年的开发者调查中，它在工作场景的采用率被 [[entities/claude-code|Claude Code]] 超过。
 
 ## 生态位置
 
@@ -38,13 +38,18 @@ GitHub（[[entities/microsoft|Microsoft]]）的 AI 编程助手，2021-06 技术
 
 ## 时间线
 
-- 2021-06 技术预览
-- 2022-06 正式发布
-- 2025-04 用户超过 1500 万（二手报道）
-- 2025-07 用户超过 2000 万，季度增加 500 多万（二手报道）
-- 2025-10 用户超过 2600 万（二手报道）
-- 2026-01 宣布 Agent HQ，统一接入第三方编程 Agent（二手报道，上线日期另有 2026-04-27 的说法）
-- 2026-02 Copilot coding agent 正式可用（二手报道）
+- 2021-06-29 在 VS Code 中技术预览；2021-10 上 JetBrains 与 Neovim
+- 2022-06-21 结束技术预览，面向个人订阅
+- 2023-11 Copilot Chat 改用 GPT-4
+- 2024 起可选 Gemini、Claude 等多家模型
+- 2025-02-06 agent mode
+- 2025-05-19 发布 Copilot coding agent
+- 2025-07 用户超过 2000 万（二手报道）
+- 2025-09-25 coding agent 对所有付费订阅正式可用
+- 2025-10-28 发布 Agent HQ：Anthropic、OpenAI、Google、Cognition、xAI 等的编程 Agent 将进入 GitHub
+- 2026-02-25 Copilot CLI 正式可用
+- 2026-02-26 Claude 与 Codex 作为编程 Agent 向 Copilot Business / Pro 开放
+- 2026-06-02 发布 GitHub Copilot app（Agent 原生的桌面体验）
 - 2026-05 至 07 JetBrains 开发者调查：工作场景采用率 21%，低于 Claude Code 的 39%（二手报道）
 - 2026-07 Nadella 在财报电话会上称用户达 5000 万（二手报道，未核实）
 - 2026-10-22 Anthropic 称 GitHub Copilot 已集成 Agent Skills
@@ -74,3 +79,4 @@ GitHub（[[entities/microsoft|Microsoft]]）的 AI 编程助手，2021-06 技术
 - "GitHub Copilot is an AI assistant that helps you write, understand, and ship software. It suggests code as you type, answers questions about a codebase, reviews your changes, and works on tasks you assign it." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（GitHub Docs）
 - "Third-party coding agents work asynchronously on development tasks and can make changes and open or update pull requests for your review." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（GitHub Docs）
 - "All plans include Copilot CLI and the Copilot app." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（GitHub Docs）
+- "What’s more, 80% of new developers are using Copilot in their first week." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（GitHub，2025-10-28）

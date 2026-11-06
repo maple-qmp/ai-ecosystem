@@ -4,17 +4,17 @@ type: entity
 tags: [product]
 kind: app
 layer: L5
-aliases: ["Devin", "Devin AI", "Cognition", "Cognition AI"]
+aliases: ["Devin", "Devin AI", "Cognition", "Cognition AI", "SWE-1.7", "SWE-2"]
 org: "Cognition AI"
 released: "2024-03"
 competitors: ["[[entities/claude-code]]", "[[entities/cursor]]", "[[entities/github-copilot]]", "[[entities/codex-cli]]"]
-depends_on: []
+depends_on: ["[[entities/kimi]]", "[[entities/claude]]", "[[entities/gpt]]"]
 status: active
 as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/ai-applications-survey-2026-11]]"]
 ---
 
@@ -22,28 +22,38 @@ sources: ["[[sources/ai-applications-survey-2026-11]]"]
 
 ## 描述
 
-Cognition AI 的自主编程 Agent，2024-03-12 发布时自称「第一个 AI 软件工程师」：在沙箱里拥有自己的 shell、代码编辑器和浏览器，可以端到端完成开发任务。发布时公布的 SWE-bench 成绩是在 25% 随机子集上解决 13.86% 的问题，此前最好成绩是 1.96%。2025-07 Cognition 收购 [[entities/windsurf|Windsurf]]，2026-04 起把 Devin 嵌入 Windsurf 编辑器，2026-06 再把 Windsurf 改名 Devin Desktop，形成「云端 Agent + 桌面 IDE」两件套。公司估值从 2025-09 的 102 亿美元升到 2026-05 的 260 亿美元。Cognition 没有公开 Devin 用哪些底层模型；它自研了 SWE 系列模型，见 [[entities/windsurf|Windsurf]] 页。
+Cognition AI 的自主编程 Agent，2024-03-12 发布时自称「第一个 AI 软件工程师」：在沙箱里拥有自己的 shell、代码编辑器和浏览器，可以端到端完成开发任务；2024-12 正式可用，2025-04 的 Devin 2.0 改为云端 IDE 并把入门价降到每月 20 美元。2025-07 Cognition 收购 [[entities/windsurf|Windsurf]]，2026-06 把它改造成 Devin Desktop，形成「云端 Agent + 桌面 Agent 管理器」两件套。Devin 不绑定单一模型：Cognition 自研 SWE 系列，其中 SWE-1.7 以 [[entities/kimi|Kimi]] K2.7 为基座，同时为 [[entities/claude|Claude]] Opus / Fable 和 [[entities/gpt|GPT]] Astra 等第三方模型做了专门的 Fusion harness。增长很快：年化收入从 2026-05 的 4.92 亿美元涨到 09-25 的 10 亿美元以上，估值在 2026-09 的 E 轮达到 480 亿美元。
 
 ## 生态位置
 
 - **层级**：[[maps/L5-应用|L5-应用]] · 编程 Agent
-- **上游依赖**：未公开；自研 SWE 系列模型
-- **竞争 / 替代**：[[entities/claude-code|Claude Code]]、[[entities/cursor|Cursor]]、[[entities/github-copilot|GitHub Copilot]]（Copilot 的 Agent HQ 也接入了 Cognition 的 Agent）、[[entities/codex-cli|Codex]]
+- **上游依赖**：自研 SWE 系列（SWE-1.7 基于 [[entities/kimi|Kimi]] K2.7，SWE-2 Flash 基于 Thinking Machines 的 Inkling-Small）；第三方 [[entities/claude|Claude]]、[[entities/gpt|GPT]]
+- **竞争 / 替代**：[[entities/claude-code|Claude Code]]、[[entities/cursor|Cursor]]、[[entities/github-copilot|GitHub Copilot]]（其 Agent HQ 也接入 Cognition 的 Agent）、[[entities/codex-cli|Codex]]
 
 ## 时间线
 
-- 2024-03-12 发布 Devin，早期访问；同时公布 Founders Fund 领投的 2100 万美元 A 轮
-- 2025-04 Devin 2.0，入门价降到每月 20 美元（日期有来源写 2026-04）
-- 2025-07-14 收购 [[entities/windsurf|Windsurf]]，带来约 8200 万美元 ARR、350 多家企业客户
-- 2025-09 融资 4 亿美元，估值 102 亿美元
-- 2026-04-15 Windsurf 2.0 内嵌 Devin
-- 2026-05-27 D 轮超过 10 亿美元，投后估值 260 亿美元
-- 2026-06-02 Windsurf 改名 Devin Desktop
-- 2026-08 报道称洽谈估值至少 400 亿美元（未确认）
+- 2023-08 Cognition 成立（Wikipedia；Cognition 自述为 2024-01）
+- 2024-03-12 发布 Devin，早期访问
+- 2024-04 估值 20 亿美元（Founders Fund 领投 1.75 亿美元）
+- 2024-12-10 正式可用，团队版每月 500 美元起
+- 2025-03 估值 40 亿美元
+- 2025-04-03 Devin 2.0：云端 IDE、多个 Devin 并行，20 美元起
+- 2025-07-14 签约收购 [[entities/windsurf|Windsurf]]
+- 2025-09 估值约 100 亿美元
+- 2025-10-29 自研 SWE-1.5（Cerebras 推理最高 950 token/s）
+- 2026-05-27 D 轮超过 10 亿美元，估值 260 亿；年化收入 4.92 亿美元
+- 2026-06-02 Windsurf 升级为 Devin Desktop
+- 2026-07-08 SWE-1.7（基于 Kimi K2.7）
+- 2026-09-08 E 轮超过 20 亿美元，估值 480 亿（a16z、Accel 领投）；年化收入近 9 亿美元
+- 2026-09-10 SWE-2；09-11 Fusion harness 上线 Devin Desktop 与 CLI
+- 2026-09-25 年化收入超过 10 亿美元
+- 2026-10-26 Devin Security；10-28 收购 Corridor
+- 2026-11-04 SWE-2 Flash
 
 ## 相关实体
 
 - [[entities/windsurf|Windsurf（Devin Desktop）]]
+- [[entities/kimi|Kimi]]
 - [[entities/claude-code|Claude Code]]
 - [[entities/cursor|Cursor]]
 - [[entities/github-copilot|GitHub Copilot]]
@@ -59,4 +69,6 @@ Cognition AI 的自主编程 Agent，2024-03-12 发布时自称「第一个 AI �
 
 ## 来源摘录
 
-- "Devin correctly resolves 13.86%* of the issues end-to-end, far exceeding the previous state-of-the-art of 1.96%." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（Cognition 博客 2024-03-12，经搜索摘要读取）
+- "We've also equipped Devin with common developer tools including the shell, code editor, and browser within a sandboxed compute environment—everything a human would need to do their work." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（Cognition，2024-03-12）
+- "Since SWE-1.7 was trained from a Kimi K2.7 base, which had already undergone extensive RL post-training, the large additional gains from our own training challenge the idea of a ‘post-training ceiling’" — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（Cognition，2026-07-08）
+- "Since our last round in May, Cognition’s run-rate revenue has grown from $492M to almost $900M." — [[sources/ai-applications-survey-2026-11|AI 应用产品调研]]（Cognition，2026-09-08）

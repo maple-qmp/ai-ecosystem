@@ -222,3 +222,12 @@
 - 重写 `claude-code`、`cursor`、`github-copilot` 并改为 `origin: source`：补发布日期、套餐、支持模型、收购与营收，`## 我的判断` 未改动
 - 未建 Sora、Veo、可灵、FLUX 等生成模型页（由 L2 多模态调研负责），正文中只用普通文字提到
 - 更新 L5 地图页：手工列表按对话助手 / 搜索 / 编程 / 创意分组
+
+## [2026-11-06 10:09] ingest | AI 应用产品调研：网络放开后用一手资料复核
+
+**更新页面**：[[sources/ai-applications-survey-2026-11]], [[entities/chatgpt]], [[entities/claude-app]], [[entities/claude-code]], [[entities/cursor]], [[entities/devin]], [[entities/doubao-app]], [[entities/gemini-app]], [[entities/github-copilot]], [[entities/kimi-app]], [[entities/midjourney]], [[entities/perplexity]], [[entities/suno]], [[entities/windsurf]]
+
+- 来源：Claude 帮助中心 release notes 与 claude.com 博客、Google 博客与 Alphabet 2025 Q4 / 2026 Q2 / Q3 财报讲话、GitHub 博客与 changelog、Cognition / Cursor / Suno 官方博客、Midjourney 官方更新页、Kimi 帮助中心、IT之家（QuestMobile 半年报），以及 12 个 Wikipedia 词条（`raw/AI应用产品调研-2026-11.md` 重写，末尾附更正记录）
+- 更正：Copilot coding agent 正式可用为 2025-09-25、Agent HQ 发布于 2025-10-28；Windsurf 的依赖由 GLM 改为 Kimi（SWE-1.7 基于 Kimi K2.7，SWE-1.5 的基座未具名）；Cognition 2026-09 E 轮估值 480 亿美元；Midjourney V8.1 为 04-14 alpha、06-11 成为默认；豆包 3.82 亿月活的时点为 2026-05；Cowork 于 2026-09-16 与聊天合并
+- 新增依赖：Cursor、Devin 加 `kimi`（Composer 2 基于 Kimi K2.5，Devin 使用基于 Kimi 的 SWE 模型）；Perplexity 改为 `llama`（Sonar）、`deepseek-r1`（R1 1776）、`gpt`、`claude`、`grok`
+- openai.com、perplexity.ai 返回 403，ChatGPT、Perplexity 的部分事实仍为二手报道或 Wikipedia

@@ -14,7 +14,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-06
 sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-modules-survey-2026-11]]", "[[sources/ai-applications-survey-2026-11]]"]
 ---
 
@@ -52,7 +52,7 @@ sources: ["[[sources/bun-survey-2026-11]]", "[[sources/claude-independent-module
 - 2025-11 年化收入达 10 亿美元（公开发布约 6 个月）
 - 2025-12 [[entities/anthropic|Anthropic]] 收购 [[entities/bun|Bun]]；Bun 此前已参与 Claude Code 原生安装器
 - 2026-01 Ollama v0.14.0 提供 Anthropic Messages 兼容接口，可用本地模型驱动 Claude Code
-- 2026-01-12 Cowork 研究预览，把 Claude Code 的 Agent 能力带进 Claude 桌面应用（二手报道）
+- 2026-01-12 Cowork 研究预览，把 Claude Code 的 Agent 能力带进 Claude 桌面应用，用于编程之外的知识工作
 - 2026-03-31 npm 包 2.1.88 误带 source map，完整 TypeScript 源码外泄；Anthropic 撤下该版本，称是打包失误、无客户数据泄露；代码协议不变
 - 2026-05-06 Pro、Max、Team 与按席位 Enterprise 的五小时限额翻倍，Pro / Max 取消高峰时段限额下调
 - 2026-06-23 Claude Tag 发布，Anthropic 称它是「Claude Code 演进的开始」，产品团队 65% 的代码由内部版 Claude Tag 生成
