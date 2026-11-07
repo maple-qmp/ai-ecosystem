@@ -14,7 +14,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 sources: ["[[sources/ai-compute-hardware-survey-2026-11]]"]
 ---
 
@@ -27,7 +27,7 @@ sources: ["[[sources/ai-compute-hardware-survey-2026-11]]"]
 - **层级**：[[maps/L0-算力与硬件|L0-算力与硬件]] · 加速器
 - **上游依赖**：自研 HBM 与国内制程产能；软件栈 [[entities/cann|CANN]]
 - **下游**：TorchNPU / MindSpore、`vllm-ascend`、SGLang、llama.cpp；模型侧 [[entities/glm|GLM]]、[[entities/deepseek-v|DeepSeek-V 系列]]
-- **竞争 / 替代**：[[entities/nvidia|NVIDIA]]（受出口管制影响的中国市场）、[[entities/amd-instinct|AMD Instinct]]；国内另有摩尔线程、寒武纪、沐曦、海光、天数智芯等
+- **竞争 / 替代**：[[entities/nvidia|NVIDIA]]（受出口管制影响的中国市场）、[[entities/amd-instinct|AMD Instinct]]；国内另有摩尔线程、[[entities/cambricon|寒武纪]]、[[entities/kunlunxin|昆仑芯]]、沐曦、海光、天数智芯等
 
 ## 时间线
 

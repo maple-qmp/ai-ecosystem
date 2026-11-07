@@ -13,7 +13,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 sources: ["[[sources/zhipu-ai-survey-2026-11]]"]
 ---
 
@@ -21,7 +21,7 @@ sources: ["[[sources/zhipu-ai-survey-2026-11]]"]
 
 ## 描述
 
-北京智谱华章科技股份有限公司，2019 年从清华大学知识工程实验室（KEG）孵化，核心人物唐杰；国际品牌 2025-07 起改为 Z.ai，英文公司名 Knowledge Atlas Technology。它研发 [[entities/glm|GLM]] 模型家族：早期的 ChatGLM-6B 是国内最早被广泛本地部署的开源对话模型之一，2025 年起的 GLM-4.5、GLM-5 系列以 MIT 协议开放权重。2026-01-08 在港交所上市（代码 2513），是中国第一家上市的大模型公司。2025-01 被列入美国实体清单，此后积极适配华为昇腾、寒武纪、摩尔线程等国产芯片。
+北京智谱华章科技股份有限公司，2019 年从清华大学知识工程实验室（KEG）孵化，核心人物唐杰；国际品牌 2025-07 起改为 Z.ai，英文公司名 Knowledge Atlas Technology。它研发 [[entities/glm|GLM]] 模型家族：早期的 ChatGLM-6B 是国内最早被广泛本地部署的开源对话模型之一，2025 年起的 GLM-4.5、GLM-5 系列以 MIT 协议开放权重。2026-01-08 在港交所上市（代码 2513），是中国第一家上市的大模型公司。2025-01 被列入美国实体清单，此后积极适配华为昇腾、[[entities/cambricon|寒武纪]]、摩尔线程等国产芯片。
 
 ## 生态位置
 
@@ -31,7 +31,7 @@ sources: ["[[sources/zhipu-ai-survey-2026-11]]"]
 
 ## 与阿里生态的关系
 
-- **资本**：阿里巴巴是 2023 年约 25 亿元融资的投资方之一（同轮有腾讯、美团、蚂蚁、小米、红杉中国）
+- **资本**：阿里巴巴是 2023 年约 25 亿元融资的投资方之一（同轮有[[entities/tencent|腾讯]]、美团、蚂蚁、小米、红杉中国）
 - **分发**：2026-05-20 起阿里云百炼可用统一 API 调用 GLM-5.1
 - **框架**：[[entities/agentscope|AgentScope]] 与 [[entities/spring-ai-alibaba|Spring AI Alibaba]] 都没有单列智谱，可通过 OpenAI 兼容接口或百炼接入
 
