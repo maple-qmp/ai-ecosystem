@@ -15,7 +15,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-07
 sources: ["[[sources/claude-independent-modules-survey-2026-11]]", "[[sources/frontier-closed-models-survey-2026-11]]"]
 ---
 
@@ -81,6 +81,7 @@ sources: ["[[sources/claude-independent-modules-survey-2026-11]]", "[[sources/fr
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/anthropic-messages-api|Anthropic Messages API]]
 - [[concepts/claude-constitution|Claude 宪法]]
+- [[concepts/computer-use|Computer Use]]
 
 ## 我的判断
 

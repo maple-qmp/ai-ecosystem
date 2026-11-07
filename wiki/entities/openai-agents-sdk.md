@@ -14,7 +14,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-06
+updated: 2026-11-07
 sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/python-agent-frameworks-survey-2026-11]]"]
 ---
 
@@ -57,6 +57,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/python-agen
 - [[entities/langsmith|LangSmith]]
 - [[entities/pydantic-ai|Pydantic AI]]
 - [[entities/microsoft-agent-framework|Microsoft Agent Framework]]
+- [[entities/litellm|LiteLLM]]（经 `openai-agents[litellm]` 接入其他模型）
 
 ## 相关概念
 

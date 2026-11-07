@@ -414,3 +414,17 @@
 未检测到重复、断链、空洞、孤立页面或无来源引证。
 
 
+## [2026-11-07 18:28] ingest | AI 应用扩容调研 + 低代码 Agent 平台与 LLM 网关调研
+
+**创建页面**：[[sources/ai-applications-expansion-survey-2026-11]], [[sources/lowcode-agent-platforms-survey-2026-11]], [[entities/microsoft-365-copilot]], [[entities/notion-ai]], [[entities/salesforce-agentforce]], [[entities/harvey]], [[entities/openevidence]], [[entities/abridge]], [[entities/rogo]], [[entities/runway]], [[entities/character-ai]], [[entities/dify]], [[entities/coze]], [[entities/n8n]], [[entities/litellm]], [[concepts/computer-use]], [[concepts/ai-browser]]
+
+**更新页面**：[[entities/perplexity]], [[entities/chatgpt]], [[entities/gemini-app]], [[entities/claude-app]], [[entities/claude]], [[entities/microsoft]], [[entities/bytedance]], [[entities/sora]], [[entities/kling]], [[entities/seedance]], [[entities/openai-agents-sdk]], [[entities/mercor]], [[entities/dspy]], [[entities/smolagents]], [[entities/chatkit]], [[concepts/data-labeling]], [[maps/L5-应用]], [[maps/L4-开发工具与Agent]]
+
+- 来源：两份 raw 调研 `raw/AI应用扩容调研-2026-11.md`、`raw/低代码Agent平台调研-2026-11.md`，依据 Microsoft 新闻中心、Notion releases、Salesforce 新闻稿与投资者资料、Harvey / OpenEvidence / Abridge / Rogo / Runway / Character.AI 官方页面、Anthropic 新闻，以及 Dify / Coze Studio / n8n / LiteLLM 的 GitHub 仓库、PyPI / npm 元数据、官方博客与 LiteLLM 安全 issue #24518；查询日期 2026-11-07。本会话 GitHub API 不可用，星数取自网页
+- ChatGPT Atlas、Perplexity Comet 已是现有页面的别名，不重复建页，改建 [[concepts/ai-browser]] 做横向对照；可灵、Seedance、Sora 只补指向 [[entities/runway]] 的应用侧链接
+- LiteLLM 建页后，把 Mercor、数据标注、DSPy、smolagents、ChatKit 正文里的首次提及改为链接，OpenAI Agents SDK 在「相关实体」加链接
+- 新发现：Character.AI 2026-10-12 申请 Chapter 11 破产保护；ChatGPT Atlas 2026-08 已关停；Copilot Cowork 采用 Claude Cowork 技术
+- 腾讯元宝、文心等国内厂商应用由另一会话负责，本次未建
+- 待核实：Harvey 155 亿美元一轮的日期；OpenEvidence 2026-09 估值 150 亿美元；Abridge 2026 年融资；Microsoft E7 与 Agent 365 价格；Dify 估值 1.8 亿美元；Coze 2.0 / 3.0 官方发布日期；n8n 2026 年估值；LiteLLM 事件的 Trivy 根因；以及标「训练知识」的若干条（Character.AI 创立与 Google 授权协议、Atlassian 收购 The Browser Company、Operator 并入 ChatGPT、Notion AI / Microsoft 365 Copilot / Dify / 扣子 / Runway / Abridge / Harvey / OpenEvidence 的首发时间）
+- 所有新页 `origin: source`、`reviewed: false`，未改动任何「我的判断」
+

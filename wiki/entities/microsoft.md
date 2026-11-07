@@ -12,7 +12,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-06
+updated: 2026-11-07
 sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/major-ai-orgs-survey-2026-11]]", "[[sources/python-agent-frameworks-survey-2026-11]]"]
 ---
 
@@ -54,6 +54,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/major-ai-or
 - [[entities/azure|Azure]]
 - [[entities/anthropic|Anthropic]]
 - [[entities/microsoft-agent-framework|Microsoft Agent Framework]]（合并 Semantic Kernel 与 AutoGen 的 Agent 框架）
+- [[entities/microsoft-365-copilot|Microsoft 365 Copilot]]
 
 ## 相关概念
 

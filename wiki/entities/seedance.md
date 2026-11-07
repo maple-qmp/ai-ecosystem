@@ -15,7 +15,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-06
+updated: 2026-11-07
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]", "[[sources/bytedance-doubao-survey-2026-11]]"]
 ---
 
@@ -51,6 +51,7 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]", "[[sources/b
 - [[entities/doubao|豆包]]
 - [[entities/kling|可灵 Kling]]
 - [[entities/kuaishou|快手]]
+- [[entities/runway|Runway]]（应用侧竞品）
 
 ## 相关概念
 

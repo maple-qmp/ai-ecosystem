@@ -15,7 +15,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-06
+updated: 2026-11-07
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
@@ -53,6 +53,7 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]"]
 - [[entities/veo|Veo]]
 - [[entities/sora|Sora]]
 - [[entities/minimax|MiniMax]]
+- [[entities/runway|Runway]]（应用侧竞品）
 
 ## 相关概念
 

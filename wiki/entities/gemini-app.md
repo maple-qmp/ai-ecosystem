@@ -14,7 +14,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-06
+updated: 2026-11-07
 sources: ["[[sources/ai-applications-survey-2026-11]]"]
 ---
 
@@ -53,6 +53,7 @@ Google 的对话助手应用，前身是 2023-02 宣布、03 月开放早期访�
 ## 相关概念
 
 - [[concepts/ai-agent|AI Agent]]
+- [[concepts/ai-browser|AI 浏览器]]（Gemini in Chrome）
 
 ## 我的判断
 

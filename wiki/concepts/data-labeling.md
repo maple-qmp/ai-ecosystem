@@ -8,7 +8,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 ---
 
@@ -24,7 +24,7 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]"]
 - **大额资本**：2025-06 [[entities/meta-ai|Meta]] 投资 Scale AI，Scale 称估值超过 290 亿美元（Reuters 报道为约 143 亿美元、49% 股份）；2025 年 [[entities/surge-ai|Surge AI]] 传出 150 亿–250 亿美元估值的融资洽谈，Mercor 估值 100 亿美元（二手报道）
 - **格局变化**：报道称 Surge 2024 年收入（超过 10 亿美元）已高于 Scale（约 8.7 亿美元）
 - **与合成数据的关系**：[[concepts/synthetic-data|合成数据]]降低了对人工标注的依赖（Nemotron-4-340B 对齐数据 98% 以上为合成），但仍保留约 2 万条人工标注，用于微调和奖励模型训练
-- **风险**：外包规模大、涉及个人信息和客户的训练机密。例如 Mercor 2026-03 因开源工具 LiteLLM 被入侵而泄露数据，[[entities/meta-ai|Meta]] 随后无限期暂停了与它的合同；Surge AI 2025 年被集体诉讼指控把标注员错误归类为独立承包人
+- **风险**：外包规模大、涉及个人信息和客户的训练机密。例如 Mercor 2026-03 因开源工具 [[entities/litellm|LiteLLM]] 被入侵而泄露数据，[[entities/meta-ai|Meta]] 随后无限期暂停了与它的合同；Surge AI 2025 年被集体诉讼指控把标注员错误归类为独立承包人
 - **规模**：Surge AI 2025 年合作的标注员约 100 万人，客户覆盖 Anthropic、OpenAI、Google、Meta 等主要实验室
 
 ## 应用

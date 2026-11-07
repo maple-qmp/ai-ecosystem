@@ -14,8 +14,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-06
-sources: ["[[sources/ai-applications-survey-2026-11]]"]
+updated: 2026-11-07
+sources: ["[[sources/ai-applications-survey-2026-11]]", "[[sources/ai-applications-expansion-survey-2026-11]]"]
 ---
 
 # ChatGPT
@@ -59,6 +59,7 @@ sources: ["[[sources/ai-applications-survey-2026-11]]"]
 
 - [[concepts/agent-skills|Agent Skills]]
 - [[concepts/ai-agent|AI Agent]]
+- [[concepts/ai-browser|AI 浏览器]]（Atlas）
 
 ## 我的判断
 
