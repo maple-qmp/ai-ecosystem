@@ -383,3 +383,34 @@
 - AutoGen 不单独建页，作为前身写进 Microsoft Agent Framework 页（仓库已归档）；Semantic Kernel 同样并入
 - LangGraph 补 Python 版时间线，并记下 PyPI 1.0.0 上传日期（2025-10-17）与官方公告日期（2025-10-22）不同；Google ADK 补 Python 2.0（图式 Workflow Runtime）
 - 待核实：Agno 前身是 Phidata 的说法（来自训练知识）；DSPy 3.2–3.4 的内容来自维护者 X 帖子与二手资料；AutoGen 仓库的代码协议
+
+
+## [2026-11-06 12:13] Wiki 维护报告
+
+
+> Wiki 状态概览：共 251 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 14 秒
+
+未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+
+
+
+## [2026-11-06 18:44] ingest | 上下文工程与 Agent 记忆、AI 应用评测与可观测性
+
+**创建页面**：[[concepts/context-engineering]], [[concepts/agent-memory]], [[concepts/context-compaction]], [[concepts/longmemeval]], [[concepts/ai-application-evaluation]], [[concepts/llm-as-judge]], [[concepts/llm-observability]], [[entities/langfuse]], [[entities/arize-phoenix]], [[sources/context-memory-survey-2026-11]], [[sources/ai-evaluation-observability-survey-2026-11]]
+
+**更新页面**：[[concepts/agent-harness]], [[concepts/observational-memory]], [[concepts/rag]], [[entities/langsmith]], [[entities/promptfoo]], [[concepts/benchmark-contamination]], [[maps/L4-开发工具与Agent]], [[maps/X-横切主题]]
+
+- 来源：两份 raw 调研，依据官方工程文档、原始论文及 OpenTelemetry 规范；查询日期 2026-11-06。
+- 新增 7 个概念、2 个实体、2 个来源页；2 份原始研究包含来源表、案例与未运行的实验方案。
+- 保留原有“我的判断”，未设置人工已审核；没有部署服务或声称已完成应用实测。
+
+
+## [2026-11-06 18:45] Wiki 维护报告
+
+
+> Wiki 状态概览：共 262 个页面，0 个缺失别名，重复 0 个，断链 0 个（其中 0 个涉及重复页面），孤立 0 个（其中 0 个是重复页面），空洞 0 个，无来源引证 0 个，标签越界 0 个。本次 Lint 耗时 14 秒
+
+未检测到重复、断链、空洞、孤立页面或无来源引证。
+
+

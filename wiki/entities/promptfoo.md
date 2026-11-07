@@ -14,8 +14,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/openai-developers-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/ai-evaluation-observability-survey-2026-11]]"]
 ---
 
 # Promptfoo
@@ -53,6 +53,9 @@ sources: ["[[sources/openai-developers-survey-2026-11]]"]
 - [[entities/codex-cli|Codex CLI]]
 
 ## 相关概念
+
+- [[concepts/ai-application-evaluation|AI 应用评测]]
+- [[concepts/llm-as-judge|LLM 裁判]]
 
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/benchmark-contamination|基准污染与饱和]]

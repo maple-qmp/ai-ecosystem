@@ -8,8 +8,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/mastra-ecosystem-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/mastra-ecosystem-survey-2026-11]]", "[[sources/context-memory-survey-2026-11]]"]
 ---
 
 # Observational Memory
@@ -37,6 +37,10 @@ sources: ["[[sources/mastra-ecosystem-survey-2026-11]]"]
 - 属于 [[concepts/agent-harness|Agent Harness]] 中“上下文管理”与“记忆”这一块的一种实现
 
 ## 相关概念
+
+- [[concepts/agent-memory|Agent 记忆]]
+- [[concepts/context-compaction|上下文压缩]]
+- [[concepts/longmemeval|LongMemEval]]
 
 - [[concepts/agent-harness|Agent Harness]]
 - [[concepts/ai-agent|AI Agent]]

@@ -7,6 +7,15 @@
 
 ## 实体
 
+- [[entities/arize-phoenix|arize-phoenix]] `aliases: Arize Phoenix, Phoenix` `source: ai-evaluation-observability-survey-2026-11` - Arize AI 与开源社区构建的 AI 可观测性和评测工具。官方文档将逐步运行追踪、评分、提示迭代与同输入实验比较连接起来；它与 Arize 的托管企业产品 AX 应分别识别。
+- [[entities/langfuse|langfuse]] `aliases: Langfuse` `source: ai-evaluation-observability-survey-2026-11` - 开源、可自托管的 AI 工程平台，提供运行追踪、会话观察、提示管理等能力。官方文档说明它基于 OpenTelemetry，支持通过原生 SDK、框架集成或网关采集调用；定位是帮助分析与迭代应用，而非仅
+- [[entities/agno|agno]] `aliases: Agno, AgentOS, Phidata` `source: python-agent-frameworks-survey-2026-11` - 开源的 Python Agent 框架与平台（Apache-2.0，GitHub 约 4.31 万星）。2026 年它的定位从框架扩展为“自管理 Agent 平台”：可以用 Agno 自己的 SDK、
+- [[entities/smolagents|smolagents]] `aliases: smolagents, CodeAgent` `source: python-agent-frameworks-survey-2026-11` - [[entities/hugging-face|Hugging Face]] 开源的极简 Python Agent 库（Apache-2.0，GitHub 约 3.02 万星），Agent 核心逻辑约
+- [[entities/dspy|dspy]] `aliases: DSPy, Declarative Self-improving Python, dspy` `source: python-agent-frameworks-survey-2026-11` - 起源于斯坦福 NLP 的开源框架（MIT，GitHub 约 3.89 万星），主张“编程而非提示”：用签名（signature）和模块写组合式 Python 程序，再用优化器根据评测数据自动优化提示和
+- [[entities/pydantic-ai|pydantic-ai]] `aliases: Pydantic AI, pydantic-ai, Pydantic AI Harness` `source: python-agent-frameworks-survey-2026-11` - Pydantic 团队开源的 Python Agent 框架（MIT，GitHub 约 2.10 万星），自称“Python AI SDK”：提供类型化、可扩展的 Agent 循环，模型用字符串切换并
+- [[entities/llamaindex|llamaindex]] `aliases: LlamaIndex, llama-index, LlamaAgents, LlamaIndex Workflows, LlamaParse, LlamaCloud` `source: python-agent-frameworks-survey-2026-11` - LlamaIndex Inc.（GitHub 组织 run-llama）的开源 LLM 应用框架（MIT，约 5.28 万星），早期以 [[concepts/rag|RAG]] 数据框架闻名，由 `l
+- [[entities/crewai|crewai]] `aliases: CrewAI, crewai, CrewAI AMP` `source: python-agent-frameworks-survey-2026-11` - CrewAI Inc. 开源的 Python 多 Agent 框架（MIT，GitHub 约 6.06 万星），不依赖 [[entities/langchain|LangChain]]，自带 agen
+- [[entities/microsoft-agent-framework|microsoft-agent-framework]] `aliases: Microsoft Agent Framework, MAF, agent-framework, AutoGen, Semantic Kernel` `source: python-agent-frameworks-survey-2026-11` - [[entities/microsoft|Microsoft]] 开源的多语言 Agent 框架（MIT，GitHub 约 1.46 万星），由 Semantic Kernel 的企业级基础（连接器、
 - [[entities/zilliz|zilliz]] `aliases: Zilliz, Zilliz Cloud` `source: ai-data-layer-survey-2026-11` - 开源[[concepts/vector-database|向量数据库]] [[entities/milvus|Milvus]] 的主要贡献者和商业公司，总部在美国加州 Redwood City。Mil
 - [[entities/windsurf|windsurf]] `aliases: Windsurf, Devin Desktop, Codeium, Windsurf Editor, SWE-1.5` `source: ai-applications-survey-2026-11` - AI 代码编辑器，前身是代码补全插件 Codeium，公司 2025-04 改名 Windsurf。2025 年它经历了三方争夺：OpenAI 谈妥约 30 亿美元收购，但独家期 2025-07-11
 - [[entities/whisper|whisper]] `aliases: Whisper, OpenAI Whisper, whisper-1, whisper-large-v3, large-v3-turbo` `source: multimodal-embedding-models-survey-2026-11` - [[entities/openai|OpenAI]] 2022-09-21 以 MIT 许可开源的通用语音识别模型。它用 68 万小时网络音频弱监督训练，其中 11.7 万小时是 96 种非英语语言。
@@ -110,13 +119,13 @@
 - [[entities/promptfoo|promptfoo]] `aliases: Promptfoo, promptfoo` `source: openai-developers-survey-2026-11` - 开源的 LLM 应用评测与红队测试工具，MIT 协议，TypeScript 编写（约 2.7 万星），也有 pip 包装。用 `promptfooconfig.yaml` 写提示、模型提供商和测试用例
 - [[entities/petri|petri]] `aliases: Petri, Inspect Petri, Bloom, Petri 与 Bloom` `source: claude-independent-modules-survey-2026-11` - [[entities/anthropic|Anthropic]] 开源的对齐审计工具：用一个“审计模型”自动和被测模型进行多轮对话，检测欺骗、谄媚、奖励投机、自我保护等不良行为。2025-10 发布，
 - [[entities/oven|oven]] `aliases: Oven, Oven Inc., oven-sh` `source: bun-survey-2026-11` - [[entities/jarred-sumner|Jarred Sumner]] 为开发 [[entities/bun|Bun]] 成立的公司，总部旧金山，GitHub 组织名 oven-sh。202
-- [[entities/openai|openai]] `aliases: OpenAI, Open AI` `source: openai-developers-survey-2026-11` - 2015 年成立的 AI 研究与产品公司。推出 [[entities/gpt|GPT]] 系列模型和 ChatGPT（2022-11），后者引爆了生成式 AI 浪潮；2024 年起推出以 o1 为首的
+- [[entities/openai|openai]] `aliases: OpenAI, Open AI` `source: openai-developers-survey-2026-11` - 2015-12 以非营利组织成立的 AI 研究与产品公司，总部旧金山，联合创始人包括 Sam Altman、Elon Musk、Ilya Sutskever、Greg Brockman。推出 [[en
 - [[entities/openai-agents-sdk|openai-agents-sdk]] `aliases: OpenAI Agents SDK, Agents SDK, openai-agents` `source: openai-developers-survey-2026-11` - [[entities/openai|OpenAI]] 开源的轻量 [[concepts/ai-agent|AI Agent]] 框架，有 Python（`openai-agents`）和 TypeSc
 - [[entities/nvidia|nvidia]] `aliases: NVIDIA, 英伟达` `source: inference-engines-survey-2026-11` - GPU 与 AI 加速计算的主导厂商，其数据中心 GPU 与 [[entities/cuda|CUDA]] 软件栈构成大模型训练和推理的事实标准底座。规模上几乎没有可比对手：FY2027 Q2（截至 
 - [[entities/nextjs|nextjs]] `aliases: Next.js, NextJS` `source: vercel-oss-dependency-survey-2026-11` - [[entities/vercel|Vercel]] 维护的 React 全栈框架，MIT 协议，支持服务端组件、流式渲染、ISR、Cache Components、Server Functions 
 - [[entities/mistral-ai|mistral-ai]] `aliases: Mistral AI, Mistral` `source: open-weight-flagships-survey-2026-11` - 2023-04 由 Arthur Mensch（前 DeepMind）、Guillaume Lample 和 Timothée Lacroix（均来自 Meta）在巴黎创立的模型公司，产品是 [[en
-- [[entities/microsoft|microsoft]] `aliases: 微软` `source: inference-engines-survey-2026-11` - OpenAI 的主要投资方与云合作伙伴，通过 Azure 提供模型服务；旗下 GitHub 推出 [[entities/github-copilot|GitHub Copilot]]。微软研究院提出了
-- [[entities/meta-ai|meta-ai]] `aliases: FAIR, Meta` `source: open-weight-flagships-survey-2026-11` - Meta 的 AI 部门（含 FAIR 研究院）。以开放权重的 [[entities/llama|Llama]] 系列推动了开源模型生态；[[entities/pytorch|PyTorch]] 也起
+- [[entities/microsoft|microsoft]] `aliases: Microsoft, 微软, Microsoft AI, MAI` `source: inference-engines-survey-2026-11` - [[entities/openai|OpenAI]] 的最大外部股东与云合作伙伴：2019 年起累计投资超过 130 亿美元，2025-10 OpenAI 改制后持股约 27%（约 1350 亿美元）
+- [[entities/meta-ai|meta-ai]] `aliases: Meta AI, FAIR, Meta, Meta Superintelligence Labs, MSL` `source: open-weight-flagships-survey-2026-11` - Meta 的 AI 部门。前身是 2013 年成立的 Facebook AI Research（FAIR，创始人包括 Yann LeCun），2021 年随公司改名改称 Fundamental AI 
 - [[entities/mcp-java-sdk|mcp-java-sdk]] `aliases: MCP Java SDK, modelcontextprotocol/java-sdk, io.modelcontextprotocol.sdk` `source: java-agent-ecosystem-survey-2026-11` - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]官方的 Java SDK，用来编写 MCP 服务器和客户端，与 [[ent
 - [[entities/mastra|mastra]] `aliases: Mastra, Mastra 框架, @mastra/core` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra-inc|Mastra 公司]]开发的开源 TypeScript Agent 框架（npm 核心包 `@mastra/core`），把 Agent、工作流、记忆、RA
 - [[entities/mastra-platform|mastra-platform]] `aliases: Mastra Platform, Mastra Cloud, Mastra Observability` `source: mastra-ecosystem-survey-2026-11` - [[entities/mastra-inc|Mastra 公司]]的闭源托管平台，给用 [[entities/mastra|Mastra]] 框架写的 Agent 提供部署、环境管理、可观测性、告警、
@@ -135,8 +144,8 @@
 - [[entities/hugging-face|hugging-face]] `aliases: Hugging Face, HF, 抱抱脸` `source: inference-engines-survey-2026-11` - 开源 AI 社区与平台，核心是模型 / 数据集 Hub 和 `transformers` 等库，CEO Clément Delangue。几乎所有开放权重模型（[[entities/llama|Lla
 - [[entities/gpt|gpt]] `aliases: GPT, GPT 系列, ChatGPT 模型, GPT-4o, GPT-5, GPT-5.5, GPT-6 Astra, o1, o3` `source: openai-developers-survey-2026-11` - [[entities/openai|OpenAI]] 的闭源模型家族，从 2018 年的 GPT-1 发展到 2026-09 的 GPT-6 Astra，驱动 ChatGPT、Codex 和 Open
 - [[entities/gpt-oss|gpt-oss]] `aliases: gpt-oss, gpt-oss-120b, gpt-oss-20b, gpt-oss-safeguard` `source: openai-developers-survey-2026-11` - [[entities/openai|OpenAI]] 在 2025-08 发布的开放权重推理模型家族，Apache-2.0 协议，是 OpenAI 自 GPT-2 以来第一次放出语言模型权重。两个尺寸
-- [[entities/google-deepmind|google-deepmind]] `aliases: DeepMind, Google AI` `source: frontier-closed-models-survey-2026-11` - Google 的 AI 研究主体，2023 年由 Google Brain 与 DeepMind 合并而成。负责 [[entities/gemini|Gemini]] 模型家族。Google 研究员 
-- [[entities/google-adk|google-adk]] `aliases: Google ADK, Agent Development Kit, ADK for Java, adk-java` `source: java-agent-ecosystem-survey-2026-11` - Google 开源的 Agent Development Kit，有 Python、Java、Go、TypeScript、Kotlin 多个语言版本；Python 版是领先实现，新功能通常先在 Pyt
+- [[entities/google-deepmind|google-deepmind]] `aliases: Google DeepMind, DeepMind, DeepMind Technologies` `source: frontier-closed-models-survey-2026-11` - Alphabet 旗下的 AI 研究实验室，法律实体为 DeepMind Technologies Limited，总部伦敦，CEO Demis Hassabis。DeepMind 2010-11 由
+- [[entities/google-adk|google-adk]] `aliases: Google ADK, Agent Development Kit, ADK for Java, adk-java, ADK Python, google-adk` `source: java-agent-ecosystem-survey-2026-11` - Google 开源的 Agent Development Kit，有 Python、Java、Go、TypeScript、Kotlin 多个语言版本；Python 版是领先实现，新功能通常先在 Pyt
 - [[entities/github-copilot|github-copilot]] `aliases: GitHub Copilot, Copilot, Copilot CLI, Copilot cloud agent, Agent HQ` `source: ai-applications-survey-2026-11` - GitHub（[[entities/microsoft|Microsoft]]）的 AI 编程助手，2021-06-29 技术预览、2022-06-21 正式发布，是第一个大规模普及的 AI 编程产品
 - [[entities/gemini|gemini]] `aliases: Gemini, Google Gemini, Gemini Pro, Gemini Flash, Gemini 4 Argon, Nano Banana` `source: frontier-closed-models-survey-2026-11` - [[entities/google-deepmind|Google DeepMind]] 的原生多模态闭源模型家族，2023-12-06 发布，接替 PaLM 2，在 Google TPU 上训练和推
 - [[entities/embabel|embabel]] `aliases: Embabel, Embabel Agent Framework, embabel-agent` `source: java-agent-ecosystem-survey-2026-11` - Spring 框架创始人 Rod Johnson 联合创建的 JVM Agent 框架（Apache-2.0，GitHub 约 4500 星），用 Kotlin 写成，Java 也能自然使用。它构建在
@@ -153,13 +162,21 @@
 - [[entities/circuit-tracer|circuit-tracer]] `aliases: circuit-tracer, Circuit Tracer, 电路追踪, 归因图工具` `source: claude-independent-modules-survey-2026-11` - 开源的可解释性库，用来在**开放权重模型**上画“归因图”（attribution graph），也就是找出模型从输入到某个输出经过了哪些内部特征。方法来自 [[entities/anthropic|
 - [[entities/chatkit|chatkit]] `aliases: ChatKit, OpenAI ChatKit, chatkit-js, chatkit-python` `source: openai-developers-survey-2026-11` - [[entities/openai|OpenAI]] 在 2025-10 DevDay 推出的嵌入式聊天界面套件，用来把 Agent 对话界面放进自己的网站。分前后端两部分：前端 `chatkit-j
 - [[entities/bun|bun]] `aliases: Bun, Bun 运行时, oven-sh/bun` `source: bun-survey-2026-11` - 一体化的 JavaScript / TypeScript 工具链：一个二进制同时是运行时、包管理器、测试运行器和打包器，分别对标 Node.js、npm / pnpm / Yarn、Jest / Vi
-- [[entities/anthropic|anthropic]] `aliases: Anthropic PBC` `source: bun-survey-2026-11` - AI 安全与研究公司，2021 年由 Dario Amodei、Daniela Amodei 等前 OpenAI 成员创立，总部位于旧金山。主力产品是 [[entities/claude|Claude
-- [[entities/alibaba|alibaba]] `aliases: Alibaba, 阿里云, 通义` `source: java-agent-ecosystem-survey-2026-11` - 阿里巴巴集团及阿里云，研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云提供算力与模型服务。在 Java Agent 开发方向
+- [[entities/anthropic|anthropic]] `aliases: Anthropic, Anthropic PBC` `source: bun-survey-2026-11` - AI 安全与研究公司，2021 年由 Dario Amodei、Daniela Amodei 等前 OpenAI 成员创立，总部位于旧金山。主力产品是 [[entities/claude|Claude
+- [[entities/alibaba|alibaba]] `aliases: 阿里巴巴, Alibaba, Alibaba Group, 阿里云, 通义, 千问` `source: java-agent-ecosystem-survey-2026-11` - 阿里巴巴集团及阿里云，2023 年起由蔡崇信任董事会主席、吴泳铭任 CEO。研发 [[entities/qwen|Qwen（通义千问）]] 系列，是全球下载量最大的开放权重模型家族之一，同时通过阿里云
 - [[entities/agentscope|agentscope]] `aliases: AgentScope, AgentScope Java, agentscope-java` `source: java-agent-ecosystem-survey-2026-11` - [[entities/alibaba|阿里巴巴]]开源的 Agent 框架，有 Python 与 Java 两个实现；本页侧重 Java 版（java.agentscope.io）。AgentScop
 - [[entities/a2a-java-sdk|a2a-java-sdk]] `aliases: A2A Java SDK, a2a-java, org.a2aproject.sdk` `source: java-agent-ecosystem-survey-2026-11` - [[concepts/agent2agent-protocol|Agent2Agent 协议（A2A）]]的官方 Java 实现，由 Red Hat 的 Quarkus 与 WildFly 团队和 G
 
 ## 概念
 
+- [[concepts/llm-observability|llm-observability]] `aliases: LLM 可观测性, LLM Observability, Agent 可观测性, AI 运行追踪` `source: ai-evaluation-observability-survey-2026-11` - 通过追踪、指标与运行记录观察 AI 应用的模型调用、检索、工具和任务状态，帮助解释延迟、成本与失败原因。追踪展示发生了什么，正确性还需要任务标准和评分。
+- [[concepts/llm-as-judge|llm-as-judge]] `aliases: LLM 裁判, LLM-as-a-Judge, 模型评分器` `source: ai-evaluation-observability-survey-2026-11` - 让语言模型根据明确准则评估回答或任务轨迹的做法，可用于参考答案评分、分维度判断或成对比较。它提供可扩展的判断信号，但不是天然可靠的真值。
+- [[concepts/ai-application-evaluation|ai-application-evaluation]] `aliases: AI 应用评测, Agent 评测, AI Application Evaluation, Agent Evals` `source: ai-evaluation-observability-survey-2026-11` - 把任务输入、初始环境与成功条件固定下来，通过一次或多次试验测量 AI 应用是否完成目标。评测对象包含模型、上下文、数据、工具与 Agent 运行框架，不能用单一模型榜单分数替代。
+- [[concepts/longmemeval|longmemeval]] `aliases: LongMemEval, 长期交互记忆评测` `source: context-memory-survey-2026-11` - 由 Di Wu 等提出的长期交互记忆基准，包含 500 个问题，测试信息提取、多会话推理、知识更新、时间推理和无法回答时的拒答。论文与作者仓库是本页依据。
+- [[concepts/context-compaction|context-compaction]] `aliases: 上下文压缩, Context Compaction, Compaction` `source: context-memory-survey-2026-11` - 将较长的对话与工具历史提炼成较短表示，供后续调用继续任务。Anthropic 的工程文章把 compaction 与外部笔记、子 Agent 上下文隔离并列为长任务的管理方式。
+- [[concepts/agent-memory|agent-memory]] `aliases: Agent 记忆, Agent Memory, 智能体记忆, 长期记忆, 短期记忆` `source: context-memory-survey-2026-11` - 让 Agent 保存、更新并重新使用此前交互信息的系统机制。LangGraph 按使用范围区分线程内短期记忆和跨线程长期记忆；短期状态也可以持久化到数据库，“短期”不等于只能存在 RAM 中。
+- [[concepts/context-engineering|context-engineering]] `aliases: 上下文工程, Context Engineering` `source: context-memory-survey-2026-11` - 管理每次模型推理所接收的信息集合，包括指令、工具描述、消息历史、任务状态和外部证据。Anthropic 将它与侧重指令措辞和组织的提示词工程区分：Agent 每完成一步，下一次调用的上下文都需要重新选
+- [[concepts/python-agent-development|python-agent-development]] `aliases: Python Agent 开发, Python Agent 框架, Python AI Agent` `source: python-agent-frameworks-survey-2026-11` - 用 Python 构建 [[concepts/ai-agent|AI Agent]] 的技术栈。Python 是 Agent 框架最密集的语言，大厂 SDK 通常先出 Python 版（[[entit
 - [[concepts/us-federal-ai-policy|us-federal-ai-policy]] `aliases: 美国联邦 AI 行政令, US federal AI executive orders, EO 14110, EO 14179, EO 14365, EO 14409, EO 14434, America's AI Action Plan, 美国 AI 行动计划, Super Intelligence` `source: ai-policy-survey-2026-11` - 美国联邦层面没有统一的 AI 立法，AI 政策主要靠总统行政令推动。拜登政府 2023 年的 EO 14110 以安全测试与报告为核心；特朗普政府 2025-01 撤销该令，转向放松监管、加快基础设施
 - [[concepts/text-to-speech|text-to-speech]] `aliases: 语音合成, TTS, Text-to-Speech, 文本转语音, 语音模型` `source: multimodal-embedding-models-survey-2026-11` - 把文本转成自然语音的模型与技术。本页同时记录它的反方向语音识别（ASR），以及把两者合成一个模型的实时语音对话，三者合起来是 L2 的语音模型。
 - [[concepts/terminal-bench|terminal-bench]] `aliases: Terminal-Bench, Terminal-Bench 2.0, Terminal-Bench 3.0, Terminal-Bench 4.0, tbench, Harbor` `source: ai-benchmarks-survey-2026-11` - 评测 AI Agent 在真实终端（命令行）环境中自主完成端到端任务的基准，由 Stanford 与 Laude Institute 主持。每道题是一个容器化环境加任务描述，Agent 自己执行命令完
@@ -224,6 +241,10 @@
 
 ## 来源
 
+- [[sources/ai-evaluation-observability-survey-2026-11|ai-evaluation-observability-survey-2026-11]]
+- [[sources/context-memory-survey-2026-11|context-memory-survey-2026-11]]
+- [[sources/python-agent-frameworks-survey-2026-11|python-agent-frameworks-survey-2026-11]]
+- [[sources/major-ai-orgs-survey-2026-11|major-ai-orgs-survey-2026-11]]
 - [[sources/training-methods-survey-2026-11|training-methods-survey-2026-11]]
 - [[sources/multimodal-embedding-models-survey-2026-11|multimodal-embedding-models-survey-2026-11]]
 - [[sources/ai-policy-survey-2026-11|ai-policy-survey-2026-11]]

@@ -92,6 +92,20 @@ updated: 2026-11-06
 - [[concepts/agent-skills|Agent Skills]]
 - [[concepts/agent-driven-code-migration|Agent 驱动的代码迁移]]
 
+### 上下文、记忆与应用评测专题
+
+- [[concepts/context-engineering|上下文工程]]
+- [[concepts/agent-memory|Agent 记忆]]
+- [[concepts/context-compaction|上下文压缩]]
+- [[concepts/ai-application-evaluation|AI 应用评测]]
+- [[concepts/llm-as-judge|LLM 裁判]]
+- [[concepts/llm-observability|LLM 可观测性]]
+- [[entities/langfuse|Langfuse]]
+- [[entities/arize-phoenix|Arize Phoenix]]
+- [[concepts/longmemeval|LongMemEval]]（跨层参考）
+- [[sources/context-memory-survey-2026-11|上下文工程与记忆专题调研]]
+- [[sources/ai-evaluation-observability-survey-2026-11|应用评测与可观测性专题调研]]
+
 ## 自动列表（Dataview）
 
 ```dataview

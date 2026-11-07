@@ -9,7 +9,7 @@ origin: source
 reviewed: false
 created: 2026-11-05
 updated: 2026-11-06
-sources: ["[[sources/ai-benchmarks-survey-2026-11]]"]
+sources: ["[[sources/ai-benchmarks-survey-2026-11]]", "[[sources/ai-evaluation-observability-survey-2026-11]]"]
 ---
 
 # 基准污染与饱和
@@ -39,6 +39,9 @@ sources: ["[[sources/ai-benchmarks-survey-2026-11]]"]
 - **层级**：[[maps/X-横切主题|X-横切主题]] · 评测方法论
 
 ## 相关概念
+
+- [[concepts/ai-application-evaluation|AI 应用评测]]
+- [[concepts/longmemeval|LongMemEval]]
 
 - [[concepts/swe-bench|SWE-bench]]
 - [[concepts/chatbot-arena|Chatbot Arena（LMArena）]]

@@ -8,8 +8,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-05
-sources: ["[[sources/ai-data-layer-survey-2026-11]]", "[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ecosystem-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/ai-data-layer-survey-2026-11]]", "[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ecosystem-survey-2026-11]]", "[[sources/context-memory-survey-2026-11]]"]
 ---
 
 # 检索增强生成（RAG）
@@ -37,6 +37,9 @@ sources: ["[[sources/ai-data-layer-survey-2026-11]]", "[[sources/langchain-ecosy
 - **下层依赖**：[[maps/L1-数据|L1-数据]] 的向量库与语料
 
 ## 相关概念
+
+- [[concepts/context-engineering|上下文工程]]
+- [[concepts/agent-memory|Agent 记忆]]
 
 - [[concepts/vector-database|向量数据库]]
 - [[concepts/embedding|嵌入（Embedding）]]

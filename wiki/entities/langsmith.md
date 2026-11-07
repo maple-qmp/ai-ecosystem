@@ -14,8 +14,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/ai-evaluation-observability-survey-2026-11]]"]
 ---
 
 # LangSmith
@@ -62,6 +62,10 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 - [[entities/deep-agents|Deep Agents]]
 
 ## 相关概念
+
+- [[concepts/ai-application-evaluation|AI 应用评测]]
+- [[concepts/llm-as-judge|LLM 裁判]]
+- [[concepts/llm-observability|LLM 可观测性]]
 
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/agent-harness|Agent Harness]]

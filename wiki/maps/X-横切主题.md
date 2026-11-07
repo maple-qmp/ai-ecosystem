@@ -3,7 +3,7 @@ title: X-横切主题
 type: map
 layer: X
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-06
 ---
 
 # X-横切主题
@@ -71,6 +71,12 @@ updated: 2026-11-05
 ### 概念
 
 - [[concepts/scaling-laws|规模定律]]
+
+### 记忆评测与应用评测方法
+
+- [[concepts/longmemeval|LongMemEval]]
+- [[concepts/ai-application-evaluation|AI 应用评测]]（跨层参考）
+- [[concepts/llm-as-judge|LLM 裁判]]（跨层参考）
 
 ## 自动列表（Dataview）
 

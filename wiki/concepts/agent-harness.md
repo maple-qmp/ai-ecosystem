@@ -8,8 +8,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ecosystem-survey-2026-11]]", "[[sources/java-agent-ecosystem-survey-2026-11]]"]
+updated: 2026-11-06
+sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ecosystem-survey-2026-11]]", "[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/context-memory-survey-2026-11]]"]
 ---
 
 # Agent Harness
@@ -40,6 +40,10 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ec
 - Java 生态：[[entities/agentscope|AgentScope Java]] 2.0 的核心直接叫 HarnessAgent（ReAct 循环、上下文压缩、持久会话与检查点、沙箱）；[[entities/google-adk|Google ADK for Java]] 用 App + Plugin 做事件压缩与人工审批（见 [[concepts/java-agent-development|Java Agent 开发]]）
 
 ## 相关概念
+
+- [[concepts/context-engineering|上下文工程]]
+- [[concepts/agent-memory|Agent 记忆]]
+- [[concepts/context-compaction|上下文压缩]]
 
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]
