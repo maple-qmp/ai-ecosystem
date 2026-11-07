@@ -5,7 +5,7 @@ tags: [notes]
 source_note: "[[开放权重旗舰模型时间线调研-2026-11]]"
 url: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 sources:
   - "[[entities/llama]]"
   - "[[entities/muse]]"
@@ -17,6 +17,7 @@ sources:
   - "[[entities/deepseek-r1]]"
   - "[[entities/mistral-ai]]"
   - "[[entities/mistral-models]]"
+  - "[[entities/deepseek-harness]]"
 ---
 
 # 开放权重旗舰模型时间线调研：Llama / Muse、Qwen、DeepSeek、Mistral（2026-11）

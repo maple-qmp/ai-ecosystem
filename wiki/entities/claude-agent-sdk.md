@@ -7,15 +7,15 @@ layer: L4
 aliases: ["Claude Agent SDK", "Claude Code SDK", "claude-agent-sdk", "@anthropic-ai/claude-agent-sdk"]
 org: "[[entities/anthropic]]"
 released: "2025-06"
-competitors: ["[[entities/openai-agents-sdk]]", "[[entities/codex-app-server]]", "[[entities/langgraph]]", "[[entities/mastra]]"]
+competitors: ["[[entities/openai-agents-sdk]]", "[[entities/codex-app-server]]", "[[entities/langgraph]]", "[[entities/mastra]]", "[[entities/deep-agents]]", "[[entities/opencode]]"]
 depends_on: ["[[entities/claude-code]]", "[[entities/claude]]", "[[entities/bun]]"]
 status: active
 as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
-sources: ["[[sources/claude-independent-modules-survey-2026-11]]"]
+updated: 2026-11-07
+sources: ["[[sources/claude-independent-modules-survey-2026-11]]", "[[sources/agent-frameworks-comparison-survey-2026-11]]"]
 ---
 
 # Claude Agent SDK
@@ -28,7 +28,8 @@ sources: ["[[sources/claude-independent-modules-survey-2026-11]]"]
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · Agent 框架
 - **上游依赖**：[[entities/claude-code|Claude Code]] CLI（运行时为 [[entities/bun|Bun]]）、[[entities/claude|Claude]] 模型
-- **竞争 / 替代**：[[entities/openai-agents-sdk|OpenAI Agents SDK]]、[[entities/codex-app-server|Codex SDK / App Server]]（同样是“把编码 Agent 内核当库用”）、[[entities/langgraph|LangGraph]]、[[entities/mastra|Mastra]]
+- **竞争 / 替代**：[[entities/openai-agents-sdk|OpenAI Agents SDK]]、[[entities/codex-app-server|Codex SDK / App Server]]（同样是“把编码 Agent 内核当库用”）、[[entities/langgraph|LangGraph]]、[[entities/mastra|Mastra]]、[[entities/deep-agents|Deep Agents]]（开源 harness）、[[entities/opencode|OpenCode]]（`opencode serve` + SDK）
+- 与其他 7 个框架的横向比较见 [[concepts/agent-framework-selection|AI Agent 框架选型]]
 
 ## 脱离 Anthropic 使用
 
@@ -46,6 +47,7 @@ sources: ["[[sources/claude-independent-modules-survey-2026-11]]"]
 - 2025-06 Python 版仓库创建（当时叫 Claude Code SDK）
 - 2025-09 改名 Claude Agent SDK，TypeScript 版独立成仓库
 - 2026-11-04 npm 版本 0.3.318，与 Claude Code 2.1.318 同步发布；PyPI 版本 0.2.178
+- 2026-11-06 npm 0.3.319、PyPI 0.2.179；一周下载量 npm 约 1848 万、PyPI 约 870 万，在比较的 8 个框架中最高
 
 ## 相关实体
 
@@ -59,6 +61,7 @@ sources: ["[[sources/claude-independent-modules-survey-2026-11]]"]
 ## 相关概念
 
 - [[concepts/agent-harness|Agent Harness]]
+- [[concepts/agent-framework-selection|AI Agent 框架选型]]
 - [[concepts/anthropic-messages-api|Anthropic Messages API]]
 - [[concepts/agent-skills|Agent Skills]]
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]

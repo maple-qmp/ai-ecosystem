@@ -14,7 +14,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-06
+updated: 2026-11-07
 sources: ["[[sources/ai-applications-survey-2026-11]]", "[[sources/moonshot-ai-survey-2026-11]]"]
 ---
 
@@ -22,7 +22,7 @@ sources: ["[[sources/ai-applications-survey-2026-11]]", "[[sources/moonshot-ai-s
 
 ## 描述
 
-[[entities/moonshot-ai|月之暗面]]的 AI 助手应用，2023-10 以「Kimi 智能助手」上线，靠长上下文出名，单次对话约 20 万汉字；底层是自家的 [[entities/kimi|Kimi]] 模型（2025-07 起的 K 系列开放权重）。2024-03 称单次对话可处理 200 万汉字，随后因用户激增宕机两天；月活排名从 2024-08 的第三跌到 2025-06 的第七。2025-09 推出第一个 Agent 模式 OK Computer；此后每代模型都扩展 App 的 Agent 能力：K2.5（2026-01）加入 Agent Swarm，K2.6（2026-04）把它扩展到最多 300 个子 Agent 并行，2026-02 的 Kimi Claw 可在浏览器里一键部署常驻在线的 OpenClaw Agent。2026 年 App 单独的月活没有查到公开数据。
+[[entities/moonshot-ai|月之暗面]]的 AI 助手应用，2023-10 以「Kimi 智能助手」上线，靠长上下文出名，单次对话约 20 万汉字；底层是自家的 [[entities/kimi|Kimi]] 模型（2025-07 起的 K 系列开放权重）。2024-03 称单次对话可处理 200 万汉字，随后因用户激增宕机两天；月活排名从 2024-08 的第三跌到 2025-06 的第七。2025-09 推出第一个 Agent 模式 OK Computer；此后每代模型都扩展 App 的 Agent 能力：K2.5（2026-01）加入 Agent Swarm，K2.6（2026-04）把它扩展到最多 300 个子 Agent 并行，2026-02 的 Kimi Claw 可在浏览器里一键部署常驻在线的 [[entities/openclaw|OpenClaw]] Agent。2026 年 App 单独的月活没有查到公开数据。
 
 ## 生态位置
 

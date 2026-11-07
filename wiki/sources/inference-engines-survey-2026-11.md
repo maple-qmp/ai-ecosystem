@@ -5,7 +5,7 @@ tags: [notes]
 source_note: "[[推理引擎与本地部署调研-2026-11]]"
 url: https://github.com/vllm-project/vllm
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 sources:
   - "[[entities/vllm]]"
   - "[[entities/sglang]]"
@@ -29,6 +29,7 @@ sources:
   - "[[concepts/gguf]]"
   - "[[concepts/quantization]]"
   - "[[concepts/anthropic-messages-api]]"
+  - "[[entities/openclaw]]"
 ---
 
 # 推理引擎与本地部署调研（2026-11）

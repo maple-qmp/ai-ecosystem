@@ -13,7 +13,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-05
+updated: 2026-11-07
 sources: ["[[sources/moonshot-ai-survey-2026-11]]", "[[sources/open-weight-flagships-survey-2026-11]]", "[[sources/ai-compute-hardware-survey-2026-11]]"]
 ---
 
@@ -41,7 +41,7 @@ sources: ["[[sources/moonshot-ai-survey-2026-11]]", "[[sources/open-weight-flags
 - 2026-04-24 DeepSeek-V4 预览（1.6T，1M 上下文）
 - 2026-05 A 轮 70 亿美元，投后估值 520 亿美元
 - 2026-07 报道准备 IPO
-- 2026-08 发布开源 Agent 框架 DeepSeek Harness（MIT，开发者预览）
+- 2026-08 发布开源 Agent 框架 [[entities/deepseek-harness|DeepSeek Harness]]（MIT，开发者预览）
 - 2026-09 报道计划在内蒙古建含 16 万张昇腾 950DT 的数据中心；V4.1-Flash 发布
 
 ## 相关实体

@@ -8,8 +8,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-06
-sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ecosystem-survey-2026-11]]", "[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/context-memory-survey-2026-11]]"]
+updated: 2026-11-07
+sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/agent-frameworks-comparison-survey-2026-11]]", "[[sources/mastra-ecosystem-survey-2026-11]]", "[[sources/java-agent-ecosystem-survey-2026-11]]", "[[sources/context-memory-survey-2026-11]]"]
 ---
 
 # Agent Harness
@@ -29,7 +29,8 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ec
 
 ## 应用
 
-- 编程 Agent（[[entities/claude-code|Claude Code]]、[[entities/mastra-code|Mastra Code]] 等）
+- 编程 Agent（[[entities/claude-code|Claude Code]]、[[entities/mastra-code|Mastra Code]]、[[entities/opencode|OpenCode]]、[[entities/pi-agent|Pi]] 等）
+- 常驻自主助理（[[entities/openclaw|OpenClaw]]、[[entities/hermes-agent|Hermes Agent]]）
 - 深度研究、长时自动化任务
 
 ## 生态位置
@@ -37,6 +38,7 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ec
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]]
 - 以 LangChain 生态为例，从低到高是三层：[[entities/langgraph|LangGraph]]（编排运行时）→ [[entities/langchain|LangChain]]（Agent API 与中间件）→ [[entities/deep-agents|Deep Agents]]（harness）
 - [[entities/mastra|Mastra]] 把 harness 作为框架内的一个模块：Harness 负责超出单次请求的持久执行（目标、定时、后台任务），其中托管长时可交互会话的部分 2026-10 以 Agent Controller 名义 GA（由 Harness 更名）；上下文管理则用 [[concepts/observational-memory|Observational Memory]] 取代压缩
+- 2026 年 harness 本身成为产品形态：[[entities/pi-agent|Pi]] 走极简内核 + 扩展路线（只有四个工具），[[entities/deepseek-harness|DeepSeek Harness]] 走“一切皆插件”路线（连 Agent 循环都可替换），[[entities/claude-agent-sdk|Claude Agent SDK]] 把成品 harness 当库发布。横向比较见 [[concepts/agent-framework-selection|AI Agent 框架选型]]
 - Java 生态：[[entities/agentscope|AgentScope Java]] 2.0 的核心直接叫 HarnessAgent（ReAct 循环、上下文压缩、持久会话与检查点、沙箱）；[[entities/google-adk|Google ADK for Java]] 用 App + Plugin 做事件压缩与人工审批（见 [[concepts/java-agent-development|Java Agent 开发]]）
 
 ## 相关概念
@@ -48,6 +50,7 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ec
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]
 - [[concepts/observational-memory|Observational Memory]]
+- [[concepts/agent-framework-selection|AI Agent 框架选型]]
 
 ## 相关实体
 
@@ -59,6 +62,12 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/mastra-ec
 - [[entities/mastra-code|Mastra Code]]
 - [[entities/agentscope|AgentScope]]
 - [[entities/google-adk|Google ADK]]
+- [[entities/claude-agent-sdk|Claude Agent SDK]]
+- [[entities/pi-agent|Pi]]
+- [[entities/opencode|OpenCode]]
+- [[entities/deepseek-harness|DeepSeek Harness]]
+- [[entities/openclaw|OpenClaw]]
+- [[entities/hermes-agent|Hermes Agent]]
 
 ## 我的判断
 

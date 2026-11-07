@@ -5,7 +5,7 @@ tags: [notes]
 source_note: "[[AI应用产品调研-2026-11]]"
 url: https://www.anthropic.com/news/product
 created: 2026-11-05
-updated: 2026-11-06
+updated: 2026-11-07
 sources:
   - "[[entities/chatgpt]]"
   - "[[entities/claude-app]]"
@@ -20,6 +20,7 @@ sources:
   - "[[entities/claude-code]]"
   - "[[entities/cursor]]"
   - "[[entities/github-copilot]]"
+  - "[[entities/openclaw]]"
 ---
 
 # AI 应用产品调研（2026-11）

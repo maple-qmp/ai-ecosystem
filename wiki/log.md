@@ -441,3 +441,18 @@
 - 待核实：Harvey 155 亿美元一轮的日期；OpenEvidence 2026-09 估值 150 亿美元；Abridge 2026 年融资；Microsoft E7 与 Agent 365 价格；Dify 估值 1.8 亿美元；Coze 2.0 / 3.0 官方发布日期；n8n 2026 年估值；LiteLLM 事件的 Trivy 根因；以及标「训练知识」的若干条（Character.AI 创立与 Google 授权协议、Atlassian 收购 The Browser Company、Operator 并入 ChatGPT、Notion AI / Microsoft 365 Copilot / Dify / 扣子 / Runway / Abridge / Harvey / OpenEvidence 的首发时间）
 - 所有新页 `origin: source`、`reviewed: false`，未改动任何「我的判断」
 
+
+
+## [2026-11-07 22:35] ingest | AI Agent 框架横向对比调研
+
+**创建页面**：[[sources/agent-frameworks-comparison-survey-2026-11]], [[concepts/agent-framework-selection]], [[entities/pi-agent]], [[entities/opencode]], [[entities/openclaw]], [[entities/hermes-agent]], [[entities/deepseek-harness]]
+
+**更新页面**：[[entities/claude-agent-sdk]], [[entities/openai-agents-sdk]], [[entities/deep-agents]], [[entities/deepseek]], [[entities/ollama]], [[entities/kimi-app]], [[concepts/agent-harness]], [[sources/ai-applications-survey-2026-11]], [[sources/inference-engines-survey-2026-11]], [[sources/open-weight-flagships-survey-2026-11]], [[maps/L4-开发工具与Agent]]
+
+- 来源：`raw/AI-Agent框架横向对比调研-2026-11.md`，依据各项目官方仓库 README、官方文档与官网（pi.dev、opencode.ai、openclaw、hermes-agent.nousresearch.com、deepseek.com/en/harness）、npm / PyPI 元数据与下载量（2026-11-07 读取），以及 Wikipedia（OpenClaw）、DeepInfra 评测（DeepSeek Harness）、eesel（Pi）、hermesatlas 社区报告等二手资料。本会话 GitHub API 不可用，星数取自网页
+- 比较 8 个框架：Claude Agent SDK、OpenAI Agents SDK、Deep Agents、Pi、OpenCode、OpenClaw、Hermes Agent、DeepSeek Harness。对比表、优劣与按场景的选型建议写在新概念页 [[concepts/agent-framework-selection]]，分为嵌入式 SDK、可编程编码 Agent、常驻自主助理三类
+- Pi 的文件名用 `pi-agent`（避免与“π”等歧义）；Earendil、Anomaly、OpenClaw Foundation、Nous Research 暂未建组织页，`org` 字段写纯文本
+- 交叉链接：DeepSeek 时间线、Ollama、Kimi 页里原本未加链接的 DeepSeek Harness、OpenCode、OpenClaw 改为链接；Deep Agents 竞品里的 Claude Agent SDK 改为链接；L4 地图新增「常驻自主助理」小节
+- 新发现：`deepagents-cli` 已弃用，改用 Managed Deep Agents 的 `mda`；PyPI 上的 `deepseek-harness` 是同名第三方项目；Pi 0.99.0 加入 MCP、1.0 于 2026-10-01（npm 核实）
+- 待核实：Earendil 收购 Pi 的日期与 Lefos 平台；OpenCode 融资、Zen 收入与 750 万月活；Anthropic 2026-04-03 阻止 OpenClaw 使用 Claude 订阅（仅见于社区报告）；Hermes Agent 当前官方版本号与 PyPI 包归属；DeepSeek Harness 发布三个月约 27.6 万星，增长异常；所有星数未经 API 核对
+- 所有新页 `origin: source`、`reviewed: false`，未改动任何「我的判断」

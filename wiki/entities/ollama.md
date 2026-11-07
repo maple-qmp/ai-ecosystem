@@ -13,7 +13,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/claude-independent-modules-survey-2026-11]]"]
 ---
 
@@ -21,7 +21,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/claude-inde
 
 ## 描述
 
-在本地或云端运行开放模型的工具，一条命令拉取并运行模型，同时提供 REST API 与 OpenAI、Anthropic 兼容接口，是开发者本地跑开放模型最常用的入口。主要用 Go 编写，早期通过 CGo 调用 [[entities/llama-cpp|llama.cpp]] 推理，2025 年中开始转向自研引擎（有评论认为因此重新引入了 llama.cpp 已修过的问题）。2026 年从本地工具扩展为平台：`ollama launch` 一键把本地或云端模型接到 [[entities/claude-code|Claude Code]]、[[entities/codex-cli|Codex]]、Copilot CLI、OpenCode 等编程 Agent；Ollama Cloud 提供带 `:cloud` 后缀的云端模型，后来改为按 token 计费；本地软件仍免费、MIT 协议。公司由 Jeffrey Morgan 和 Michael Chiang 创办（YC W21），2026-07 完成 6500 万美元 B 轮，称有约 890 万开发者使用。
+在本地或云端运行开放模型的工具，一条命令拉取并运行模型，同时提供 REST API 与 OpenAI、Anthropic 兼容接口，是开发者本地跑开放模型最常用的入口。主要用 Go 编写，早期通过 CGo 调用 [[entities/llama-cpp|llama.cpp]] 推理，2025 年中开始转向自研引擎（有评论认为因此重新引入了 llama.cpp 已修过的问题）。2026 年从本地工具扩展为平台：`ollama launch` 一键把本地或云端模型接到 [[entities/claude-code|Claude Code]]、[[entities/codex-cli|Codex]]、Copilot CLI、[[entities/opencode|OpenCode]] 等编程 Agent；Ollama Cloud 提供带 `:cloud` 后缀的云端模型，后来改为按 token 计费；本地软件仍免费、MIT 协议。公司由 Jeffrey Morgan 和 Michael Chiang 创办（YC W21），2026-07 完成 6500 万美元 B 轮，称有约 890 万开发者使用。
 
 ## 生态位置
 
@@ -34,7 +34,7 @@ sources: ["[[sources/inference-engines-survey-2026-11]]", "[[sources/claude-inde
 
 - **本地**：`http://localhost:11434`，原生 REST API、OpenAI 兼容、Anthropic Messages API 子集（不支持 token 计数、`tool_choice`、提示缓存等）
 - **云端**：`OLLAMA_API_KEY` + `https://ollama.com/api/chat` 或 `https://ollama.com/v1/messages`，不需要安装 Ollama
-- **集成**：`ollama launch claude`、`ollama launch codex`、`ollama launch openclaw` 等
+- **集成**：`ollama launch claude`、`ollama launch codex`、`ollama launch openclaw` 等（见 [[entities/openclaw|OpenClaw]]）
 
 ## 时间线
 
