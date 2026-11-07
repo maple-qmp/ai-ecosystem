@@ -14,7 +14,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
+updated: 2026-11-07
 sources: ["[[sources/openai-developers-survey-2026-11]]"]
 ---
 
@@ -35,7 +35,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]"]
 只能部分脱离。
 
 - **托管路径**（不可脱离）：在 Agent Builder 里建工作流，后端调 OpenAI 的 ChatKit sessions 接口换客户端密钥。Agent Builder 计划 2026-11-30 关闭，这条路径只留给存量用户过渡
-- **自托管路径**（后端可脱离）：用 chatkit-python 在自己的服务器上实现后端，可以 "connect to any agentic service"，新项目官方推荐这条。模型由后端决定，社区有接 LiteLLM、Gemini 的例子（非官方）
+- **自托管路径**（后端可脱离）：用 chatkit-python 在自己的服务器上实现后端，可以 "connect to any agentic service"，新项目官方推荐这条。模型由后端决定，社区有接 [[entities/litellm|LiteLLM]]、Gemini 的例子（非官方）
 - **仍然连 OpenAI 的部分**：官方示例从 `cdn.platform.openai.com` 加载 `chatkit.js`；前端用 `api: { url, domainKey }` 指向自家后端，`domainKey` 是否必须在 OpenAI 后台登记，官方页面未写明
 
 ## 时间线

@@ -14,7 +14,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-06
+updated: 2026-11-07
 sources: ["[[sources/ai-applications-survey-2026-11]]"]
 ---
 
@@ -62,12 +62,14 @@ sources: ["[[sources/ai-applications-survey-2026-11]]"]
 - [[entities/claude-code|Claude Code]]
 - [[entities/chatgpt|ChatGPT]]
 - [[entities/gemini-app|Gemini App]]
+- [[entities/microsoft-365-copilot|Microsoft 365 Copilot]]（Copilot Cowork 采用 Claude Cowork 技术）
 
 ## 相关概念
 
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/agent-skills|Agent Skills]]
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]
+- [[concepts/computer-use|Computer Use]]
 
 ## 我的判断
 

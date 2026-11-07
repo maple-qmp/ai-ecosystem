@@ -15,7 +15,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-06
+updated: 2026-11-07
 sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]", "[[sources/frontier-closed-models-survey-2026-11]]"]
 ---
 
@@ -50,6 +50,7 @@ sources: ["[[sources/multimodal-embedding-models-survey-2026-11]]", "[[sources/f
 - [[entities/veo|Veo]]
 - [[entities/kling|可灵 Kling]]
 - [[entities/seedance|Seedance / 即梦]]
+- [[entities/runway|Runway]]（应用侧竞品）
 
 ## 相关概念
 

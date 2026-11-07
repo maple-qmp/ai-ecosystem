@@ -12,7 +12,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 sources: ["[[sources/bytedance-doubao-survey-2026-11]]", "[[sources/multimodal-embedding-models-survey-2026-11]]"]
 ---
 
@@ -69,6 +69,7 @@ sources: ["[[sources/bytedance-doubao-survey-2026-11]]", "[[sources/multimodal-e
 - [[entities/agentscope|AgentScope]]
 - [[entities/minimax|MiniMax]]
 - [[entities/moonshot-ai|月之暗面（Moonshot AI）]]
+- [[entities/coze|Coze / 扣子]]
 
 ## 相关概念
 

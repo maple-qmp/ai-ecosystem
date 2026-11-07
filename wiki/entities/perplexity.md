@@ -14,8 +14,8 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-06
-sources: ["[[sources/ai-applications-survey-2026-11]]"]
+updated: 2026-11-07
+sources: ["[[sources/ai-applications-survey-2026-11]]", "[[sources/ai-applications-expansion-survey-2026-11]]"]
 ---
 
 # Perplexity
@@ -38,6 +38,7 @@ AI 搜索产品，自称「答案引擎」：用户提问后它检索网页，�
 - 2025-06 融资 5 亿美元，估值 140 亿
 - 2025-07 推出 Comet 浏览器
 - 2025-09 估值 200 亿
+- 2025-10 Comet 改为全球免费（二手报道）
 - 2026-01 与 Microsoft 签三年 7.5 亿美元 Azure 协议
 - 2026 年初 E-6 轮后估值 212.1 亿美元
 - 2026-02 推出 Perplexity Computer；停止广告，转向订阅优先
@@ -57,6 +58,8 @@ AI 搜索产品，自称「答案引擎」：用户提问后它检索网页，�
 
 - [[concepts/rag|检索增强生成（RAG）]]
 - [[concepts/ai-agent|AI Agent]]
+- [[concepts/ai-browser|AI 浏览器]]
+- [[concepts/computer-use|Computer Use]]
 
 ## 我的判断
 

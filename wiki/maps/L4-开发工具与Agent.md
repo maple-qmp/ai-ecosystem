@@ -3,7 +3,7 @@ title: L4-开发工具与Agent
 type: map
 layer: L4
 created: 2026-11-04
-updated: 2026-11-06
+updated: 2026-11-07
 ---
 
 # L4-开发工具与Agent
@@ -57,6 +57,15 @@ updated: 2026-11-06
 - [[entities/agentscope|AgentScope]]
 - [[entities/mcp-java-sdk|MCP Java SDK]]
 - [[entities/a2a-java-sdk|A2A Java SDK]]
+
+### 低代码 Agent 平台与 LLM 网关
+
+- [[entities/dify|Dify]]
+- [[entities/coze|Coze / 扣子]]（含开源 Coze Studio、Coze Loop）
+- [[entities/n8n|n8n]]
+- [[entities/litellm|LiteLLM]]（LLM 网关）
+- [[concepts/computer-use|Computer Use]]
+- [[sources/lowcode-agent-platforms-survey-2026-11|低代码 Agent 平台与 LLM 网关调研]]
 
 ### 可观测性与平台
 
