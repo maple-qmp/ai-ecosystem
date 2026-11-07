@@ -15,7 +15,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 sources: ["[[sources/open-weight-flagships-survey-2026-11]]", "[[sources/ai-compute-hardware-survey-2026-11]]"]
 ---
 
@@ -23,7 +23,7 @@ sources: ["[[sources/open-weight-flagships-survey-2026-11]]", "[[sources/ai-comp
 
 ## 描述
 
-[[entities/deepseek|DeepSeek]] 的主线基座模型系列，全部以 MIT 许可开放权重。V3（2024-12）是大型 [[concepts/mixture-of-experts|MoE]]，也是推理模型 [[entities/deepseek-r1|DeepSeek-R1]] 的基座；V3.1（2025-08）把思考与非思考模式合进同一个模型，R1 线从此并入主线；V3.2 引入 DeepSeek 稀疏注意力（DSA）。V4（2026-04 预览）分 V4-Pro（1.6T 总参数 / 49B 激活）和 V4-Flash（284B / 13B），都支持 1M 上下文，用压缩稀疏注意力（CSA）与重度压缩注意力（HCA）组成的混合注意力，1M 长度下 V4-Pro 的单 token 推理 FLOPs 只有 V3.2 的 27%、[[concepts/kv-cache|KV Cache]] 只要 10%。V4.1-Flash（2026-09）改为因果编码器-解码器结构并原生多模态。V4 已被[[entities/ascend|昇腾]]、寒武纪等国产芯片适配：华为称昇腾 SuperNode 全系完成 V4 推理适配，并有团队称在昇腾 SuperPOD 上完成 V4 家族的全参数后训练；训练主体是否在昇腾上完成，各方口径仍有分歧。
+[[entities/deepseek|DeepSeek]] 的主线基座模型系列，全部以 MIT 许可开放权重。V3（2024-12）是大型 [[concepts/mixture-of-experts|MoE]]，也是推理模型 [[entities/deepseek-r1|DeepSeek-R1]] 的基座；V3.1（2025-08）把思考与非思考模式合进同一个模型，R1 线从此并入主线；V3.2 引入 DeepSeek 稀疏注意力（DSA）。V4（2026-04 预览）分 V4-Pro（1.6T 总参数 / 49B 激活）和 V4-Flash（284B / 13B），都支持 1M 上下文，用压缩稀疏注意力（CSA）与重度压缩注意力（HCA）组成的混合注意力，1M 长度下 V4-Pro 的单 token 推理 FLOPs 只有 V3.2 的 27%、[[concepts/kv-cache|KV Cache]] 只要 10%。V4.1-Flash（2026-09）改为因果编码器-解码器结构并原生多模态。V4 已被[[entities/ascend|昇腾]]、[[entities/cambricon|寒武纪]]等国产芯片适配：华为称昇腾 SuperNode 全系完成 V4 推理适配，并有团队称在昇腾 SuperPOD 上完成 V4 家族的全参数后训练；训练主体是否在昇腾上完成，各方口径仍有分歧。
 
 ## 生态位置
 

@@ -13,7 +13,7 @@ as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-05
-updated: 2026-11-05
+updated: 2026-11-07
 sources: ["[[sources/moonshot-ai-survey-2026-11]]"]
 ---
 
@@ -21,7 +21,7 @@ sources: ["[[sources/moonshot-ai-survey-2026-11]]"]
 
 ## 描述
 
-2023-03 在北京成立的 AI 公司，创始人杨植麟、周昕宇、吴育昕，产品品牌是 [[entities/kimi|Kimi]]。早期靠长上下文的 Kimi 助手出名，2025-07 起转向开放权重：Kimi K2（1T 总参数、32B 激活的 [[concepts/mixture-of-experts|MoE]]）及之后的 K2 Thinking、K2.5、K2.6、K3，都放在 Hugging Face 上。[[entities/alibaba|阿里巴巴]]在 2024-02 领投，腾讯在 2024-08 入股。2026-07 估值 350 亿美元。研究方面有 Mooncake 推理架构（获 USENIX FAST 最佳论文）、Muon 优化器的规模化、Kimi Delta Attention 线性注意力。
+2023-03 在北京成立的 AI 公司，创始人杨植麟、周昕宇、吴育昕，产品品牌是 [[entities/kimi|Kimi]]。早期靠长上下文的 Kimi 助手出名，2025-07 起转向开放权重：Kimi K2（1T 总参数、32B 激活的 [[concepts/mixture-of-experts|MoE]]）及之后的 K2 Thinking、K2.5、K2.6、K3，都放在 Hugging Face 上。[[entities/alibaba|阿里巴巴]]在 2024-02 领投，[[entities/tencent|腾讯]]在 2024-08 入股。2026-07 估值 350 亿美元。研究方面有 Mooncake 推理架构（获 USENIX FAST 最佳论文）、Muon 优化器的规模化、Kimi Delta Attention 线性注意力。
 
 ## 生态位置
 

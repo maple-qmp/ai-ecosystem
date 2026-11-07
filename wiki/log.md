@@ -414,6 +414,19 @@
 未检测到重复、断链、空洞、孤立页面或无来源引证。
 
 
+## [2026-11-07 18:26] ingest | 国内厂商补全：腾讯混元、百度文心、阶跃星辰、寒武纪
+
+**创建页面**：[[sources/tencent-hunyuan-survey-2026-11]], [[sources/baidu-ernie-survey-2026-11]], [[sources/stepfun-survey-2026-11]], [[sources/cambricon-survey-2026-11]], [[entities/tencent]], [[entities/hunyuan]], [[entities/yuanbao]], [[entities/baidu]], [[entities/ernie]], [[entities/ernie-app]], [[entities/kunlunxin]], [[entities/stepfun]], [[entities/stepfun-step]], [[entities/cambricon]]
+
+**更新页面**：[[entities/ascend]], [[entities/deepseek-v]], [[entities/moonshot-ai]], [[entities/zhipu-ai]], [[maps/L0-算力与硬件]], [[maps/L2-基础模型]], [[maps/L5-应用]], [[maps/X-横切主题]]
+
+- 来源：Hugging Face 模型卡、API 元数据与许可证原文（tencent / baidu / stepfun-ai，2026-11-07 读取），ERNIE 官方技术博客，Wikipedia（Ernie Bot、StepFun、Cambricon Technologies），以及 Caixin Global、CNBC、IT之家、新京报、界面新闻、财联社、东方财富等报道；素材为 `raw/腾讯-混元调研-2026-11.md`、`raw/百度-文心调研-2026-11.md`、`raw/阶跃星辰-Step调研-2026-11.md`、`raw/寒武纪调研-2026-11.md`
+- 新增 4 个来源页、10 个实体页，全部 `origin: source`、`reviewed: false`；昆仑芯并入百度专题，放 L0；阶跃的对话 App 未找到一手资料，暂不建页
+- 交叉链接：昇腾、DeepSeek-V、月之暗面、智谱页里原本未加链接的“腾讯”“寒武纪”改为链接；四个地图页只追加列表项
+- 主要发现：腾讯 Hy3 / Hy4 preview 改用 Apache-2.0；百度 ERNIE 5.5 Flash Base 反而改用排除欧盟、英国、韩国并设 5000 万美元门槛的自定义许可证；阶跃 Step 5 Preview（600B）许可证对硬件厂商和年收入超 2000 万美元的模型服务商设限
+- 待核实：Hy4 正式版（2026-11-04）是否开放权重及发布日（11-04 / 11-05）；姚顺雨入职腾讯的时间（2025-09 / 2025-12）；Hy3、Hy4 API 价格（只见于 Caixin 的 AI 生成摘要）；Hunyuan-Large 的 389B / 52B 参数；ERNIE 5.0 的 2.4T 参数（百度未确认）及正式上线日；Wikipedia 写 ERNIE 5.1 为 Apache 许可，与“5.1 闭源”的报道矛盾；昆仑芯成立年份与 P800 规格；文心助手“月活破 2 亿”；Step 5 Preview 是否开放权重（Wikipedia 写闭源，HF 上权重公开，暂采信 HF）；阶跃融资额、估值与递表均为消息人士说法；寒武纪思元 690 规格与量产进度、NeuWare / BANG 软件栈名称
+
+
 ## [2026-11-07 18:28] ingest | AI 应用扩容调研 + 低代码 Agent 平台与 LLM 网关调研
 
 **创建页面**：[[sources/ai-applications-expansion-survey-2026-11]], [[sources/lowcode-agent-platforms-survey-2026-11]], [[entities/microsoft-365-copilot]], [[entities/notion-ai]], [[entities/salesforce-agentforce]], [[entities/harvey]], [[entities/openevidence]], [[entities/abridge]], [[entities/rogo]], [[entities/runway]], [[entities/character-ai]], [[entities/dify]], [[entities/coze]], [[entities/n8n]], [[entities/litellm]], [[concepts/computer-use]], [[concepts/ai-browser]]
