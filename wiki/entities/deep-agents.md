@@ -7,15 +7,15 @@ layer: L4
 aliases: ["Deep Agents", "deepagents", "Managed Deep Agents"]
 org: "[[entities/langchain-inc]]"
 released: "2025"
-competitors: ["[[entities/claude-code]]"]
+competitors: ["[[entities/claude-code]]", "[[entities/claude-agent-sdk]]", "[[entities/openai-agents-sdk]]"]
 depends_on: ["[[entities/langchain]]", "[[entities/langgraph]]"]
 status: active
 as_of: 2026-11
 origin: source
 reviewed: false
 created: 2026-11-04
-updated: 2026-11-04
-sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
+updated: 2026-11-07
+sources: ["[[sources/langchain-ecosystem-survey-2026-11]]", "[[sources/agent-frameworks-comparison-survey-2026-11]]"]
 ---
 
 # Deep Agents
@@ -28,16 +28,19 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架（harness）
 - **上游依赖**：[[entities/langchain|LangChain]]、[[entities/langgraph|LangGraph]]
-- **竞争 / 替代**：Claude Agent SDK（[[entities/claude-code|Claude Code]] 的 harness）、[[entities/openai-agents-sdk|OpenAI Agents SDK]]
+- **竞争 / 替代**：[[entities/claude-agent-sdk|Claude Agent SDK]]（[[entities/claude-code|Claude Code]] 的 harness）、[[entities/openai-agents-sdk|OpenAI Agents SDK]]
+- 与其他 7 个框架的横向比较见 [[concepts/agent-framework-selection|AI Agent 框架选型]]
 
 ## 时间线
 
 - 2025 发布开源 `deepagents`
 - 2026-05-14 v0.6：代码解释器式的程序化工具调用、类型化流式输出、React / Vue / Svelte / Angular 前端流式支持、`DeltaChannel`（更省空间的 checkpoint 存储）；同日发布 Managed Deep Agents
+- 2026-08-24 部署工具 `deepagents-cli` 0.3.0 标为弃用，改用 Managed Deep Agents 的 `mda` 命令
 - 2026-08 v0.7：简化基础 harness，在相近效果下基础输入 token 减少 65%
 - 2026-08-07 Managed Deep Agents 公开测试（LangSmith Cloud 美国区，CLI 优先）
 - 2026-09 Managed Deep Agents v0.8：内置 Parallel 网页搜索
 - 2026-10 Managed Deep Agents v0.9：按次配置、Slack 集成、用户级记忆与工具、定时任务
+- 2026-11 PyPI `deepagents` 0.7.34、npm `deepagents` 1.16.3；一周下载量 PyPI 约 203 万、npm 约 67 万
 
 ## 相关实体
 
@@ -45,10 +48,12 @@ sources: ["[[sources/langchain-ecosystem-survey-2026-11]]"]
 - [[entities/langgraph|LangGraph]]
 - [[entities/langsmith|LangSmith]]
 - [[entities/claude-code|Claude Code]]
+- [[entities/claude-agent-sdk|Claude Agent SDK]]
 
 ## 相关概念
 
 - [[concepts/agent-harness|Agent Harness]]
+- [[concepts/agent-framework-selection|AI Agent 框架选型]]
 - [[concepts/ai-agent|AI Agent]]
 
 ## 我的判断

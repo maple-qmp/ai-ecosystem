@@ -25,6 +25,8 @@ updated: 2026-11-07
 - [[entities/openai-agents-sdk|OpenAI Agents SDK]]
 - [[entities/chatkit|ChatKit]]
 - [[entities/claude-agent-sdk|Claude Agent SDK]]
+- [[entities/deepseek-harness|DeepSeek Harness]]
+- [[concepts/agent-framework-selection|AI Agent 框架选型]]（8 个框架横向比较与选型建议）
 
 ### 编码 Agent
 
@@ -32,6 +34,14 @@ updated: 2026-11-07
   - [[entities/codex-app-server|Codex App Server / SDK]]
 - [[entities/claude-code|Claude Code]]
   - [[entities/sandbox-runtime|Sandbox Runtime（srt）]]
+- [[entities/opencode|OpenCode]]
+- [[entities/pi-agent|Pi]]
+
+### 常驻自主助理
+
+- [[entities/openclaw|OpenClaw]]
+- [[entities/hermes-agent|Hermes Agent]]
+- [[sources/agent-frameworks-comparison-survey-2026-11|Agent 框架横向对比调研]]
 
 ### Python
 

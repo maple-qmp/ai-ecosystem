@@ -15,7 +15,7 @@ origin: source
 reviewed: false
 created: 2026-11-04
 updated: 2026-11-07
-sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/python-agent-frameworks-survey-2026-11]]"]
+sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/python-agent-frameworks-survey-2026-11]]", "[[sources/agent-frameworks-comparison-survey-2026-11]]"]
 ---
 
 # OpenAI Agents SDK
@@ -29,6 +29,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/python-agen
 - **层级**：[[maps/L4-开发工具与Agent|L4-开发工具与Agent]] · 框架
 - **上游依赖**：—（默认调 OpenAI Responses API，可换）
 - **竞争 / 替代**：[[entities/langgraph|LangGraph]]、[[entities/vercel-ai-sdk|AI SDK]]、[[entities/mastra|Mastra]]、[[entities/google-adk|Google ADK]]、[[entities/deep-agents|Deep Agents]]、[[entities/claude-agent-sdk|Claude Agent SDK]]
+- 与其他 7 个框架的横向比较见 [[concepts/agent-framework-selection|AI Agent 框架选型]]
 
 ## 脱离 OpenAI 使用
 
@@ -47,6 +48,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/python-agen
 - 2025-05 发布 TypeScript 版
 - 2025-10 ChatKit 发布，官方推荐用 Agents SDK 实现其自托管后端
 - 2026-10 Python v0.24.0、TypeScript 0.21.0
+- 2026-11 一周下载量 PyPI 约 483 万、npm 约 245 万
 
 ## 相关实体
 
@@ -63,6 +65,7 @@ sources: ["[[sources/openai-developers-survey-2026-11]]", "[[sources/python-agen
 
 - [[concepts/ai-agent|AI Agent]]
 - [[concepts/agent-harness|Agent Harness]]
+- [[concepts/agent-framework-selection|AI Agent 框架选型]]
 - [[concepts/model-context-protocol|Model Context Protocol（MCP）]]
 - [[concepts/python-agent-development|Python Agent 开发]]
 
