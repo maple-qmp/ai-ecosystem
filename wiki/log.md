@@ -456,3 +456,11 @@
 - 新发现：`deepagents-cli` 已弃用，改用 Managed Deep Agents 的 `mda`；PyPI 上的 `deepseek-harness` 是同名第三方项目；Pi 0.99.0 加入 MCP、1.0 于 2026-10-01（npm 核实）
 - 待核实：Earendil 收购 Pi 的日期与 Lefos 平台；OpenCode 融资、Zen 收入与 750 万月活；Anthropic 2026-04-03 阻止 OpenClaw 使用 Claude 订阅（仅见于社区报告）；Hermes Agent 当前官方版本号与 PyPI 包归属；DeepSeek Harness 发布三个月约 27.6 万星，增长异常；所有星数未经 API 核对
 - 所有新页 `origin: source`、`reviewed: false`，未改动任何「我的判断」
+
+## [2026-11-12 22:27] update | 机械修复：补 X 地图、重生成 index、脚本 Lint
+
+**更新页面**：[[maps/X-横切主题]], [[index]]
+
+- X 地图补 7 个组织页：实验室新增 [[entities/baai]]、[[entities/black-forest-labs]]；公司新增 [[entities/cohere]]、[[entities/elevenlabs]]、[[entities/kuaishou]]、[[entities/stability-ai]]、[[entities/voyage-ai]]。这 7 页是 2026-11-05 多模态调研建的、layer 均为 X，当时只更新了 L2 地图，X 地图漏了；`maps/X-横切主题` 的 `updated` 改为 2026-11-12
+- index.md 按插件格式重生成：补 38 条（实体 28、概念 3、来源 7），全部是 2026-11-07 三批摄入新增的页；其余 254 条原文不动。新条目插在各节顶部（最新一批在前，批内按摄入顺序倒序，与现有条目大致的排序一致）；摘要取各页第一个非标题行、截断 100 字，格式与现有条目逐行核对一致
+- 脚本 Lint（等效检查，非 Obsidian 插件）：全库 305 页，缺失别名 0、重复 0、标签越界 0、孤立 0、表格内带显示名链接 0；正文链接断链 0（sources 页 35 条指向 `raw/` 原始素材的引用未计入，与历次插件维护报告的 0 断链口径一致）；3 页 `sources` 为空（`transformer`、`reasoning-model`、`mixture-of-experts`，均为种子页）；最短的 9 页正文不足 800 字。插件 Lint 仍需在 Obsidian 里跑一次确认
