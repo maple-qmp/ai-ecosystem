@@ -7,6 +7,34 @@
 
 ## 实体
 
+- [[entities/deepseek-harness|deepseek-harness]] `aliases: DeepSeek Harness, dsh, deepseek-harness, @deepseek-ai/dsh` `source: agent-frameworks-comparison-survey-2026-11` - [[entities/deepseek|DeepSeek]] 开源的 [[concepts/agent-harness|Agent harness]]（命令 `dsh`），MIT 协议，2026-08
+- [[entities/hermes-agent|hermes-agent]] `aliases: Hermes Agent, hermes-agent, Nous Hermes Agent` `source: agent-frameworks-comparison-survey-2026-11` - 开源模型实验室 Nous Research 发布的“自我改进”Agent，MIT 协议，用 Python 编写，2026-02-25 发布。卖点是内置学习循环：Agent 自己维护记忆并定期提醒自己整
+- [[entities/openclaw|openclaw]] `aliases: OpenClaw, Clawdbot, Moltbot, Warelay, openclaw` `source: agent-frameworks-comparison-survey-2026-11` - 开源的常驻个人 AI 助理，MIT 协议，运行在用户自己的电脑上，通过 WhatsApp、Telegram、Slack、Discord、iMessage、Signal、Teams 等 20 多个聊天渠
+- [[entities/opencode|opencode]] `aliases: OpenCode, opencode, opencode-ai, anomalyco/opencode, sst/opencode` `source: agent-frameworks-comparison-survey-2026-11` - 开源、模型无关的 AI 编码 Agent，MIT 协议，由 SST 团队（Jay V、Frank Wang、Dax Raad、Adam Elmore）成立的公司 Anomaly 开发，仓库从 `sst
+- [[entities/pi-agent|pi-agent]] `aliases: Pi, Pi coding agent, pi-coding-agent, pi-mono, pi.dev, @earendil-works/pi-coding-agent` `source: agent-frameworks-comparison-survey-2026-11` - Mario Zechner（libGDX 作者）开发的极简、可扩展 [[concepts/agent-harness|Agent harness]] 与终端编码 Agent，MIT 协议，用 Type
+- [[entities/litellm|litellm]] `aliases: LiteLLM, litellm, LiteLLM Proxy, LiteLLM AI Gateway, BerriAI` `source: lowcode-agent-platforms-survey-2026-11` - BerriAI 开源的 LLM 网关（MIT，GitHub 约 6.29 万星），用 OpenAI 的请求格式统一调用 100 多家模型提供商。它有两种用法：Python SDK 直接嵌入应用；Pro
+- [[entities/n8n|n8n]] `aliases: n8n, n8n.io, n8n GmbH` `source: lowcode-agent-platforms-survey-2026-11` - 柏林公司 n8n 的工作流自动化平台（GitHub 约 21 万星），Jan Oberhauser 2019 年创立，最初是 Zapier 一类集成自动化工具的可自托管替代，后来转型为构建 AI Ag
+- [[entities/coze|coze]] `aliases: Coze, 扣子, Coze Studio, Coze Loop, 扣子编程` `source: lowcode-agent-platforms-survey-2026-11` - [[entities/bytedance|字节跳动]]的 AI Agent 开发平台，国内版叫“扣子”（coze.cn），海外版叫 Coze（coze.com），用户可通过可视化界面搭建 Bot、工作
+- [[entities/dify|dify]] `aliases: Dify, Dify.AI, LangGenius, difyctl` `source: lowcode-agent-platforms-survey-2026-11` - LangGenius 开源的 LLM 应用开发平台（GitHub 约 16.1 万星），用可视化画布编排 AI 工作流、[[concepts/rag|RAG]] 管道和 Agent，并内置模型管理与可
+- [[entities/character-ai|character-ai]] `aliases: Character.AI, Character.ai, c.ai, Character Technologies` `source: ai-applications-expansion-survey-2026-11` - 陪伴类 AI 的代表产品：用户可以创建虚拟角色并与之角色扮演聊天，使用自研的对话模型（2026 年为 PipSqueak 系列）和自研图像模型。公司 Character Technologies 由前
+- [[entities/runway|runway]] `aliases: Runway, Runway ML, RunwayML, Gen-4.5, Runway Aleph, GWM-1` `source: ai-applications-expansion-survey-2026-11` - 纽约的 AI 视频公司，面向影视、广告和创作者提供视频生成与编辑工具，和 [[entities/midjourney|Midjourney]] 一样使用自研模型、以产品形式对外。模型线包括 Gen 系
+- [[entities/rogo|rogo]] `aliases: Rogo, Felix by Rogo` `source: ai-applications-expansion-survey-2026-11` - 面向投资银行、私募和资管机构的金融 AI 平台，主打替初级分析师完成研究、筛选交易、起草材料等工作，其 Agent 名为 Felix，并接入 Preqin 等金融数据。2024-02 披露种子轮后几乎
+- [[entities/abridge|abridge]] `aliases: Abridge, Abridge AI, Abridge Assistant` `source: ai-applications-expansion-survey-2026-11` - 医疗领域的环境式（ambient）临床文书 AI：在医生与患者交谈时实时记录，自动生成病历草稿，减少医生的文书负担。官网称服务 300 多个医疗系统、每年支撑 1 亿多次诊疗对话，并把自己定位为连接医
+- [[entities/openevidence|openevidence]] `aliases: OpenEvidence, OpenEvidence Model Family` `source: ai-applications-expansion-survey-2026-11` - 面向医生的医学 AI 搜索与问答平台，回答基于同行评议文献并附引用，自称“美国医生中使用最广的医学 AI 平台”，媒体报道约 40% 的美国医生在用。它与 NEJM、JAMA、Nature、NCCN、
+- [[entities/harvey|harvey]] `aliases: Harvey, Harvey AI, Harvey Tenet` `source: ai-applications-expansion-survey-2026-11` - 面向律所和企业法务的生成式 AI 平台，是法律行业 AI 的代表公司。产品包括对话式助手、文档库 Vault、预置工作流和各类 Agent；2026 年密集推出合同审阅 Agent、Review ta
+- [[entities/salesforce-agentforce|salesforce-agentforce]] `aliases: Salesforce Agentforce, Agentforce, Agentforce 360, Atlas Reasoning Engine` `source: ai-applications-expansion-survey-2026-11` - Salesforce 平台上的企业 AI Agent 层，让企业在 CRM 数据之上构建能自主执行任务的 Agent，覆盖客服、销售、营销等业务。2024-09 在 Dreamforce 发布，202
+- [[entities/notion-ai|notion-ai]] `aliases: Notion AI, Notion Agent, Notion Custom Agents, Notion 3.0` `source: ai-applications-expansion-survey-2026-11` - 笔记与协作工具 Notion 内置的 AI。2025-09-18 发布的 Notion 3.0 把它“从零重建为 Agents”：个人 Agent 能在工作区里做用户能做的任何事，例如把一个上线计划拆
+- [[entities/microsoft-365-copilot|microsoft-365-copilot]] `aliases: Microsoft 365 Copilot, M365 Copilot, Copilot Cowork, Agent 365, Microsoft 365 E7, Frontier Suite` `source: ai-applications-expansion-survey-2026-11` - [[entities/microsoft|Microsoft]] 内嵌在 Word、Excel、PowerPoint、Outlook、Teams 里的企业 AI 助手，另有 Copilot Chat 
+- [[entities/cambricon|cambricon]] `aliases: 寒武纪, Cambricon, 寒武纪科技, 中科寒武纪, 思元, MLU` `source: cambricon-survey-2026-11` - 北京中科寒武纪科技股份有限公司，2016 年从中国科学院计算技术研究所的寒武纪课题组分拆成立，创始人陈云霁、陈天石兄弟等，陈天石任董事长兼 CEO。早期为华为麒麟手机芯片提供 NPU IP，2018 
+- [[entities/stepfun-step|stepfun-step]] `aliases: Step, Step 模型, 阶跃星辰 Step, Step3, Step 3.5 Flash, Step 3.7 Flash, Step 5 Preview` `source: stepfun-survey-2026-11` - [[entities/stepfun|阶跃星辰]]的模型家族，从一开始就偏多模态。2025-07 的 Step3 是 321B 总参数、38B 激活的多模态推理 [[concepts/mixture-
+- [[entities/stepfun|stepfun]] `aliases: 阶跃星辰, 阶跃, StepFun, 上海阶跃星辰智能科技有限公司` `source: stepfun-survey-2026-11` - 2023-04-06 在上海成立的 AI 公司，创始人姜大昕（前微软副总裁）、朱亦博、焦斌星都来自微软，投资方包括[[entities/tencent|腾讯]]、启明创投和上海国有资本投资公司，被投资
+- [[entities/kunlunxin|kunlunxin]] `aliases: 昆仑芯, Kunlunxin, 昆仑芯片, Kunlun, 昆仑芯 P800` `source: baidu-ernie-survey-2026-11` - [[entities/baidu|百度]]控股的 AI 芯片公司（百度持股约 59%），源自百度内部的 AI 芯片团队，当前主力产品是昆仑芯 P800。百度在自家数据中心把它与 [[entities/
+- [[entities/ernie-app|ernie-app]] `aliases: 文心 App, 文心一言, 文小言, 文心助手, Ernie Bot, Wenxiaoyan` `source: baidu-ernie-survey-2026-11` - [[entities/baidu|百度]]的 AI 助手应用，底层是[[entities/ernie|文心（ERNIE）]]模型，名称改过两次：2023-03-16 以“文心一言”邀请测试、08-31
+- [[entities/ernie|ernie]] `aliases: 文心, 文心大模型, ERNIE, ERNIE 4.5, ERNIE 5.0, ERNIE 5.1, ERNIE 5.5 Flash` `source: baidu-ernie-survey-2026-11` - [[entities/baidu|百度]]的大模型家族，2023-03 随文心一言亮相，驱动[[entities/ernie-app|文心 App]]、百度搜索中的文心助手和千帆平台 API。开放程度
+- [[entities/baidu|baidu]] `aliases: 百度, Baidu, 百度智能云, 千帆, Qianfan, 飞桨, PaddlePaddle` `source: baidu-ernie-survey-2026-11` - 中国最大的搜索引擎公司，纳斯达克与港股上市，自称“全栈”AI 公司：芯片有子公司[[entities/kunlunxin|昆仑芯]]，框架有飞桨 PaddlePaddle，模型是[[entities/
+- [[entities/yuanbao|yuanbao]] `aliases: 腾讯元宝, 元宝, Yuanbao, Tencent Yuanbao` `source: tencent-hunyuan-survey-2026-11` - [[entities/tencent|腾讯]]的 AI 助手应用，2024-05-30 上线，最初只用自研的[[entities/hunyuan|混元]]模型。2025-02-13 起同时接入 [[e
+- [[entities/hunyuan|hunyuan]] `aliases: 混元, 腾讯混元, Hunyuan, Tencent Hunyuan, Tencent HY, Hy3, Hy4, HunyuanVideo` `source: tencent-hunyuan-survey-2026-11` - [[entities/tencent|腾讯]]的自研大模型家族，2023-09 发布，2025-12 起国际品牌改为 Tencent HY，新模型写作 Hy3、Hy4。2024–2025 年开源的 H
+- [[entities/tencent|tencent]] `aliases: 腾讯, Tencent, 腾讯控股, Tencent Holdings, 腾讯云, Tencent Cloud` `source: tencent-hunyuan-survey-2026-11` - 微信与 QQ 的母公司，港股上市。大模型业务包括自研[[entities/hunyuan|混元（Tencent HY）]]模型家族、腾讯云的模型 API、AI 助手 App [[entities/yu
 - [[entities/arize-phoenix|arize-phoenix]] `aliases: Arize Phoenix, Phoenix` `source: ai-evaluation-observability-survey-2026-11` - Arize AI 与开源社区构建的 AI 可观测性和评测工具。官方文档将逐步运行追踪、评分、提示迭代与同输入实验比较连接起来；它与 Arize 的托管企业产品 AX 应分别识别。
 - [[entities/langfuse|langfuse]] `aliases: Langfuse` `source: ai-evaluation-observability-survey-2026-11` - 开源、可自托管的 AI 工程平台，提供运行追踪、会话观察、提示管理等能力。官方文档说明它基于 OpenTelemetry，支持通过原生 SDK、框架集成或网关采集调用；定位是帮助分析与迭代应用，而非仅
 - [[entities/agno|agno]] `aliases: Agno, AgentOS, Phidata` `source: python-agent-frameworks-survey-2026-11` - 开源的 Python Agent 框架与平台（Apache-2.0，GitHub 约 4.31 万星）。2026 年它的定位从框架扩展为“自管理 Agent 平台”：可以用 Agno 自己的 SDK、
@@ -169,6 +197,9 @@
 
 ## 概念
 
+- [[concepts/agent-framework-selection|agent-framework-selection]] `aliases: AI Agent 框架选型, Agent 框架对比, Agent 框架横向比较, Agent harness 选型` `source: agent-frameworks-comparison-survey-2026-11` - 对 2026 年 11 月 8 个主流 Agent 框架 / harness 的横向比较：Claude Agent SDK、OpenAI Agents SDK、Deep Agents、Pi、OpenC
+- [[concepts/ai-browser|ai-browser]] `aliases: AI 浏览器, AI Browser, Agentic Browser, 智能体浏览器, 浏览器 Agent` `source: ai-applications-expansion-survey-2026-11` - 把对话助手和 [[concepts/computer-use|Computer Use]] 能力内置进浏览器的产品：侧边栏能读当前网页、跨标签页回答问题，agent 模式能替用户点击、填表、下单。20
+- [[concepts/computer-use|computer-use]] `aliases: Computer Use, computer use, 电脑操作, 计算机使用, Computer-Using Agent, CUA, GUI Agent` `source: ai-applications-expansion-survey-2026-11` - 让模型像人一样操作图形界面的能力：模型看屏幕截图，输出移动鼠标、点击、键盘输入等动作，循环执行直到任务完成，不需要目标软件提供 API。[[entities/anthropic|Anthropic]]
 - [[concepts/llm-observability|llm-observability]] `aliases: LLM 可观测性, LLM Observability, Agent 可观测性, AI 运行追踪` `source: ai-evaluation-observability-survey-2026-11` - 通过追踪、指标与运行记录观察 AI 应用的模型调用、检索、工具和任务状态，帮助解释延迟、成本与失败原因。追踪展示发生了什么，正确性还需要任务标准和评分。
 - [[concepts/llm-as-judge|llm-as-judge]] `aliases: LLM 裁判, LLM-as-a-Judge, 模型评分器` `source: ai-evaluation-observability-survey-2026-11` - 让语言模型根据明确准则评估回答或任务轨迹的做法，可用于参考答案评分、分维度判断或成对比较。它提供可扩展的判断信号，但不是天然可靠的真值。
 - [[concepts/ai-application-evaluation|ai-application-evaluation]] `aliases: AI 应用评测, Agent 评测, AI Application Evaluation, Agent Evals` `source: ai-evaluation-observability-survey-2026-11` - 把任务输入、初始环境与成功条件固定下来，通过一次或多次试验测量 AI 应用是否完成目标。评测对象包含模型、上下文、数据、工具与 Agent 运行框架，不能用单一模型榜单分数替代。
@@ -241,6 +272,13 @@
 
 ## 来源
 
+- [[sources/agent-frameworks-comparison-survey-2026-11|agent-frameworks-comparison-survey-2026-11]]
+- [[sources/lowcode-agent-platforms-survey-2026-11|lowcode-agent-platforms-survey-2026-11]]
+- [[sources/ai-applications-expansion-survey-2026-11|ai-applications-expansion-survey-2026-11]]
+- [[sources/cambricon-survey-2026-11|cambricon-survey-2026-11]]
+- [[sources/stepfun-survey-2026-11|stepfun-survey-2026-11]]
+- [[sources/baidu-ernie-survey-2026-11|baidu-ernie-survey-2026-11]]
+- [[sources/tencent-hunyuan-survey-2026-11|tencent-hunyuan-survey-2026-11]]
 - [[sources/ai-evaluation-observability-survey-2026-11|ai-evaluation-observability-survey-2026-11]]
 - [[sources/context-memory-survey-2026-11|context-memory-survey-2026-11]]
 - [[sources/python-agent-frameworks-survey-2026-11|python-agent-frameworks-survey-2026-11]]
